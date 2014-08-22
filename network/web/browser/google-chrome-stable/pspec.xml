@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://evolve-os.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>google-chrome-stable</Name>
+        <Homepage></Homepage>
+        <Packager>
+            <Name>Automated Packaging</Name>
+            <Email>noreply@evolve-os.com</Email>
+        </Packager>
+        <Summary>The web browser from Google</Summary>
+        <Description> Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</Description>
+        <License>EULA</License>
+        <Archive sha1sum="94328eef90d5c6d2de87d153412a91d66206c1b0" type="binary">https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb</Archive>
+
+        <BuildDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>google-chrome-stable</Name>
+        <Icon>google-chrome</Icon>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="data">/usr/share/gnome-control-center</Path>
+            <Path fileType="data">/usr/share/menu</Path>
+            <Path fileType="executable">/opt/google/chrome</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>22-08-2014</Date>
+            <Version>36.0.1985.143</Version>
+            <Comment>Add google-chrome-stable to repositories</Comment>
+            <Name>Automated Packaging</Name>
+            <Email>noreply@evolve-os.com</Email>
+        </Update>
+    </History>
+</PISI>
