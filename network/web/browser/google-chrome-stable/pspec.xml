@@ -11,7 +11,7 @@
         <Summary>The web browser from Google</Summary>
         <Description> Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</Description>
         <License>EULA</License>
-        <Archive sha1sum="966727aab32efa31e946a0113740bd47dfd68880" type="binary">https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb</Archive>
+        <Archive sha1sum="d0ccd1dcef21cac2c2b145e86cc5d3c4e221e0fa" type="binary">https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
@@ -34,8 +34,16 @@
     </Package>
 
     <History>
+        <Update release="4">
+            <Date>10-09-2014</Date>
+            <Version>38.0.2125.101</Version>
+            <Comment>Update for latest upstream version</Comment>
+            <Name>Automated Packaging</Name>
+            <Email>noreply@evolve-os.com</Email>
+        </Update>
+
         <Update release="3">
-            <Date>11-09-2014</Date>
+            <Date>09-11-2014</Date>
             <Version>37.0.2062.120</Version>
             <Comment>Update for latest upstream version</Comment>
             <Name>Automated Packaging</Name>
