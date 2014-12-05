@@ -34,6 +34,15 @@
     </Package>
 
     <History>
+    
+        <Update release="7">
+            <Date>12-05-2014</Date>
+            <Version>39.0.2171.71</Version>
+            <Comment>Update for latest upstream version</Comment>
+            <Name>Automated Packaging</Name>
+            <Email>noreply@evolve-os.com</Email>
+        </Update>
+
         <Update release="6">
             <Date>11-16-2014</Date>
             <Version>38.0.2125.122</Version>
