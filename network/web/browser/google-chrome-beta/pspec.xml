@@ -30,7 +30,7 @@ type="binary">https://dl.google.com/linux/direct/google-chrome-beta_current_amd6
             <Path fileType="man">/usr/share/man</Path>
             <Path fileType="data">/usr/share/gnome-control-center</Path>
             <Path fileType="data">/usr/share/menu</Path>
-            <Path fileType="executable">/opt/google/chrome</Path>
+            <Path fileType="executable">/opt/google/chrome-beta</Path>
         </Files>
     </Package>
 

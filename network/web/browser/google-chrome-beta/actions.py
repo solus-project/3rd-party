@@ -14,8 +14,10 @@ def setup():
 
 def install():
     # root owns sandbox as it is setuid
-    shelltools.system("chown root:root opt/google/chrome/chrome-sandbox")
+    shelltools.system("chown root:root 
+opt/google/chrome-beta/chrome-sandbox")
     # ensure setuid
-    shelltools.system("chmod 4755 opt/google/chrome/chrome-sandbox")
+    shelltools.system("chmod 4755 
+opt/google-beta/chrome/chrome-sandbox")
     pisitools.insinto("/", "opt")
     pisitools.insinto("/", "usr")
