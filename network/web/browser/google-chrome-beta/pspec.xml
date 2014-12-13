@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://evolve-os.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>google-chrome-beta</Name>
+        <Homepage></Homepage>
+        <Packager>
+            <Name>Automated Packaging</Name>
+            <Email>noreply@evolve-os.com</Email>
+        </Packager>
+        <Summary>The web browser from Google</Summary>
+        <Description> Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</Description>
+        <License>EULA</License>
+        <Archive sha1sum="ad503b186349c758a21ab97ac6aa9a7fabb8f50d" 
+type="binary">https://dl.google.com/linux/direct/google-chrome-beta_current_amd64.deb</Archive>
+
+        <BuildDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>google-chrome-beta</Name>
+        <Icon>google-chrome</Icon>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="data">/usr/share/gnome-control-center</Path>
+            <Path fileType="data">/usr/share/menu</Path>
+            <Path fileType="executable">/opt/google/chrome</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>12-14-2014</Date>
+            <Version>40.0.2214.38</Version>
+            <Comment>Add google-chrome-beta to repositories</Comment>
+            <Name>Automated Packaging</Name>
+            <Email>noreply@evolve-os.com</Email>
+        </Update>
+    </History>
+</PISI>
