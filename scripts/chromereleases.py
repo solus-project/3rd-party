@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 #  Copyright 2015 Ikey Doherty <ikey@evolve-os.com>
 #
 #  This program is free software; you can redistribute it and/or modify
@@ -5,7 +7,6 @@
 #  the Free Software Foundation; either version 2 of the License, or
 #  (at your option) any later version.
 
-#!/usr/bin/env python
 
 import xml.etree.ElementTree as etree
 import re
