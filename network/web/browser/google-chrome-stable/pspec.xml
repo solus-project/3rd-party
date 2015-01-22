@@ -3,7 +3,7 @@
 <PISI>
     <Source>
         <Name>google-chrome-stable</Name>
-        <Homepage></Homepage>
+        <Homepage>http://www.google.com/chrome</Homepage>
         <Packager>
             <Name>Automated Packaging</Name>
             <Email>noreply@evolve-os.com</Email>
@@ -11,7 +11,7 @@
         <Summary>The web browser from Google</Summary>
         <Description> Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</Description>
         <License>EULA</License>
-        <Archive sha1sum="f7db1bf74f98043848fe86724e72def51004279c" type="binary">https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb</Archive>
+        <Archive sha1sum="d837c15accae85ab97bc3f90533930913a135eeb" type="binary">https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
@@ -34,6 +34,14 @@
     </Package>
 
     <History>
+        <Update release="9">
+            <Date>01-23-2015</Date>
+            <Version>40.0.2214.91</Version>
+            <Comment>Update to 40.0.2214.91</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Update>
+
         <Update release="8">
             <Date>01-14-2015</Date>
             <Version>39.0.2171.99</Version>
