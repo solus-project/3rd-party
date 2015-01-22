@@ -3,7 +3,7 @@
 <PISI>
     <Source>
         <Name>google-chrome-stable</Name>
-        <Homepage />
+        <Homepage>http://www.google.com/chrome</Homepage>
         <Packager>
             <Name>Automated Packaging</Name>
             <Email>noreply@evolve-os.com</Email>
