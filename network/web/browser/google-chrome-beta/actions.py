@@ -10,7 +10,7 @@ IgnoreAutodep = True
 def setup():
     shelltools.system("pwd")
     shelltools.system("ar xf google-chrome-beta_current_amd64.deb")
-    shelltools.system("tar xvf data.tar.lzma")
+    shelltools.system("tar xvf data.tar.xz")
 
 def install():
     # root owns sandbox as it is setuid
