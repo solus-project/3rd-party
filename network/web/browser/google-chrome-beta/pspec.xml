@@ -31,6 +31,9 @@
             <Path fileType="data">/usr/share/menu</Path>
             <Path fileType="executable">/opt/google/chrome-beta</Path>
         </Files>
+        <RuntimeDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+        </RuntimeDependencies>
     </Package>
 
     <History>
