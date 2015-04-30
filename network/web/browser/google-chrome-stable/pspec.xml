@@ -6,7 +6,7 @@
         <Homepage>http://www.google.com/chrome</Homepage>
         <Packager>
             <Name>Automated Packaging</Name>
-            <Email>noreply@evolve-os.com</Email>
+            <Email>noreply@solus-project.com</Email>
         </Packager>
         <Summary>The web browser from Google</Summary>
         <Description> Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</Description>

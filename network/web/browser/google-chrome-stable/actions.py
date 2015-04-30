@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# Created For Evolve OS
+# Created For Solus Operating System
 
 from pisi.actionsapi import get, pisitools, shelltools
 
