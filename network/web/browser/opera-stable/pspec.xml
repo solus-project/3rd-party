@@ -11,7 +11,7 @@
         <Summary>Opera Web Browser</Summary>
         <Description>Opera Web Browser</Description>
         <License>EULA</License>
-        <Archive sha1sum="dd621360fac06fd1324b720550a4f19ad564a8e9" type="binary">http://operasoftware.pc.cdn.bitgravity.com/pub/opera/desktop/28.0.1750.51/linux/opera-stable_28.0.1750.51_amd64.deb</Archive>
+        <Archive sha1sum="1e2f0199ca5b104e5daf40294d3fe5805dae65c4" type="binary">http://operasoftware.pc.cdn.bitgravity.com/pub/opera/desktop/29.0.1795.47/linux/opera-stable_29.0.1795.47_amd64.deb</Archive>
     </Source>
 
     <Package>
@@ -28,6 +28,14 @@
     </Package>
 
     <History>
+        <Update release="4">
+            <Date>05-04-2015</Date>
+            <Version>29.0.1795.47</Version>
+            <Comment>Update to 29.0.1795.47</Comment>
+            <Name>Solus Packaging Team</Name>
+            <Email>packaging@solus-project.com</Email>
+        </Update>
+
         <Update release="3">
             <Date>04-13-2015</Date>
             <Version>28.0.1750.51</Version>
