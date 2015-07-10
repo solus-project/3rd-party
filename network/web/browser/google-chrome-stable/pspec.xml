@@ -15,6 +15,7 @@
 
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
 
@@ -23,6 +24,7 @@
     <Package>
         <RuntimeDependencies>
             <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
         </RuntimeDependencies>
         <Name>google-chrome-stable</Name>
         <Icon>google-chrome</Icon>

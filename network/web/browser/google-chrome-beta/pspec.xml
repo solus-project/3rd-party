@@ -15,6 +15,7 @@
 
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
     </Source>
@@ -33,6 +34,7 @@
         </Files>
         <RuntimeDependencies>
             <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
         </RuntimeDependencies>
     </Package>
 
