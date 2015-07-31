@@ -7,9 +7,12 @@ from pisi.actionsapi import get, pisitools, shelltools
 NoStrip = ["/opt", "/usr"]
 IgnoreAutodep = True
 
+# Should not change.
+Suffix = "-1"
+
 def setup():
     shelltools.system("pwd")
-    shelltools.system("ar xf google-chrome-beta_current_amd64.deb")
+    shelltools.system("ar xf google-chrome-beta_%s%s_amd64.deb" % (get.srcVERSION(), Suffix))
     shelltools.system("tar xvf data.tar.xz")
 
 def install():
