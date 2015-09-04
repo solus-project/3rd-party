@@ -1,0 +1,56 @@
+<PISI>
+    <Source>
+        <Name>vivaldi</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Packager>
+        <License>CUSTOM</License>
+        <Summary xml:lang="en">Vivaldi Web Browser</Summary>
+        <Description xml:lang="en">An advanced browser made with the power user in mind.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>vivaldi</Name>
+        <Summary xml:lang="en">Vivaldi Web Browser</Summary>
+        <Description xml:lang="en">An advanced browser made with the power user in mind.
+</Description>
+        <PartOf>network.web.browser</PartOf>
+        <Files>
+            <Path fileType="data">/opt/vivaldi/vivaldi</Path>
+            <Path fileType="data">/opt/vivaldi/product_logo_24.png</Path>
+            <Path fileType="data">/opt/vivaldi/vivaldi-bin</Path>
+            <Path fileType="data">/opt/vivaldi/snapshot_blob.bin</Path>
+            <Path fileType="data">/opt/vivaldi/product_logo_48.png</Path>
+            <Path fileType="data">/opt/vivaldi/product_logo_22.png</Path>
+            <Path fileType="data">/opt/vivaldi/natives_blob.bin</Path>
+            <Path fileType="data">/opt/vivaldi/product_logo_32.xpm</Path>
+            <Path fileType="data">/opt/vivaldi/vivaldi_100_percent.pak</Path>
+            <Path fileType="data">/opt/vivaldi/product_logo_32.png</Path>
+            <Path fileType="data">/opt/vivaldi/resources.pak</Path>
+            <Path fileType="data">/opt/vivaldi/product_logo_16.png</Path>
+            <Path fileType="data">/opt/vivaldi/product_logo_128.png</Path>
+            <Path fileType="data">/opt/vivaldi/product_logo_64.png</Path>
+            <Path fileType="data">/opt/vivaldi/product_logo_256.png</Path>
+            <Path fileType="data">/opt/vivaldi/vivaldi_200_percent.pak</Path>
+            <Path fileType="data">/opt/vivaldi/icudtl.dat</Path>
+            <Path fileType="data">/opt/vivaldi/vivaldi-sandbox</Path>
+            <Path fileType="data">/opt/vivaldi/locales</Path>
+            <Path fileType="data">/opt/vivaldi/resources</Path>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/menu</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2015-09-04</Date>
+            <Version>4.1.0.219.50</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
