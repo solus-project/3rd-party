@@ -18,39 +18,43 @@
 </Description>
         <PartOf>network.web.browser</PartOf>
         <Files>
-            <Path fileType="data">/opt/vivaldi/vivaldi</Path>
-            <Path fileType="data">/opt/vivaldi/product_logo_24.png</Path>
-            <Path fileType="data">/opt/vivaldi/vivaldi-bin</Path>
-            <Path fileType="data">/opt/vivaldi/snapshot_blob.bin</Path>
-            <Path fileType="data">/opt/vivaldi/product_logo_48.png</Path>
-            <Path fileType="data">/opt/vivaldi/product_logo_22.png</Path>
-            <Path fileType="data">/opt/vivaldi/natives_blob.bin</Path>
-            <Path fileType="data">/opt/vivaldi/product_logo_32.xpm</Path>
-            <Path fileType="data">/opt/vivaldi/vivaldi_100_percent.pak</Path>
-            <Path fileType="data">/opt/vivaldi/product_logo_32.png</Path>
-            <Path fileType="data">/opt/vivaldi/resources.pak</Path>
-            <Path fileType="data">/opt/vivaldi/product_logo_16.png</Path>
-            <Path fileType="data">/opt/vivaldi/product_logo_128.png</Path>
-            <Path fileType="data">/opt/vivaldi/product_logo_64.png</Path>
-            <Path fileType="data">/opt/vivaldi/product_logo_256.png</Path>
-            <Path fileType="data">/opt/vivaldi/vivaldi_200_percent.pak</Path>
-            <Path fileType="data">/opt/vivaldi/icudtl.dat</Path>
-            <Path fileType="data">/opt/vivaldi/vivaldi-sandbox</Path>
-            <Path fileType="data">/opt/vivaldi/locales</Path>
-            <Path fileType="data">/opt/vivaldi/resources</Path>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/opt/vivaldi-beta/product_logo_24.png</Path>
+            <Path fileType="data">/opt/vivaldi-beta/product_logo_22.png</Path>
+            <Path fileType="data">/opt/vivaldi-beta/resources.pak</Path>
+            <Path fileType="data">/opt/vivaldi-beta/vivaldi_200_percent.pak</Path>
+            <Path fileType="data">/opt/vivaldi-beta/vivaldi-bin</Path>
+            <Path fileType="data">/opt/vivaldi-beta/product_logo_32.xpm</Path>
+            <Path fileType="data">/opt/vivaldi-beta/vivaldi-beta</Path>
+            <Path fileType="data">/opt/vivaldi-beta/icudtl.dat</Path>
+            <Path fileType="data">/opt/vivaldi-beta/product_logo_64.png</Path>
+            <Path fileType="data">/opt/vivaldi-beta/product_logo_16.png</Path>
+            <Path fileType="data">/opt/vivaldi-beta/vivaldi_100_percent.pak</Path>
+            <Path fileType="data">/opt/vivaldi-beta/product_logo_256.png</Path>
+            <Path fileType="data">/opt/vivaldi-beta/vivaldi</Path>
+            <Path fileType="data">/opt/vivaldi-beta/vivaldi-sandbox</Path>
+            <Path fileType="data">/opt/vivaldi-beta/natives_blob.bin</Path>
+            <Path fileType="data">/opt/vivaldi-beta/snapshot_blob.bin</Path>
+            <Path fileType="data">/opt/vivaldi-beta/product_logo_48.png</Path>
+            <Path fileType="data">/opt/vivaldi-beta/libwidevinecdmadapter.so</Path>
+            <Path fileType="data">/opt/vivaldi-beta/product_logo_32.png</Path>
+            <Path fileType="data">/opt/vivaldi-beta/libwidevinecdm.so</Path>
+            <Path fileType="data">/opt/vivaldi-beta/product_logo_128.png</Path>
+            <Path fileType="data">/opt/vivaldi-beta/locales</Path>
+            <Path fileType="data">/opt/vivaldi-beta/lib</Path>
+            <Path fileType="data">/opt/vivaldi-beta/resources</Path>
+            <Path fileType="data">/usr/share/icons</Path>
             <Path fileType="data">/usr/share/menu</Path>
-            <Path fileType="doc">/usr/share/doc</Path>
             <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="executable">/usr/bin</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2015-09-04</Date>
-            <Version>4.1.0.219.50</Version>
+        <Update release="2">
+            <Date>2015-11-29</Date>
+            <Version>1.0.303.52</Version>
             <Comment>Packaging update</Comment>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua.strobl@outlook.com</Email>
         </Update>
     </History>
 </PISI>

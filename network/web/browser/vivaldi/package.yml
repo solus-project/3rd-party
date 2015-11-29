@@ -1,21 +1,21 @@
 name       : vivaldi
-version    : 4.1.0.219.50
-release    : 1
+version    : 1.0.303.52
+release    : 2
 source     :
-    - http://solus-us.tk/sources/vivaldi_TP4.1.0.219.50-1_amd64.deb : a0f8b529631b0eb36e359289ecafc2d681fcf53bf149e29ee781b6f4df1748df
+    - http://stroblindustries.com/solus-sources/vivaldi-beta_1.0.303.52-5_amd64.deb : 5dad662291ada974adb5d561d0be00176b765b7b9254cf4f30a20b25f0345930
 license    : CUSTOM
 summary    : Vivaldi Web Browser
 description: |
     An advanced browser made with the power user in mind.
 extract    : no
 install    : |
-    ar xv $sources/vivaldi_TP4.1.0.219.50-1_amd64.deb
+    ar xv $sources/vivaldi-beta_1.0.303.52-5_amd64.deb
     tar xf data.tar.xz
-    mkdir -p %installroot%/usr
-    rm -r opt/vivaldi/cron
+    mkdir -p %installroot%/usr/share/icons
     rm -r etc
+    rm -r opt/vivaldi-beta/cron
     rm -r usr/share/xfce4
-    rm -r usr/share/doc/vivaldi
+    rm -r usr/share/doc
     cp -r usr %installroot%
     cp -r opt %installroot%
-    
+    cp %installroot%/opt/vivaldi-beta/product_logo_256.png %installroot%/usr/share/icons/vivaldi-beta.png
