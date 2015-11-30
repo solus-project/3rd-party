@@ -1,6 +1,6 @@
 name       : vivaldi
 version    : 1.0.303.52
-release    : 2
+release    : 3
 source     :
     - http://stroblindustries.com/solus-sources/vivaldi-beta_1.0.303.52-5_amd64.deb : 5dad662291ada974adb5d561d0be00176b765b7b9254cf4f30a20b25f0345930
 license    : CUSTOM
@@ -8,6 +8,9 @@ summary    : Vivaldi Web Browser
 description: |
     An advanced browser made with the power user in mind.
 extract    : no
+rundeps:
+    - gconf
+    - libxscrnsaver
 install    : |
     ar xv $sources/vivaldi-beta_1.0.303.52-5_amd64.deb
     tar xf data.tar.xz

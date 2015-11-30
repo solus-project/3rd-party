@@ -2,8 +2,8 @@
     <Source>
         <Name>vivaldi</Name>
         <Packager>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua.strobl@outlook.com</Email>
         </Packager>
         <License>CUSTOM</License>
         <Summary xml:lang="en">Vivaldi Web Browser</Summary>
@@ -17,6 +17,10 @@
         <Description xml:lang="en">An advanced browser made with the power user in mind.
 </Description>
         <PartOf>network.web.browser</PartOf>
+        <RuntimeDependencies>
+            <Dependency>gconf</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
+        </RuntimeDependencies>
         <Files>
             <Path fileType="data">/opt/vivaldi-beta/product_logo_24.png</Path>
             <Path fileType="data">/opt/vivaldi-beta/product_logo_22.png</Path>
@@ -49,8 +53,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2015-11-29</Date>
+        <Update release="3">
+            <Date>2015-11-30</Date>
             <Version>1.0.303.52</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
