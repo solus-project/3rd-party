@@ -10,7 +10,10 @@
         <Summary>Vivaldi Web Browser</Summary>
         <Description>An advanced browser made with the power user in mind.</Description>
         <License>Custom</License>
-        <Archive sha1sum="71eeebfafa35bb061b43fc10351c5d04ffdbdcdf" type="binary">http://repo.vivaldi.com/archive/deb/pool/main/vivaldi-beta_1.0.303.52-4_amd64.deb</Archive>
+    <Archive sha1sum="71eeebfafa35bb061b43fc10351c5d04ffdbdcdf" type="binary">http://repo.vivaldi.com/archive/deb/pool/main/vivaldi-beta_1.0.303.52-4_amd64.deb</Archive>
+    <BuildDependencies>
+        <Dependency>binutils</Dependency>
+    </BuildDependencies>
     </Source>
 
     <Package>
