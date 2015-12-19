@@ -7,8 +7,8 @@ from pisi.actionsapi import get, pisitools, shelltools
 NoStrip = ["/opt", "/usr"]
 IgnoreAutodep = True
 
-# Should not change.
-Suffix = "-1"
+# Changes a lot i reckon
+Suffix = ".g9b85d43.7-1"
 
 def setup():
     shelltools.system("pwd")
