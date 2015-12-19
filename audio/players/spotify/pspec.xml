@@ -14,6 +14,7 @@
         <Archive sha1sum="bddfe705cfa095a4d726c7904173cdd9c10559bb" type="binary">http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.0.19.106.gb8a7150f_amd64.deb</Archive>
 
         <BuildDependencies>
+            <Dependency>binutils</Dependency>
         </BuildDependencies>
     </Source>
 
