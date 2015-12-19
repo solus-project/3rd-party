@@ -11,7 +11,7 @@
         <Summary>A music player from Spotify</Summary>
         <Description>Spotify desktop client</Description>
         <License>EULA</License>
-        <Archive sha1sum="e91c269d118ecfd83a8a0e9d22b524a8a59bb6ef" type="binary">http://repository.spotify.com/pool/non-free/s/spotify/spotify-client_0.9.17.1.g9b85d43.7-1_amd64.deb</Archive>
+        <Archive sha1sum="bddfe705cfa095a4d726c7904173cdd9c10559bb" type="binary">http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.0.19.106.gb8a7150f_amd64.deb</Archive>
 
         <BuildDependencies>
         </BuildDependencies>
@@ -23,8 +23,8 @@
         <Files>
             <Path fileType="executable">/usr/bin</Path>
             <Path fileType="data">/usr/share/spotify</Path>
+            <Path fileType="executable">/usr/share/spotify/spotify</Path>
             <Path fileType="doc">/usr/share/doc</Path>
-            <Path fileType="executable">/opt/spotify/spotify-client/spotify</Path>
         </Files>
         <RuntimeDependencies>
         </RuntimeDependencies>
@@ -33,7 +33,7 @@
     <History>
         <Update release="1">
             <Date>12-19-2015</Date>
-            <Version>0.9.17.1</Version>
+            <Version>1.0.19.106</Version>
             <Comment>Add Spotify to repositories</Comment>
             <Name>Michael Karbowiak</Name>
             <Email>karbowiak@gmail.com</Email>

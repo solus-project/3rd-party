@@ -8,7 +8,7 @@ NoStrip = ["/opt", "/usr"]
 IgnoreAutodep = True
 
 # Changes a lot i reckon
-Suffix = ".g9b85d43.7-1"
+Suffix = ".gb8a7150f"
 
 def setup():
     shelltools.system("pwd")
@@ -16,5 +16,4 @@ def setup():
     shelltools.system("tar xvf data.tar.xz")
 
 def install():
-    pisitools.insinto("/", "opt")
     pisitools.insinto("/", "usr")
