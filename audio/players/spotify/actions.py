@@ -12,7 +12,7 @@ Suffix = ".gb8a7150f"
 
 def setup():
     shelltools.system("pwd")
-    shelltools.system("ar xf spotify-client_%s%s_amd64.deb" % (get.srcVERSION(), Suffix))
+    shelltools.system("tar xf spotify-client_%s%s_amd64.deb" % (get.srcVERSION(), Suffix))
     shelltools.system("tar xvf data.tar.xz")
 
 def install():
