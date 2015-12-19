@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>spotify</Name>
+        <Homepage />
+        <Packager>
+            <Name>Michael Karbowiak</Name>
+            <Email>karbowiak@gmail.com</Email>
+        </Packager>
+        <Summary>A music player from Spotify</Summary>
+        <Description>Spotify desktop client</Description>
+        <License>EULA</License>
+        <Archive sha1sum="e91c269d118ecfd83a8a0e9d22b524a8a59bb6ef" type="binary">http://repository.spotify.com/pool/non-free/s/spotify/spotify-client_0.9.17.1.g9b85d43.7-1_amd64.deb</Archive>
+
+        <BuildDependencies>
+            <Dependency>libasound2</Dependency>
+            <Dependency>libc6</Dependency>
+            <Dependency>libqt4-dbus</Dependency>
+            <Dependency>libqtcore4</Dependency>
+            <Dependency>libqtgui4</Dependency>
+            <Dependency>libqt4-network</Dependency>
+            <Dependency>libstdc++6</Dependency>
+            <Dependency>libxss1</Dependency>
+            <Dependency>usbutils</Dependency>
+            <Dependency>libssl1.0.0</Dependency>
+            <Dependency>libnspr4-0d</Dependency>
+            <Dependency>libgconf2-4</Dependency>
+            <Dependency>libgtk2.0-0</Dependency>
+            <Dependency>libnss3-1d</Dependency>
+            <Dependency>libglib2.0-0</Dependency>
+            <Dependency>xdg-utils</Dependency>
+            <Dependency>dbus-x11</Dependency>
+            <Dependency>libudev0</Dependency>
+            <Dependency>libudev1</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>spotify</Name>
+        <Icon>spotify</Icon>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/spotify</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="executable">/opt/spotify/spotify-client/spotify</Path>
+        </Files>
+        <RuntimeDependencies>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>12-19-2015</Date>
+            <Version>0.9.17.1.g9b85d43.7</Version>
+            <Comment>Add Spotify to repositories</Comment>
+            <Name>Michael Karbowiak</Name>
+            <Email>karbowiak@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
