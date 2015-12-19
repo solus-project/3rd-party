@@ -28,6 +28,8 @@
             <Path fileType="doc">/usr/share/doc</Path>
         </Files>
         <RuntimeDependencies>
+            <Dependency>gconf</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
         </RuntimeDependencies>
     </Package>
 
