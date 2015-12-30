@@ -10,7 +10,7 @@
         <Summary>Vivaldi Web Browser</Summary>
         <Description>An advanced browser made with the power user in mind.</Description>
         <License>Custom</License>
-    <Archive sha1sum="400f1a0a77c8cb483aa4f542e5105cf635982530" type="binary">https://vivaldi.com/download/download.php?f=vivaldi-snapshot_1.0.357.5-1_amd64.deb</Archive>
+    <Archive sha1sum="400f1a0a77c8cb483aa4f542e5105cf635982530" type="binary">https://vivaldi.com/download/snapshot/vivaldi-snapshot_1.0.357.5-1_amd64.deb</Archive>
     <BuildDependencies>
         <Dependency>binutils</Dependency>
     </BuildDependencies>
