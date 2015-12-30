@@ -9,9 +9,8 @@ IgnoreAutodep = True
 
 def setup():
     shelltools.system("pwd")
-    shelltools.system("ar xf vivaldi-beta_%s-1_amd64.deb" % (get.srcVERSION()))
+    shelltools.system("ar xf vivaldi-snapshot_%s-1_amd64.deb" % (get.srcVERSION()))
     shelltools.system("tar xvf data.tar.xz")
-
 def install():
     pisitools.insinto("/", "etc")
     pisitools.insinto("/", "opt")
