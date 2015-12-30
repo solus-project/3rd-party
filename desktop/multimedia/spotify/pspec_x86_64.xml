@@ -1,0 +1,40 @@
+<PISI>
+    <Source>
+        <Name>spotify</Name>
+        <Packager>
+            <Name>John Holt</Name>
+            <Email>jholtiv@gmail.com</Email>
+        </Packager>
+        <License>Copyright (c) 2006-2010 Spotify Ltd.</License>
+        <Summary xml:lang="en">A proprietary peer-to-peer music streaming service.</Summary>
+        <Description xml:lang="en">A proprietary peer-to-peer music streaming service.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>spotify</Name>
+        <Summary xml:lang="en">A proprietary peer-to-peer music streaming service.</Summary>
+        <Description xml:lang="en">A proprietary peer-to-peer music streaming service.
+</Description>
+        <RuntimeDependencies>
+            <Dependency>ffmpeg</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/spotify</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="data">/usr/share/pixmaps</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="6">
+            <Date>2015-12-30</Date>
+            <Version>1.0.19.106</Version>
+            <Comment>Packaging update</Comment>
+            <Name>John Holt</Name>
+            <Email>jholtiv@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
