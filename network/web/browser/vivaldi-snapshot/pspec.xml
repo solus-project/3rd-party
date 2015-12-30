@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>vivaldi-snapshot</Name>
+        <Packager>
+            <Name>John Holt</Name>
+            <Email>jholtiv@gmail.com</Email>
+        </Packager>
+        <Summary>Vivaldi Web Browser</Summary>
+        <Description>An advanced browser made with the power user in mind.</Description>
+        <License>Custom</License>
+    <Archive sha1sum="400f1a0a77c8cb483aa4f542e5105cf635982530" type="binary">https://vivaldi.com/download/snapshot/vivaldi-snapshot_1.0.357.5-1_amd64.deb</Archive>
+    <BuildDependencies>
+        <Dependency>binutils</Dependency>
+    </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>vivaldi-snapshot</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+    <RuntimeDependencies>
+        <Dependency>libxscrnsaver</Dependency>
+        <Dependency>gconf</Dependency>
+    </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>12-30-2015</Date>
+            <Version>1.0.357.5</Version>
+            <Comment>Add vivaldi-snapshot</Comment>
+            <Name>John Holt</Name>
+            <Email>jholtiv@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
