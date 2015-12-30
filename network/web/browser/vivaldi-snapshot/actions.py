@@ -16,5 +16,5 @@ def install():
     pisitools.insinto("/", "opt")
     pisitools.insinto("/", "usr")
     for i in ["16", "22", "24", "32", "48", "64", "128", "256"]:
-        pisitools.insinto("/usr/share/icons/hicolor/%sx%s/apps" % (i,i), "opt/vivaldi-beta/product_logo_%s.png" % i, "vivaldi-beta.png")
+        pisitools.insinto("/usr/share/icons/hicolor/%sx%s/apps" % (i,i), "opt/vivaldi-snapshot/product_logo_%s.png" % i, "vivaldi-snapshot.png")
     
