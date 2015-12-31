@@ -1,0 +1,27 @@
+name       : spotify
+version    : 1.0.19.106
+release    : 6
+source     :
+    - http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.0.19.106.gb8a7150f_amd64.deb : be6b99329bb2fccdc9d77bc949dd463576fdb40db7f56195b4284bd348c470be
+license    : Copyright (c) 2006-2010 Spotify Ltd.
+autodep: no
+extract : no
+strip: no
+summary    : A proprietary peer-to-peer music streaming service.
+description: |
+    A proprietary peer-to-peer music streaming service.
+rundeps :
+    - ffmpeg
+    - gconf
+    - libxscrnsaver
+install   : |
+    ar p $sources/spotify*.deb data.tar.gz | tar zx
+    mkdir -p $srcdir/usr/share/applications
+    mkdir -p $srcdir/usr/share/pixmaps
+    echo "StartupWMClass=spotify" >> $srcdir/usr/share/spotify/spotify.desktop
+    mv $srcdir/usr/share/spotify/spotify.desktop $srcdir/usr/share/applications/
+    cp $srcdir/usr/share/spotify/icons/spotify-linux-64.png $srcdir/usr/share/pixmaps/
+    mv $srcdir/usr/share/pixmaps/spotify-linux-64.png $srcdir/usr/share/pixmaps/spotify-client.png
+    install -d $installdir
+    cp -Rv $srcdir/usr $installdir/
+    rm -rf $installdir/usr/share/doc
