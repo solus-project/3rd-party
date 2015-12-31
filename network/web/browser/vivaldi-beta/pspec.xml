@@ -21,6 +21,9 @@
         <Files>
             <Path fileType="*">/</Path>
         </Files>
+        <Replaces>
+            <Package>vivaldi</Package>
+        </Replaces>
     <RuntimeDependencies>
         <Dependency>libxscrnsaver</Dependency>
         <Dependency>gconf</Dependency>
