@@ -11,7 +11,7 @@
         <Summary>Opera Web Browser</Summary>
         <Description>Opera Web Browser</Description>
         <License>EULA</License>
-        <Archive sha1sum="f1016c8dbad358f7f8b7157c3a21216b50584051" type="binary">http://operasoftware.pc.cdn.bitgravity.com/pub/opera/desktop/34.0.2036.25/linux/opera-stable_34.0.2036.25_amd64.deb</Archive>
+        <Archive sha1sum="95b5959684b0037beba311ec20a03e450dd2de83" type="binary">http://operasoftware.pc.cdn.bitgravity.com/pub/opera/desktop/34.0.2036.47/linux/opera-stable_34.0.2036.47_amd64.deb</Archive>
     </Source>
 
     <Package>
@@ -29,6 +29,14 @@
     </Package>
 
     <History>
+        <Update release="13">
+            <Date>01-12-2016</Date>
+            <Version>34.0.2036.47</Version>
+            <Comment>Update to 34.0.2036.47</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
         <Update release="12">
             <Date>12-09-2015</Date>
             <Version>34.0.2036.25</Version>
