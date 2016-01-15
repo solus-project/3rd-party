@@ -9,18 +9,20 @@
         </Packager>
         <Summary>Spotify Music, Video and Podcast Streaming Client.</Summary>
         <Description>Spotify is a Swedish commercial music streaming, podcast and video service that provides digital rights management-protected[3] content from record labels and media companies.</Description>
-        <License>GPLv2+</License>
-        <Archive sha1sum="bddfe705cfa095a4d726c7904173cdd9c10559bb" type="gb8a7150f_amd64deb">http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.0.19.106.gb8a7150f_amd64.deb</Archive>
+        <License>Copyright (c) 2006-2010 Spotify Ltd.</License>
+        <Archive sha1sum="bddfe705cfa095a4d726c7904173cdd9c10559bb" type="binary">http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.0.19.106.gb8a7150f_amd64.deb</Archive>
 
         <BuildDependencies>
-
+            <Dependency>binutils</Dependency>
         </BuildDependencies>
     </Source>
 
     <Package>
         <Name>spotify</Name>
         <Files>
-            <Path fileType="*">/</Path>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="data">/usr/share/spotify</Path>
         </Files>
     </Package>
 
