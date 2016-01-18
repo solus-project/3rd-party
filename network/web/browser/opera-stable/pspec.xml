@@ -12,6 +12,10 @@
         <Description>Opera Web Browser</Description>
         <License>EULA</License>
         <Archive sha1sum="95b5959684b0037beba311ec20a03e450dd2de83" type="binary">http://operasoftware.pc.cdn.bitgravity.com/pub/opera/desktop/34.0.2036.47/linux/opera-stable_34.0.2036.47_amd64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+
     </Source>
 
     <Package>
