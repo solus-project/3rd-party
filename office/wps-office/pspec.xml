@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://evolve-os.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>wps-office</Name>
+        <Homepage>http://wps-community.org/</Homepage>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Packager>
+        <Summary>WPS Office Suite</Summary>
+        <Description>WPS Office Suite</Description>
+        <License>http://wps-community.org/license.md</License>
+        <Archive sha1sum="9cb8740f5f431196eed9a3ed50d1ebb53460be66" type="binary">http://kdl.cc.ksosoft.com/wps-community/download/a20/wps-office_10.1.0.5460~a20p1_amd64.deb</Archive>
+
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>wps-office</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>01-18-2016</Date>
+            <Version>10.1.0.5460</Version>
+            <Comment>Add wps-office to repositories</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
