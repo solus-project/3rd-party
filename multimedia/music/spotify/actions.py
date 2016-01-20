@@ -16,3 +16,4 @@ def setup():
 
 def install():
     pisitools.insinto("/", "usr")
+    pisitools.dosym("/usr/share/spotify/spotify.desktop", "/usr/share/applications/spotify.desktop")
