@@ -40,6 +40,14 @@
     </Package>
 
     <History>
+        <Update release="51">
+            <Date>02-05-2016</Date>
+            <Version>48.0.2564.103</Version>
+            <Comment>Update to 48.0.2564.103</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
         <Update release="50">
             <Date>02-04-2016</Date>
             <Version>48.0.2564.103</Version>
