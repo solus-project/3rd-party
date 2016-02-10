@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>google-talkplugin</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Packager>
+        <Summary>Google Talk Browser Plugin</Summary>
+        <Description>Google Talk Browser Plugin</Description>
+        <License>Custom - Google</License>
+        <Archive sha1sum="1c3cc0411444587b56178de4868eb5d0ff742ec0" type="binary">http://dl.google.com/linux/talkplugin/deb/pool/main/g/google-talkplugin/google-talkplugin_5.41.0.0-1_amd64.deb</Archive>
+    </Source>
+
+    <Package>
+        <Name>google-talkplugin</Name>
+        <Files>
+            <Path fileType="executable">/opt/google</Path>
+            <Path fileType="library">/usr/lib</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>02-11-2016</Date>
+            <Version>5.41.0.0</Version>
+            <Comment>Add google-talkplugin to repository.</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
