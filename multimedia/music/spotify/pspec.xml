@@ -26,9 +26,21 @@
             <Path fileType="data">/usr/share/spotify</Path>
             <Path fileType="data">/usr/share/applications</Path>
         </Files>
+        <RuntimeDependencies>
+            <Dependency>gconf</Dependency>
+        </RuntimeDependencies>
+
     </Package>
 
     <History>
+        <Update release="7">
+            <Date>02-20-2016</Date>
+            <Version>1.0.23.93</Version>
+            <Comment>Package bump</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
         <Update release="6">
             <Date>02-20-2016</Date>
             <Version>1.0.23.93</Version>
