@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>vivaldi-stable</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <Summary>Vivaldi Web Browser</Summary>
+        <Description>An advanced browser made with the power user in mind.</Description>
+        <License>Custom</License>
+    <Archive sha1sum="31c4f0c81808fe3dd908e3d17682dc9e9efd19a1" type="binary">http://stroblindustries.com/solus-3rdparty/vivaldi-stable_1.0.435.40-1_amd64.deb</Archive>
+    <BuildDependencies>
+        <Dependency>binutils</Dependency>
+    </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>vivaldi-stable</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+    <RuntimeDependencies>
+        <Dependency>libxscrnsaver</Dependency>
+        <Dependency>gconf</Dependency>
+    </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>04-06-2016</Date>
+            <Version>1.0.435.40</Version>
+            <Comment>Add vivaldi-stable</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
