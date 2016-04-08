@@ -10,7 +10,7 @@
         <Summary>Vivaldi Web Browser</Summary>
         <Description>An advanced browser made with the power user in mind.</Description>
         <License>Custom</License>
-    <Archive sha1sum="35bd5e4701009b8e9ffe24d74486deeaf23d15f5" type="binary">https://vivaldi.com/download/snapshot/vivaldi-snapshot_1.0.435.29-1_amd64.deb</Archive>
+    <Archive sha1sum="946b37aefee6d6b30817913d53f061516fb43834" type="binary">https://vivaldi.com/download/snapshot/vivaldi-snapshot_1.1.443.3-1_amd64.deb</Archive>
     <BuildDependencies>
         <Dependency>binutils</Dependency>
     </BuildDependencies>
@@ -28,6 +28,14 @@
     </Package>
 
     <History>
+        <Update release="12">
+            <Date>04-09-2016</Date>
+            <Version>1.1.443.3</Version>
+            <Comment>Update to 1.1.443.3</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
         <Update release="11">
             <Date>04-08-2016</Date>
             <Version>1.0.435.29</Version>
