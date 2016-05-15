@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>sublime-text-3</Name>
+        <Homepage>https://www.sublimetext.com/3</Homepage>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <Summary>Sublime Text is a sophisticated text editor for code, markup and prose.</Summary>
+        <Description> Sublime Text is a sophisticated text editor for code, markup and prose.</Description>
+        <License>EULA</License>
+        <Archive sha1sum="ab2b77d84f7f4f9a85f2c98f215ce4babe9552a0" type="binary">https://download.sublimetext.com/sublime-text_build-3114_amd64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>sublime-text-3</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>15-05-2015</Date>
+            <Version>3114</Version>
+            <Comment>Add sublime text 3 build 3114</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
