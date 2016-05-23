@@ -13,3 +13,6 @@ def install():
     pisitools.dosym("/opt/teamviewer/tv_bin/desktop/teamviewer-teamviewer11.desktop", "/usr/share/applications/teamviewer-teamviewer11.desktop")
     pisitools.dosym("/opt/teamviewer/tv_bin/desktop/teamviewer.png", "/usr/share/pixmaps/teamviewer.png")
     pisitools.insinto("/opt/teamviewer", "*")
+    shelltools.system("chmod -R o+w /opt/teamviewer/logfiles")
+    shelltools.system("chmod -R o+w /opt/teamviewer/config")
+    shelltools.system("chmod o+w /opt/teamviewer")

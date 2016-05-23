@@ -19,6 +19,7 @@
             <Dependency>dbus-32bit</Dependency>
             <Dependency>fontconfig-32bit</Dependency>
             <Dependency>freetype2-32bit</Dependency>
+            <Dependency>libgcc-32bit</Dependency>
             <Dependency>libjpeg-turbo-32bit</Dependency>
             <Dependency>libsm-32bit</Dependency>
             <Dependency>libx11-32bit</Dependency>
