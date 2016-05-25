@@ -29,9 +29,16 @@
     </Package>
 
     <History>
-        <Update release="1">
+        <Update release="2">
             <Date>05-25-2016</Date>
             <Version>10.1.0.5503</Version>
+            <Comment>Update wps-office and add rundep</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
+        </Update>
+        <Update release="1">
+            <Date>01-18-2016</Date>
+            <Version>10.1.0.5460</Version>
             <Comment>Add wps-office to repositories</Comment>
             <Name>Justin Zobel</Name>
             <Email>justin@solus-project.com</Email>
