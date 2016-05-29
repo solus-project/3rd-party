@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>gitkraken</Name>
+        <Homepage>https://www.gitkraken.com</Homepage>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <Summary>The downright luxurious Git client, for Windows, Mac and Linux</Summary>
+        <Description>The downright luxurious Git client, for Windows, Mac and Linux</Description>
+        <License>EULA</License>
+        <Archive sha1sum="72ebb14524d55a00cc95cf1ac14e6d4d46c948fe" type="binary">https://release.gitkraken.com/linux/gitkraken-amd64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+            <Dependency>sed</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>gitkraken</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>29-05-2015</Date>
+            <Version>1.3.0</Version>
+            <Comment>Add Git Kraken 1.3.0</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
