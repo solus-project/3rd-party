@@ -2,7 +2,7 @@
 Name=Visual Studio Code
 Comment=Visual Studio Code
 GenericName=Text Editor
-Exec=/usr/bin/code
+Exec=/opt/vscode-ms/code
 Icon=code
 Type=Application
 Terminal=false

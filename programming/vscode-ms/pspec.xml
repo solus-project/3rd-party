@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>vscode-ms</Name>
+        <Homepage>https://www.gitkraken.com</Homepage>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <Summary>Visual Studio Code is a new type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. (Proprietary Version.)</Summary>
+        <Description>Visual Studio Code is a new type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. (Proprietary Version.)</Description>
+        <License>EULA</License>
+        <Archive sha1sum="762094d6de73389bea31ecaf36ed093e95014041" type="binary">https://az764295.vo.msecnd.net/stable/809e7b30e928e0c430141b3e6abf1f63aaf55589/code-stable-vscode-amd64.deb.tar.xz</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>sed</Dependency>
+            <Dependency>wget</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>vscode-ms</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>gconf</Dependency>
+            <Dependency>libgtk-2</Dependency>
+            <Dependency>libx11</Dependency>
+            <Dependency>nodejs</Dependency>
+            <Dependency>python</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>12-06-2016</Date>
+            <Version>1.2.0</Version>
+            <Comment>Add proprietary version of Visual Studio Code</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
