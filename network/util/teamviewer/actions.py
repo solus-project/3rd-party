@@ -8,6 +8,10 @@ WorkDir = "."
 NoStrip = ["/opt/teamviewer/tv_bin/wine/drive_c/TeamViewer/tvwine.dll.so"]
 IgnoreAutodep = True
 
+def build():
+    shelltools.system("ar xf teamviewer_%s_amd64.deb" % (get.srcVERSION())
+    shelltools.system("tar xvf data.tar.*")
+
 def install():
     pisitools.insinto("/opt/teamviewer", "*")
     
