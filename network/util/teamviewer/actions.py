@@ -10,7 +10,7 @@ IgnoreAutodep = True
 
 def build():
     shelltools.system("ar xf teamviewer_%s_amd64.deb" % (get.srcVERSION())
-    shelltools.system("tar xvf data.tar.*")
+    shelltools.system("tar xvf data.tar.bz2")
 
 def install():
     pisitools.insinto("/opt/teamviewer", "*")
