@@ -9,7 +9,8 @@ NoStrip = ["/opt/teamviewer/tv_bin/wine/drive_c/TeamViewer/tvwine.dll.so"]
 IgnoreAutodep = True
 
 def build():
-    shelltools.system("ar xf teamviewer_%s_amd64.deb" % (get.srcVERSION())
+    shelltools.system("pwd")
+    shelltools.system("ar xf teamviewer_%s_amd64.deb" % Version)
     shelltools.system("tar xvf data.tar.bz2")
 
 def install():
