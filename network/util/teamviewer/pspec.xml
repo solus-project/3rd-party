@@ -11,39 +11,50 @@
         <Summary>TeamViewer</Summary>
         <Description>Elegantly simple and extremely fast remote support, remote access, online collaboration and meetings; these are the tools for an interconnected world limited only by your imagination.</Description>
         <License>https://www.teamviewer.com/en/eula/</License>
-        <Archive sha1sum="e8e856221dbdb4077cc5992315799eaea232ef0b">http://downloadap1.teamviewer.com/download/version_11x/teamviewer_11.0.57095_i386.tar.xz</Archive>
+        <Archive sha1sum="80c74175df8a581fc345ebd4798c021463a9805c" type="binary">https://download.teamviewer.com/download/version_11x/teamviewer_11.0.57095_amd64.deb</Archive>
     </Source>
 
     <Package>
         <RuntimeDependencies>
+            <Dependency>alsa-lib-32bit</Dependency>
             <Dependency>dbus-32bit</Dependency>
             <Dependency>fontconfig-32bit</Dependency>
             <Dependency>freetype2-32bit</Dependency>
+            <Dependency>harfbuzz-32bit</Dependency>
             <Dependency>libgcc-32bit</Dependency>
             <Dependency>libjpeg-turbo-32bit</Dependency>
             <Dependency>libsm-32bit</Dependency>
             <Dependency>libx11-32bit</Dependency>
+            <Dependency>libxau-32bit</Dependency>
+            <Dependency>libxdamage-32bit</Dependency>
             <Dependency>libxext-32bit</Dependency>
+            <Dependency>libxfixes-32bit</Dependency>
             <Dependency>libxinerama-32bit</Dependency>
+            <Dependency>libxrandr-32bit</Dependency>
             <Dependency>libxrender-32bit</Dependency>
+            <Dependency>libxtst-32bit</Dependency>
             <Dependency>zlib-32bit</Dependency>
         </RuntimeDependencies>
         <Name>teamviewer</Name>
         <Icon>teamviewer</Icon>
         <Files>
-            <Path fileType="executable">/opt</Path>
-            <Path fileType="data">/usr</Path>
-            <Path fileType="data">/etc</Path>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/opt/teamviewer*</Path>
+            <Path fileType="data">/usr/share</Path>
+            <Path fileType="config">/etc/systemd/system/multi-user.target.wants/</Path>
+            <Path fileType="config">/etc/teamviewer</Path>
+            <Path fileType="data">/var/log</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
         </Files>
     </Package>
 
     <History>
         <Update release="1">
-            <Date>22-05-2016</Date>
+            <Date>06-26-2016</Date>
             <Version>11.0.57095</Version>
-            <Comment>Add TeamViewer repositories</Comment>
-            <Name>Automated Packaging</Name>
-            <Email>noreply@evolve-os.com</Email>
+            <Comment>Initial commit</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
         </Update>
     </History>
 </PISI>
