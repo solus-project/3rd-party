@@ -23,6 +23,7 @@
             <Dependency>harfbuzz-32bit</Dependency>
             <Dependency>libgcc-32bit</Dependency>
             <Dependency>libjpeg-turbo-32bit</Dependency>
+            <Dependency>libpng12-32bit</Dependency>
             <Dependency>libsm-32bit</Dependency>
             <Dependency>libx11-32bit</Dependency>
             <Dependency>libxau-32bit</Dependency>
@@ -41,7 +42,7 @@
             <Path fileType="executable">/usr/bin</Path>
             <Path fileType="data">/opt/teamviewer*</Path>
             <Path fileType="data">/usr/share</Path>
-            <Path fileType="config">/etc/systemd/system/multi-user.target.wants/</Path>
+            <Path fileType="config">/etc/systemd/system</Path>
             <Path fileType="config">/etc/teamviewer</Path>
             <Path fileType="data">/var/log</Path>
             <Path fileType="doc">/usr/share/doc</Path>
