@@ -12,7 +12,7 @@ Suffix = "-1"
 
 def setup():
     shelltools.system("pwd")
-    shelltools.system("tar xvf code-stable-vscode-amd64.tar.xz")
+    shelltools.system("unzip VSCode-linux-x64-stable.zip")
     shelltools.system("install -dm755 opt/vscode-ms/")
     shelltools.system("install -dm755 usr/share/pixmaps/")
     shelltools.system("mv VSCode-linux-x64/* opt/vscode-ms/")
