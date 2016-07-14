@@ -1,4 +1,4 @@
-Solus Operating System 3rd Party Source Repo
+Solus 3rd Party Source Repo
 ===
 
 This repo contains the build files required to create packages that cannot

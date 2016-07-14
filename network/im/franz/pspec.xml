@@ -30,7 +30,7 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>09-07-2016</Date>
+            <Date>14-07-2016</Date>
             <Version>3.1.0</Version>
             <Comment>Add Franz to 3rd-Party</Comment>
             <Name>Federico Damián Schonborn</Name>
