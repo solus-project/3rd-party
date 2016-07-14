@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>franz</Name>
+        <Homepage>https://meetfranz.com</Homepage>
+        <Packager>
+            <Name>Federico Damián Schonborn</Name>
+            <Email>federicodamians@gmail.com</Email>
+        </Packager>
+        <Summary>A free messaging app that combines chat and messaging services into one application</Summary>
+        <Description>Franz is a free messaging app / former Emperor of Austria and combines chat and messaging services into one application. Franz currently supports Slack, WhatsApp, WeChat, HipChat, Facebook Messenger, Telegram, Google Hangouts, GroupMe, Skype and many more.</Description>
+        <License>Custom</License>
+        <Archive sha1sum="18ee7c6f1079c914e54cb1ddd367e04210f59b69" type="binary">https://github.com/imprecision/franz-app/releases/download/3.1.0/Franz-linux-x64-3.1.0.tgz</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+            <Dependency>wget</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>franz</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>libgtk-2</Dependency>
+            <Dependency>nodejs</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>09-07-2016</Date>
+            <Version>3.1.0</Version>
+            <Comment>Add Franz to 3rd-Party</Comment>
+            <Name>Federico Damián Schonborn</Name>
+            <Email>federicodamians@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
