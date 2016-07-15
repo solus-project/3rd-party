@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+# Created for Solus Operating System
+
 from pisi.actionsapi import pisitools, shelltools
 
 NoStrip = ["/opt", "/usr"]
