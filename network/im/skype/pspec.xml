@@ -2,7 +2,7 @@
 <!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
 <PISI>
     <Source>
-        <Name>skypeforlinux</Name>
+        <Name>skype</Name>
         <Packager>
             <Name>QORTEC</Name>
             <Email>qortec.ca@gmail.com</Email>
@@ -12,6 +12,7 @@
         <License>Copyright (c) 2016 Skype and/or Microsoft</License>
         <Archive sha1sum="a7cc843ffe8011a7de1874ceaebd592b94e14f21" type="binary">https://repo.skype.com/latest/skypeforlinux-64-alpha.deb</Archive>
         <BuildDependencies>
+            <Dependency>binutils</Dependency>
         </BuildDependencies>
     </Source>
 
@@ -19,7 +20,7 @@
         <RuntimeDependencies>
             <Dependency>gconf</Dependency>
         </RuntimeDependencies>
-        <Name>skypeforlinux</Name>
+        <Name>skype</Name>
         <Icon>skypeforlinux</Icon>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
