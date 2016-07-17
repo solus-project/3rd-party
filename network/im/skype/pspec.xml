@@ -5,7 +5,7 @@
         <Name>skypeforlinux</Name>
         <Packager>
             <Name>QORTEC</Name>
-            <Email></Email>
+            <Email>qortec.ca@gmail.com</Email>
         </Packager>
         <Summary>Skype keeps the world talking, for free.</Summary>
         <Description>Skype keeps you together. Call, message and share with others.</Description>
@@ -37,7 +37,7 @@
             <Version>1.1.0.21</Version>
             <Comment>Add skype to repositories</Comment>
             <Name>QORTEC</Name>
-            <Email></Email>
+            <Email>qortec.ca@gmail.com</Email>
         </Update>
     </History>
 </PISI>
