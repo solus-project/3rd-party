@@ -2,14 +2,15 @@
 
 # Created for Solus Operating System
 
-from pisi.actionsapi import pisitools, shelltools
+from pisi.actionsapi import get, pisitools, shelltools
 
 NoStrip = ["/opt", "/usr"]
 IgnoreAutodep = True
 
 def setup():
     shelltools.system("pwd")
-    shelltools.system("tar xvf Franz-linux-x64-3.1.0.tgz")
+    shelltools.system("mkdir franz")
+    shelltools.system("tar xvf Franz-linux-x64-%s.tgz -C franz" % (get.srcVERSION()))
     shelltools.system("wget https://raw.githubusercontent.com/imprecision/franz-pkgbuild/master/franz.sh")
     shelltools.system("wget https://raw.githubusercontent.com/imprecision/franz-pkgbuild/master/franz.desktop")
     shelltools.system("wget https://raw.githubusercontent.com/imprecision/franz-pkgbuild/master/franz.png")
@@ -19,4 +20,4 @@ def setup():
 
 def install():
     pisitools.insinto("/", "usr")
-    pisitools.insinto("/opt/franz", "*")
+    pisitools.insinto("/opt/", "franz")
