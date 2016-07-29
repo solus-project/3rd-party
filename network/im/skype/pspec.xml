@@ -19,6 +19,7 @@
     <Package>
         <RuntimeDependencies>
             <Dependency>gconf</Dependency>
+            <Dependency>libgnome-keyring</Dependency>
         </RuntimeDependencies>
         <Name>skype</Name>
         <Icon>skypeforlinux</Icon>
@@ -33,7 +34,14 @@
     </Package>
     
     <History>
-            <Update release="2">
+        <Update release="3">
+            <Date>29-07-2016</Date>
+            <Version>1.2.0.1</Version>
+            <Comment>Added libgnome-keyring as rundep</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="2">
             <Date>26-07-2016</Date>
             <Version>1.2.0.1</Version>
             <Comment>Updated Skype to 1.2.0.1</Comment>
