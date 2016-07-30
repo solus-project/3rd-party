@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>discord-canary</Name>
+        <Packager>
+            <Name>QORTEC</Name>
+            <Email>qortec.ca@gmail.com</Email>
+        </Packager>
+        <Summary>All-in-one voice and text chat for gamers</Summary>
+        <Description>All-in-one voice and text chat for gamers that's free, secure, and works on both your desktop and phone.</Description>
+        <License>Proprietary</License>
+        <Archive sha1sum="89adc84b61823c6edc46df939726108780ef2d90" type="binary">https://dl-canary.discordapp.net/apps/linux/0.0.8/discord-canary-0.0.8.deb</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <RuntimeDependencies>
+            <Dependency>gconf</Dependency>
+        </RuntimeDependencies>
+        <Name>discord-canary</Name>
+        <Icon>discord-canary</Icon>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="data">/usr/share/discord-canary</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="data">/usr/share/pixmaps</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="2">
+            <Date>30-07-2016</Date>
+            <Version>0.0.8</Version>
+            <Comment>Removed lintian</Comment>
+            <Name>QORTEC</Name>
+            <Email>qortec.ca@gmail.com</Email>
+        </Update>
+        <Update release="1">
+            <Date>18-07-2016</Date>
+            <Version>0.0.8</Version>
+            <Comment>Add Discord Canary to repositories</Comment>
+            <Name>QORTEC</Name>
+            <Email>qortec.ca@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
