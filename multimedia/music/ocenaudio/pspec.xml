@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>ocenaudio</Name>
+        <Packager>
+            <Name>QORTEC</Name>
+            <Email>qortec.ca@gmail.com</Email>
+        </Packager>
+        <Summary>Ocenaudio is a fast, cross-platform audio editor.</Summary>
+        <Description>Ocenaudio is a fast, cross-platform audio editor.</Description>
+        <License>Proprietary</License>
+        <Archive sha1sum="026b23da78cbdc948bcc7ad14e9d7640ea2c57c7" type="binary">https://www.ocenaudio.com/downloads/index.php/ocenaudio_debian64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <RuntimeDependencies>
+            <Dependency>gconf</Dependency>
+            <Dependency>jack-audio-connection-kit</Dependency>
+        </RuntimeDependencies>
+        <Name>ocenaudio</Name>
+        <Icon>ocenaudio</Icon>
+        <Files>
+            <Path fileType="executable">/opt/ocenaudio</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="data">/usr/share/icons</Path>
+            <Path fileType="data">/usr/share/mime</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="2">
+            <Date>03-08-2016</Date>
+            <Version>3.1.6</Version>
+            <Comment>Update ocenaudio to 3.1.6</Comment>
+            <Name>QORTEC</Name>
+            <Email>qortec.ca@gmail.com</Email>
+        </Update>
+        <Update release="1">
+            <Date>18-07-2016</Date>
+            <Version>3.1.5</Version>
+            <Comment>Add ocenaudio to repositories</Comment>
+            <Name>QORTEC</Name>
+            <Email>qortec.ca@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
