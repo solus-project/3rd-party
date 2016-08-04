@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>slack-desktop</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <Summary>Team communication for the 21st century.</Summary>
+        <Description>Team communication for the 21st century.</Description>
+        <License>Proprietary</License>
+        <Archive sha1sum="159a79ed181889cb6f2031fc12e47686839a029b" type="binary">https://downloads.slack-edge.com/linux_releases/slack-desktop-2.1.0-amd64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <RuntimeDependencies>
+            <Dependency>gconf</Dependency>
+            <Dependency>gvfs</Dependency>
+            <Dependency>hunspell-en</Dependency>
+            <Dependency>libgnome-keyring</Dependency>
+            <Dependency>libgtk-2</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
+        </RuntimeDependencies>
+        <Name>slack-desktop</Name>
+        <Icon>slack</Icon>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="data">/usr/share/pixmaps</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>04-08-2016</Date>
+            <Version>2.1.0</Version>
+            <Comment>Initial inclusion of Slack</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
