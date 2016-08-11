@@ -12,7 +12,6 @@ def setup():
     shelltools.system("ar xf vivaldi-stable_%s-1_amd64.deb" % (get.srcVERSION()))
     shelltools.system("tar xvf data.tar.xz")
 def install():
-    pisitools.insinto("/", "etc")
     pisitools.insinto("/", "opt")
     pisitools.insinto("/", "usr")
     for i in ["16", "22", "24", "32", "48", "64", "128", "256"]:
