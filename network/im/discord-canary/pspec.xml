@@ -19,6 +19,7 @@
     <Package>
         <RuntimeDependencies>
             <Dependency>gconf</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
         </RuntimeDependencies>
         <Name>discord-canary</Name>
         <Icon>discord-canary</Icon>
@@ -32,6 +33,13 @@
     </Package>
 
     <History>
+        <Update release="3">
+            <Date>26-08-2016</Date>
+            <Version>0.0.8</Version>
+            <Comment>Added libxscrnsaver as a rundep</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
         <Update release="2">
             <Date>30-07-2016</Date>
             <Version>0.0.8</Version>
