@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>spideroakone</Name>
+        <Packager>
+            <Name>Liam Murphy</Name>
+            <Email>liam@lpmdesigns.com</Email>
+        </Packager>
+        <Summary>Spideroak One, zero knowledge private backup.</Summary>
+        <Description>Spideroak one is a reliable, private backup for everything in your life.</Description>
+        <License>Custom - https://spideroak.com/policy/terms-of-use</License>
+        <Archive sha1sum="81e7e03038169062f7eb223b6b1e5761b5e5db69" type="binary">https://spideroak.com/getbuild?platform=ubuntu&amp;arch=x86_64</Archive>
+    
+    <BuildDependencies>
+		<Dependency>glib2</Dependency>
+		<Dependency>fontconfig</Dependency>
+		<Dependency>libnih</Dependency>
+    </BuildDependencies>
+    
+    </Source>
+
+    <Package>
+        <Name>spideroakone</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>08-28-2016</Date>
+            <Version>6.1.5</Version>
+            <Comment>initial build</Comment>
+            <Name>Liam Murphy</Name>
+            <Email>liam@lpmdesigns.com</Email>
+        </Update>
+    </History>
+</PISI>
