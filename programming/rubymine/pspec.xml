@@ -19,6 +19,7 @@
         <PartOf>programming</PartOf>
         <Files>
             <Path fileType="data">/opt/rubymine</Path>
+            <Path fileType="data">/usr/bin/rubymine</Path>
             <Path fileType="data">/usr/share/applications/rubymine.desktop</Path>
         </Files>
         <AdditionalFiles>

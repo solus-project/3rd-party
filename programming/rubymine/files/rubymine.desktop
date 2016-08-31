@@ -3,7 +3,7 @@ Version=1.0
 Type=Application
 Name=RubyMine
 Icon=/opt/rubymine/bin/RMlogo.svg
-Exec=env RUBYMINE_JDK=/usr/lib64/openjdk-8 /opt/rubymine/bin/rubymine.sh %f
+Exec=rubymine %f
 Comment=The Drive to Develop
 Categories=Development;IDE;
 Terminal=false
