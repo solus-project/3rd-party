@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Name=PhpStorm
-Icon=/opt/phpstorm/bin/webhide.png
+Icon=/opt/phpstorm/bin/webide.png
 Exec=phpstorm %f
 Comment=The Drive to Develop
 Categories=Development;IDE;
