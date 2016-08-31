@@ -26,7 +26,7 @@
             <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/rubymine.desktop">rubymine.desktop</AdditionalFile>
         </AdditionalFiles>
         <RuntimeDependencies>
-            <Dependency release="current">openjdk-8</Dependency>
+            <Dependency>openjdk-8</Dependency>
         </RuntimeDependencies>
     </Package>
     <History>
