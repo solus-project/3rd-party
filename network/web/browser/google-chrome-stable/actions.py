@@ -22,3 +22,4 @@ def install():
     shelltools.system("chmod 4755 opt/google/chrome/chrome-sandbox")
     pisitools.insinto("/", "opt")
     pisitools.insinto("/", "usr")
+    pisitools.dosym("/opt/google/chrome/google-chrome", "/usr/bin/google-chrome-stable")
