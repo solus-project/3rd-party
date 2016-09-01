@@ -33,7 +33,7 @@
         <Update release="1">
             <Date>2016-08-31</Date>
             <Version>2016.2.2</Version>
-            <Comment>Initial working Webstorm</Comment>
+            <Comment>Initial working PyCharm</Comment>
             <Name>Bryan T. Meyers</Name>
             <Email>bmeyers@datadrake.com</Email>
         </Update>

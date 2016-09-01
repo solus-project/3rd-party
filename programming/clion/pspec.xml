@@ -1,0 +1,41 @@
+<PISI>
+    <Source>
+        <Name>clion</Name>
+        <Packager>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <License>Proprietary</License>
+        <PartOf>programming</PartOf>
+        <Summary xml:lang="en">CLion - an IDE for the C Language</Summary>
+        <Description xml:lang="en">CLion - an IDE for the C Language</Description>
+        <Archive type="targz" sha1sum="487b7d3ded6089184aff220c7d9c7da2dc9c7f12">https://download.jetbrains.com/cpp/CLion-2016.2.1.tar.gz</Archive>
+    </Source>
+    <Package>
+        <Name>clion</Name>
+        <Summary xml:lang="en">CLion - an IDE for the C Language</Summary>
+        <Description xml:lang="en">CLion - an IDE for the C Language</Description>
+        <PartOf>programming</PartOf>
+        <Files>
+            <Path fileType="data">/opt/clion</Path>
+            <Path fileType="data">/usr/bin/clion</Path>
+            <Path fileType="data">/usr/share/applications/clion.desktop</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/clion.desktop">clion.desktop</AdditionalFile>
+        </AdditionalFiles>
+        <RuntimeDependencies>
+            <Dependency>openjdk-8</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-08-31</Date>
+            <Version>2016.2.1</Version>
+            <Comment>Initial working Clion</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Update>
+    </History>
+</PISI>
