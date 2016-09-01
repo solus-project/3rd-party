@@ -22,3 +22,4 @@ def install():
     shelltools.system("chmod 4755 opt/google/chrome-beta/chrome-sandbox")
     pisitools.insinto("/", "opt")
     pisitools.insinto("/", "usr")
+    pisitools.dosym("/opt/google/chrome-beta/google-chrome", "/usr/bin/google-chrome-beta")
