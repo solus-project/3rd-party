@@ -1,0 +1,41 @@
+<PISI>
+    <Source>
+        <Name>webstorm</Name>
+        <Packager>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <License>Proprietary</License>
+        <PartOf>programming</PartOf>
+        <Summary xml:lang="en">WebStorm - an IDE for the Web</Summary>
+        <Description xml:lang="en">WebStorm - an IDE for the Web</Description>
+        <Archive type="targz" sha1sum="8c114012c853b5bb6170a6c183bc85972a7f1c33">https://download.jetbrains.com/webstorm/WebStorm-2016.2.2.tar.gz</Archive>
+    </Source>
+    <Package>
+        <Name>webstorm</Name>
+        <Summary xml:lang="en">WebStorm - an IDE for the Web</Summary>
+        <Description xml:lang="en">WebStorm - an IDE for the Web</Description>
+        <PartOf>programming</PartOf>
+        <Files>
+            <Path fileType="data">/opt/webstorm</Path>
+            <Path fileType="data">/usr/bin/webstorm</Path>
+            <Path fileType="data">/usr/share/applications/webstorm.desktop</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/webstorm.desktop">webstorm.desktop</AdditionalFile>
+        </AdditionalFiles>
+        <RuntimeDependencies>
+            <Dependency>openjdk-8</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-08-31</Date>
+            <Version>2016.2.2</Version>
+            <Comment>Initial working Webstorm</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Update>
+    </History>
+</PISI>
