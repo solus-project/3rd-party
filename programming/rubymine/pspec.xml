@@ -1,0 +1,41 @@
+<PISI>
+    <Source>
+        <Name>rubymine</Name>
+        <Packager>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <License>Proprietary</License>
+        <PartOf>programming</PartOf>
+        <Summary xml:lang="en">RubyMine - an IDE for the Ruby Language</Summary>
+        <Description xml:lang="en">RubyMine - an IDE for the Ruby Language</Description>
+        <Archive type="targz" sha1sum="4999395f08b57bfd317538843f0dd5b973eb093d">https://download.jetbrains.com/ruby/RubyMine-2016.2.2.tar.gz</Archive>
+    </Source>
+    <Package>
+        <Name>rubymine</Name>
+        <Summary xml:lang="en">RubyMine - an IDE for the Ruby Language</Summary>
+        <Description xml:lang="en">RubyMine - an IDE for the Ruby Language</Description>
+        <PartOf>programming</PartOf>
+        <Files>
+            <Path fileType="data">/opt/rubymine</Path>
+            <Path fileType="data">/usr/bin/rubymine</Path>
+            <Path fileType="data">/usr/share/applications/rubymine.desktop</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/rubymine.desktop">rubymine.desktop</AdditionalFile>
+        </AdditionalFiles>
+        <RuntimeDependencies>
+            <Dependency>openjdk-8</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-08-30</Date>
+            <Version>2016.2.2</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Update>
+    </History>
+</PISI>
