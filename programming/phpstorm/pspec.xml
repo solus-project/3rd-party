@@ -1,0 +1,41 @@
+<PISI>
+    <Source>
+        <Name>phpstorm</Name>
+        <Packager>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <License>Proprietary</License>
+        <PartOf>programming</PartOf>
+        <Summary xml:lang="en">PHPStorm - an IDE for the PHP Language</Summary>
+        <Description xml:lang="en">PHPStorm - an IDE for the PHP Language</Description>
+        <Archive type="targz" sha1sum="d285e73359404a24e42c93d6633f2afe63d2f496">https://download.jetbrains.com/webide/PhpStorm-2016.2.1.tar.gz</Archive>
+    </Source>
+    <Package>
+        <Name>phpstorm</Name>
+        <Summary xml:lang="en">PHPStorm - an IDE for the PHP Language</Summary>
+        <Description xml:lang="en">PHPStorm - an IDE for the PHP Language</Description>
+        <PartOf>programming</PartOf>
+        <Files>
+            <Path fileType="data">/opt/phpstorm</Path>
+            <Path fileType="data">/usr/bin/phpstorm</Path>
+            <Path fileType="data">/usr/share/applications/phpstorm.desktop</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/phpstorm.desktop">phpstorm.desktop</AdditionalFile>
+        </AdditionalFiles>
+        <RuntimeDependencies>
+            <Dependency>openjdk-8</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-08-31</Date>
+            <Version>2016.2.2</Version>
+            <Comment>Initial working Webstorm</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Update>
+    </History>
+</PISI>
