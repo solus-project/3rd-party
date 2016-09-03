@@ -1,0 +1,41 @@
+<PISI>
+    <Source>
+        <Name>pycharm</Name>
+        <Packager>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <License>Proprietary</License>
+        <PartOf>programming</PartOf>
+        <Summary xml:lang="en">PyCharm - an IDE for the Python Language</Summary>
+        <Description xml:lang="en">PyCharm - an IDE for the Python Language</Description>
+        <Archive type="targz" sha1sum="b1aade47760f075f4d73b5384ea9fd5c717b8588">https://download.jetbrains.com/python/pycharm-professional-2016.2.2.tar.gz</Archive>
+    </Source>
+    <Package>
+        <Name>pycharm</Name>
+        <Summary xml:lang="en">PyCharm - an IDE for the Python Language</Summary>
+        <Description xml:lang="en">PyCharm - an IDE for the Python Language</Description>
+        <PartOf>programming</PartOf>
+        <Files>
+            <Path fileType="data">/opt/pycharm</Path>
+            <Path fileType="data">/usr/bin/pycharm</Path>
+            <Path fileType="data">/usr/share/applications/pycharm.desktop</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/pycharm.desktop">pycharm.desktop</AdditionalFile>
+        </AdditionalFiles>
+        <RuntimeDependencies>
+            <Dependency>openjdk-8</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-08-31</Date>
+            <Version>2016.2.2</Version>
+            <Comment>Initial working PyCharm</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Update>
+    </History>
+</PISI>

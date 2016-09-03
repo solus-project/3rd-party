@@ -1,0 +1,41 @@
+<PISI>
+    <Source>
+        <Name>idea</Name>
+        <Packager>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <License>Proprietary</License>
+        <PartOf>programming</PartOf>
+        <Summary xml:lang="en">Idea - an IDE for the JVM Languages</Summary>
+        <Description xml:lang="en">Idea - an IDE for the JVM Languages</Description>
+        <Archive type="targz" sha1sum="347da08e3a5d00baf43f2076dc9807c3f5508661">https://download.jetbrains.com/idea/ideaIU-2016.2.3.tar.gz</Archive>
+    </Source>
+    <Package>
+        <Name>idea</Name>
+        <Summary xml:lang="en">Idea - an IDE for the JVM Languages</Summary>
+        <Description xml:lang="en">Idea - an IDE for the JVM Languages</Description>
+        <PartOf>programming</PartOf>
+        <Files>
+            <Path fileType="data">/opt/idea</Path>
+            <Path fileType="data">/usr/bin/idea</Path>
+            <Path fileType="data">/usr/share/applications/idea.desktop</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/idea.desktop">idea.desktop</AdditionalFile>
+        </AdditionalFiles>
+        <RuntimeDependencies>
+            <Dependency>openjdk-8</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-08-31</Date>
+            <Version>2016.2.3</Version>
+            <Comment>Initial working Idea</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Update>
+    </History>
+</PISI>
