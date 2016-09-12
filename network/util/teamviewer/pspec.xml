@@ -12,6 +12,9 @@
         <Description>Elegantly simple and extremely fast remote support, remote access, online collaboration and meetings; these are the tools for an interconnected world limited only by your imagination.</Description>
         <License>https://www.teamviewer.com/en/eula/</License>
         <Archive sha1sum="80c74175df8a581fc345ebd4798c021463a9805c" type="binary">https://download.teamviewer.com/download/version_11x/teamviewer_11.0.57095_amd64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
     </Source>
 
     <Package>
