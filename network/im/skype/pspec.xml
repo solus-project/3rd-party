@@ -10,7 +10,7 @@
         <Summary>Skype keeps the world talking, for free.</Summary>
         <Description>Skype keeps you together. Call, message and share with others.</Description>
         <License>Copyright (c) 2016 Skype and/or Microsoft</License>
-        <Archive sha1sum="b7460ca42b95efd82fd47c67b2d63a5c220fcb4d" type="binary">https://repo.skype.com/deb/pool/main/s/skypeforlinux/skypeforlinux_1.6.0.3_amd64.deb</Archive>
+        <Archive sha1sum="b4c5d4525aad7ccd03738c8840c68fcc59231f43" type="binary">https://repo.skype.com/deb/pool/main/s/skypeforlinux/skypeforlinux_1.7.0.1_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -34,6 +34,13 @@
     </Package>
     
     <History>
+        <Update release="7">
+            <Date>12-09-2016</Date>
+            <Version>1.7.0.1</Version>
+            <Comment>Updated Skype to 1.7.0.1</Comment>
+            <Name>QORTEC</Name>
+            <Email>qortec.ca@gmail.com</Email>
+        </Update>
         <Update release="6">
             <Date>02-09-2016</Date>
             <Version>1.6.0.3</Version>
