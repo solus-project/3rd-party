@@ -12,7 +12,7 @@ Suffix = "-1"
 
 def setup():
     shelltools.system("pwd")
-    shelltools.system("tar xf code-stable-code_1.5.1-1473370243_amd64.tar.gz")
+    shelltools.system("tar xf code-stable-code_1.5.2-1473686317_amd64.tar.gz")
     shelltools.system("install -dm755 opt/vscode-ms/")
     shelltools.system("install -dm755 usr/share/pixmaps/")
     shelltools.system("mv VSCode-linux-x64/* opt/vscode-ms/")
@@ -22,3 +22,4 @@ def setup():
 def install():
     pisitools.insinto("/", "opt")
     pisitools.insinto("/", "usr")
+    pisitools.dosym("/opt/vscode-ms/bin/code", "/usr/bin/code")
