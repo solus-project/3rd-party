@@ -1,0 +1,22 @@
+[Unit]
+Description=Plex Media Server for Linux
+After=network.target
+
+[Service]
+Environment=LD_LIBRARY_PATH=/opt/plexmediaserver
+Environment=PLEX_MEDIA_SERVER_MAX_PLUGIN_PROCS=6
+Environment=PLEX_MEDIA_SERVER_MAX_STACK_SIZE=3000
+Environment=PLEX_MEDIA_SERVER_TMPDIR=/tmp
+Environment=PLEX_MEDIA_SERVER_APPLICATION_SUPPORT_DIR=/var/lib/plexmediaserver
+Environment=PLEX_MEDIA_SERVER_USER=plex
+ExecStart=/opt/plexmediaserver/Plex\x20Media\x20Server
+Type=simple
+User=plex
+Group=plex
+Restart=on-failure
+RestartSec=5
+StartLimitInterval=60s
+StartLimitBurst=3
+
+[Install]
+WantedBy=multi-user.target
