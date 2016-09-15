@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>google-earth</Name>
+        <Homepage>http://www.google.com/earth</Homepage>
+        <Packager>
+            <Name>Peter O'Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
+        </Packager>
+        <Summary>3D interface for satellite imagery from Google</Summary>
+        <Description>Google Earth provides a 3D interface for viewing satellite imagery and maps.</Description>
+        <License>EULA</License>
+        <Archive sha1sum="6fffa005a6982e2e3087aae32829bb8fac6fa65d" type="binary">https://dl.google.com/dl/earth/client/current/google-earth-stable_current_amd64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <RuntimeDependencies>
+            <Dependency>fontconfig</Dependency>
+            <Dependency>libglu</Dependency>
+            <Dependency>mesalib</Dependency>
+        </RuntimeDependencies>
+        <Name>google-earth</Name>
+        <Icon>google-earth</Icon>
+        <Files>
+            <Path fileType="data">/lib</Path>
+            <Path fileType="data">/opt/google/earth</Path>
+            <Path fileType="data">/usr</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>09-06-2016</Date>
+            <Version>7.1.7.2600</Version>
+            <Comment>Add google-earth to repositories</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
