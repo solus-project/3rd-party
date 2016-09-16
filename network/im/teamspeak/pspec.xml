@@ -14,20 +14,22 @@
         <BuildDependencies>
             <Dependency>binutils</Dependency>
             <Dependency>sed</Dependency>
-            <Dependency>wget</Dependency>
         </BuildDependencies>
     </Source>
 
     <Package>
+        <Name>teamspeak3</Name>
+        <Icon>teamspeak</Icon>
         <RuntimeDependencies>
             <Dependency>gconf</Dependency>
         </RuntimeDependencies>
-        <Name>teamspeak3</Name>
-        <Icon>ts3client_linux_amd64</Icon>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/TeamSpeak3.desktop">TeamSpeak3.desktop</AdditionalFile>
+        </AdditionalFiles>
         <Files>
             <Path fileType="executable">/opt</Path>
             <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="data">/usr/share/applications/TeamSpeak3.desktop</Path>
         </Files>
     </Package>
 
