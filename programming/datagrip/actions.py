@@ -7,6 +7,6 @@ WorkDir = "."
 
 
 def install():
-    shutil.rmtree("DataGrip-2016.2.2/jre")
-    pisitools.insinto("/opt/datagrip", "DataGrip-2016.2.2/*")
+    shutil.rmtree("DataGrip-2016.2.5/jre")
+    pisitools.insinto("/opt/datagrip", "DataGrip-2016.2.5/*")
     pisitools.dosym("/opt/datagrip/bin/datagrip.sh", "/usr/bin/datagrip")

@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Idea - an IDE for the JVM Languages</Summary>
         <Description xml:lang="en">Idea - an IDE for the JVM Languages</Description>
-        <Archive type="targz" sha1sum="347da08e3a5d00baf43f2076dc9807c3f5508661">https://download.jetbrains.com/idea/ideaIU-2016.2.3.tar.gz</Archive>
+        <Archive type="targz" sha1sum="d4ed4a5b7bc18c5d48833e650152e54b4c773638">https://download.jetbrains.com/idea/ideaIU-2016.2.4.tar.gz</Archive>
     </Source>
     <Package>
         <Name>idea</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="2">
+            <Date>2016-10-16</Date>
+            <Version>2016.2.4</Version>
+            <Comment>Updated to 2016.2.4</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Update>
         <Update release="1">
             <Date>2016-08-31</Date>
             <Version>2016.2.3</Version>
