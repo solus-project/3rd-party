@@ -11,7 +11,7 @@
         <Summary>TeamViewer</Summary>
         <Description>Elegantly simple and extremely fast remote support, remote access, online collaboration and meetings; these are the tools for an interconnected world limited only by your imagination.</Description>
         <License>https://www.teamviewer.com/en/eula/</License>
-        <Archive sha1sum="80c74175df8a581fc345ebd4798c021463a9805c" type="binary">https://download.teamviewer.com/download/version_11x/teamviewer_11.0.57095_amd64.deb</Archive>
+        <Archive sha1sum="75794be26f8c9b4e3c76fc8e61e917de78d1add6" type="binary">https://download.teamviewer.com/download/version_11x/teamviewer_11.0.67687_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -47,12 +47,18 @@
             <Path fileType="data">/usr/share</Path>
             <Path fileType="config">/etc/systemd/system</Path>
             <Path fileType="config">/etc/teamviewer</Path>
-            <Path fileType="data">/var/log</Path>
             <Path fileType="doc">/usr/share/doc</Path>
         </Files>
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>10-19-2016</Date>
+            <Version>11.0.67687</Version>
+            <Comment>Update to 11.0.67687</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
         <Update release="1">
             <Date>06-26-2016</Date>
             <Version>11.0.57095</Version>
