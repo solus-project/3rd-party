@@ -20,5 +20,9 @@ def install():
     shelltools.system("chown root:root opt/google/chrome-beta/chrome-sandbox")
     # ensure setuid
     shelltools.system("chmod 4755 opt/google/chrome-beta/chrome-sandbox")
+
     pisitools.insinto("/", "opt")
     pisitools.insinto("/", "usr")
+
+    for i in ["16", "22", "24", "32", "48", "64", "128", "256"]:
+        pisitools.insinto("/usr/share/icons/hicolor/%sx%s/apps" % (i,i), "opt/google/chrome-beta/product_logo_%s.png" % i, "google-chrome-beta.png")

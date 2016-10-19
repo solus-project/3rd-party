@@ -20,5 +20,9 @@ def install():
     shelltools.system("chown root:root opt/google/chrome-unstable/chrome-sandbox")
     # ensure setuid
     shelltools.system("chmod 4755 opt/google/chrome-unstable/chrome-sandbox")
+
     pisitools.insinto("/", "opt")
     pisitools.insinto("/", "usr")
+
+    for i in ["16", "22", "24", "32", "48", "64", "128", "256"]:
+        pisitools.insinto("/usr/share/icons/hicolor/%sx%s/apps" % (i,i), "opt/google/chrome-unstable/product_logo_%s.png" % i, "google-chrome-unstable.png")
