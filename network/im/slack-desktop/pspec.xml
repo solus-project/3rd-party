@@ -10,7 +10,7 @@
         <Summary>Team communication for the 21st century.</Summary>
         <Description>Team communication for the 21st century.</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="159a79ed181889cb6f2031fc12e47686839a029b" type="binary">https://downloads.slack-edge.com/linux_releases/slack-desktop-2.1.0-amd64.deb</Archive>
+        <Archive sha1sum="df022040d424cbe96bec5ef847bce987f78ab78c" type="binary">https://downloads.slack-edge.com/linux_releases/slack-desktop-2.2.1-amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -37,6 +37,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>19-10-2016</Date>
+            <Version>2.2.1</Version>
+            <Comment>Update to 2.2.1</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
         <Update release="1">
             <Date>04-08-2016</Date>
             <Version>2.1.0</Version>
