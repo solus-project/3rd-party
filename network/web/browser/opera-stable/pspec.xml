@@ -37,14 +37,6 @@
     </Package>
 
     <History>
-        <Update release="28">
-            <Date>10-20-2016</Date>
-            <Version>40.0.2308.90</Version>
-            <Comment>Update to 40.0.2308.90</Comment>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
-        </Update>
-
         <Update release="27">
             <Date>10-20-2016</Date>
             <Version>40.0.2308.90</Version>
