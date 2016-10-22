@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon=/usr/share/icons/hicolor/scalable/apps/bitwig-studio.svg
+Name=Bitwig Studio
+Comment=Music Application
+Exec=bitwig-wrapper
+Categories=Multimedia;AudioVideo;Player;
+MimeType=application/bitwig-project;application/bitwig-template
+StartupWMClass="Bitwig Studio"
