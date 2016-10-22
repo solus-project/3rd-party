@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://evolve-os.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>mendeleydesktop</Name>
+        <Homepage>https://www.literatureandlatte.com/</Homepage>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <Summary>Mendeley is a free reference manager and an academic social network.</Summary>
+        <Description>Mendeley is a free reference manager and an academic social network.</Description>
+        <License>https://www.mendeley.com/terms/</License>
+        <Archive sha1sum="827381b30e76d4db6eb913563d560eaf2f57a5e8" type="binary">http://desktop-download.mendeley.com/download/linux/mendeleydesktop-1.17-linux-x86_64.tar.bz2</Archive>
+    </Source>
+
+    <Package>
+        <Name>mendeleydesktop</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>10-22-2016</Date>
+            <Version>1.17</Version>
+            <Comment>Added mendeley to repo</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
