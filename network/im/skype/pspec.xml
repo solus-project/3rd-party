@@ -20,7 +20,7 @@
         <RuntimeDependencies>
             <Dependency>gconf</Dependency>
             <Dependency>libgnome-keyring</Dependency>
-            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>libxscrnsaver-32bit</Dependency>
         </RuntimeDependencies>
         <Name>skype</Name>
         <Icon>skypeforlinux</Icon>
