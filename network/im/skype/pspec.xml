@@ -10,7 +10,7 @@
         <Summary>Skype keeps the world talking, for free.</Summary>
         <Description>Skype keeps you together. Call, message and share with others.</Description>
         <License>Copyright (c) 2016 Skype and/or Microsoft</License>
-        <Archive sha1sum="edeba79a62d52358057340891591c0de0aa7f285" type="binary">https://repo.skype.com/deb/pool/main/s/skypeforlinux/skypeforlinux_1.10.0.1_amd64.deb</Archive>
+        <Archive sha1sum="03cd30da5a2be596330329b6c14ee55b054b2186" type="binary">https://repo.skype.com/deb/pool/main/s/skypeforlinux/skypeforlinux_1.11.0.1_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -20,6 +20,7 @@
         <RuntimeDependencies>
             <Dependency>gconf</Dependency>
             <Dependency>libgnome-keyring</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
         </RuntimeDependencies>
         <Name>skype</Name>
         <Icon>skypeforlinux</Icon>
@@ -34,6 +35,14 @@
     </Package>
     
     <History>
+        <Update release="11">
+            <Date>10-28-2016</Date>
+            <Version>1.11.0.1</Version>
+            <Comment>Update to 1.11.0.1 and add libxscrnsaver</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
         <Update release="10">
             <Date>10-11-2016</Date>
             <Version>1.10.0.1</Version>
