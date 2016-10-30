@@ -12,7 +12,7 @@ def setup():
     shelltools.system("tar xvf data.tar.gz")
 
     # enable status indicators the in nautilus file manager; requires the package
-    #    nautilus-python to be installed (should be installed automatically as 
+    #    nautilus-python to be installed (should be installed automatically as
     #    a dependency from pspec.xml)
     shelltools.system("ar xf insync-nautilus_{}-precise_all.deb".format(get.srcVERSION() ) )
     shelltools.system("tar xvf data.tar.gz")
