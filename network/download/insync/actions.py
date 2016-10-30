@@ -5,6 +5,7 @@
 from pisi.actionsapi import pisitools, shelltools, get
 
 NoStrip = ["/etc", "/usr"]
+KeepSpecial = ["python"]
 
 
 def setup():
