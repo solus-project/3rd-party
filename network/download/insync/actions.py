@@ -8,7 +8,7 @@ NoStrip = ["/etc", "/usr"]
 
 
 def setup():
-    shelltools.system("ar xf insync_{}-trusty_amd64.deb".format(get.srcVERSION()) )
+    shelltools.system("ar xf insync_{}-trusty_amd64.deb".format(get.srcVERSION() ) )
     shelltools.system("tar xvf data.tar.gz")
 
     # enable status indicators the in nautilus file manager; requires the package
