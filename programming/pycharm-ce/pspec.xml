@@ -20,10 +20,10 @@
         <Files>
             <Path fileType="data">/opt/pycharm-ce</Path>
             <Path fileType="data">/usr/bin/pycharm-ce</Path>
-            <Path fileType="data">/usr/share/applications/pycharm-community.desktop</Path>
+            <Path fileType="data">/usr/share/applications/pycharm-ce.desktop</Path>
         </Files>
         <AdditionalFiles>
-            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/pycharm-community.desktop">pycharm-community.desktop</AdditionalFile>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/pycharm-ce.desktop">pycharm-ce.desktop</AdditionalFile>
         </AdditionalFiles>
         <RuntimeDependencies>
             <Dependency>openjdk-8</Dependency>
