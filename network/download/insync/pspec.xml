@@ -18,9 +18,9 @@
         <Files>
             <Path fileType="*">/</Path>
         </Files>
-    <RuntimeDependencies>
-        <Dependency>nautilus-python</Dependency>
-    </RuntimeDependencies>
+        <RuntimeDependencies>
+            <Dependency>nautilus-python</Dependency>
+        </RuntimeDependencies>
     </Package>
     <History>
         <Update release="1">
