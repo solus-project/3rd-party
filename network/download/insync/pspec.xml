@@ -12,15 +12,15 @@
         <License>Custom - https://www.insynchq.com/terms</License>
         <Archive sha1sum="2b9aba91129f0c3f88a70efecad1e79205ea2298" type="binary">http://s.insynchq.com/builds/insync_1.3.12.36116-trusty_amd64.deb</Archive>
 	<Archive sha1sum="6b0b7e253e702367379fa75ea52bd79cdfbaebbb" type="binary">http://s.insynchq.com/builds/insync-nautilus_1.3.12.36116-precise_all.deb</Archive>
-        <BuildDependencies>
-	    <Dependency>nautilus-python</Dependency>
-        </BuildDependencies>
     </Source>
     <Package>
         <Name>insync</Name>
         <Files>
             <Path fileType="*">/</Path>
         </Files>
+    <RuntimeDependencies>
+        <Dependency>nautilus-python</Dependency>
+    </RuntimeDependencies>
     </Package>
     <History>
         <Update release="1">
