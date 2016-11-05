@@ -14,7 +14,6 @@ def setup():
 def install():
     pisitools.insinto("/", "opt")
     pisitools.insinto("/", "usr")
-    pisitools.dosym("/opt/vivaldi/vivaldi", "/usr/bin/vivaldi-stable")
     for i in ["16", "22", "24", "32", "48", "64", "128", "256"]:
         pisitools.insinto("/usr/share/icons/hicolor/%sx%s/apps" % (i,i), "opt/vivaldi/product_logo_%s.png" % i, "vivaldi.png")
     
