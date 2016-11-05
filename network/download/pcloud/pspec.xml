@@ -10,7 +10,7 @@
         <Summary>pCloud is your personal online storage space for your memorable photos and videos, your favorite music or important work documents.</Summary>
         <Description>pCloud is your personal online storage space for your memorable photos and videos, your favorite music or important work documents.</Description>
         <License>Custom - https://www.pcloud.com/terms_and_conditions.html</License>
-        <Archive sha1sum="1474c3ee83ad600c7ea876a695afa922226b1597" type="binary">https://p-ams2.pcloud.com/D4Z8IsmSZJvU4uZZZPPoKt7ZHkZZPA0ZkZx3sJZJ7ZLVZ1XZ5LUXZNM6uDAVCDB0K2k5gVzRIEBRyFkJk/pCloud_Linux_amd64_3.1.1.deb</Archive>
+        <Archive sha1sum="1474c3ee83ad600c7ea876a695afa922226b1597" type="binary">https://p-ams2.pcloud.com/D4Z8IsmSZJvU4uZZZ2OmEt7ZHkZZPA0ZkZx3sJZtkZRZgZ5LUXZy4PSDUR723prUdP8HVY4nu0cM6Dk/pCloud_Linux_amd64_3.1.1.deb</Archive>
     
         <BuildDependencies>
                 <Dependency>binutils</Dependency>
