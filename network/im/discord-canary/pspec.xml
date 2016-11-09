@@ -10,7 +10,7 @@
         <Summary>All-in-one voice and text chat for gamers</Summary>
         <Description>All-in-one voice and text chat for gamers that's free, secure, and works on both your desktop and phone.</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="e1583acb55c2faf83fd4aec9ac1242d0eda52e4e" type="binary">https://dl-canary.discordapp.net/apps/linux/0.0.10/discord-canary-0.0.10.deb</Archive>
+        <Archive sha1sum="df3eb271734fee7a416e3aa857638e336fc31a7d" type="binary">https://dl-canary.discordapp.net/apps/linux/0.0.11/discord-canary-0.0.11.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -33,6 +33,14 @@
     </Package>
 
     <History>
+        <Update release="6">
+            <Date>11-09-2016</Date>
+            <Version>0.0.11</Version>
+            <Comment>Update to 0.0.11</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+
         <Update release="5">
             <Date>06-11-2016</Date>
             <Version>0.0.10</Version>
