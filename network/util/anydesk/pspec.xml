@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>anydesk</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <Summary>AnyDesk is a remote desktop application</Summary>
+        <Description>AnyDesk is a remote desktop application</Description>
+        <License>Proprietary</License>
+        <Archive sha1sum="d6381c84ad733a1b11179dfba4a957577104727a" type="binary">http://download.anydesk.com/linux/anydesk_2.5.0-1_amd64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <RuntimeDependencies>
+            <Dependency>gconf</Dependency>
+            <Dependency>gtkglext</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
+        </RuntimeDependencies>
+        <Name>anydesk</Name>
+        <Icon>anydesk</Icon>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>12-11-2016</Date>
+            <Version>2.5.0</Version>
+            <Comment>Add AnyDesk</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
