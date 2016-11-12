@@ -1,0 +1,37 @@
+<PISI>
+    <Source>
+        <Name>android-tools</Name>
+        <Homepage>https://developer.android.com/studio</Homepage>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>Custom</License>
+        <PartOf>programming.tools</PartOf>
+        <Summary xml:lang="en">Android Platform Tools</Summary>
+        <Description xml:lang="en">Android Platform Tools</Description>
+        <Archive type="binary" sha1sum="84be2ce1d3c50c13a8b4fe332d644e81d0d35f6f">https://dl.google.com/android/repository/platform-tools_r25-linux.zip</Archive>
+        <BuildDependencies>
+            <Dependency>unzip</Dependency>
+        </BuildDependencies>
+    </Source>
+    <Package>
+        <Name>android-tools</Name>
+        <Summary xml:lang="en">Android Platform Tools</Summary>
+        <Description xml:lang="en">Android Platform Tools</Description>
+        <PartOf>programming.tools</PartOf>
+        <Files>
+            <Path fileType="data">/usr/bin/adb</Path>
+            <Path fileType="data">/usr/bin/fastboot</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-11-12</Date>
+            <Version>25</Version>
+            <Comment>Initial Android Tools</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
