@@ -3,7 +3,7 @@
 from pisi.actionsapi import get, pisitools, shelltools
 
 def setup():
-    shelltools.system("unzip platform-tools_r25-linux.zip")
+    shelltools.system("unzip platform-tools_r%s-linux.zip" % (get.srcVERSION()))
 
 def install():
     pisitools.insinto("/usr/bin/", "platform-tools/adb")
