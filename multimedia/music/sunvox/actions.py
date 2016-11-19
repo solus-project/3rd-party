@@ -10,7 +10,7 @@ IgnoreAutodep = True
 Version = get.srcVERSION()
 
 def setup():
-    shelltools.system("unzip sunvox-%s" % (get.srcVERSION()))
+    shelltools.system("unzip sunvox-%s.zip" % (get.srcVERSION()))
 
 def install():
     pisitools.insinto("/opt/sunvox/", "sunvox/sunvox/linux_x86_64/sunvox")
