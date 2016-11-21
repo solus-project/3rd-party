@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://evolve-os.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>pomodoneapp</Name>
+        <Homepage></Homepage>
+        <Packager>
+            <Name>Peter O'Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
+        </Packager>
+        <Summary>Workflow tracker using Pomodoro technique®</Summary>
+        <Description>PomoDoneApp is the easiest way to track your workflow using Pomodoro technique®, on top of your current task management service.</Description>
+        <License>MIT</License>
+        <Archive sha1sum="539fab4c0bec4d9eb042bfde66796c3cc12714dd" type="binary">https://app.pomodoneapp.com/PomoDoneApp-1.5.856.deb</Archive>
+
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>pomodoneapp</Name>
+        <Icon>PomoDoneApp</Icon>
+         <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>11-21-2016</Date>
+            <Version>1.5.856</Version>
+            <Comment>Add pomodoneapp to repositories</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
