@@ -11,7 +11,7 @@
         <Summary>The web browser from Google</Summary>
         <Description> Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</Description>
         <License>EULA</License>
-        <Archive sha1sum="0ba84fe4b08c18f5f63b0e292daa6883847e4657" type="binary">http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_54.0.2840.90-1_amd64.deb</Archive>
+        <Archive sha1sum="c53adcc725ff9939a36962b878747529ef2d8d3c" type="binary">http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_54.0.2840.100-1_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
@@ -41,6 +41,14 @@
     </Package>
 
     <History>
+        <Update release="81">
+            <Date>11-22-2016</Date>
+            <Version>54.0.2840.100</Version>
+            <Comment>Update to 54.0.2840.100</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
+        </Update>
+
         <Update release="80">
             <Date>11-03-2016</Date>
             <Version>54.0.2840.90</Version>
