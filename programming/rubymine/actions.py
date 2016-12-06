@@ -4,9 +4,9 @@ from pisi.actionsapi import get, pisitools, shelltools
 import shutil
 
 WorkDir = "."
-
+Version =  get.srcVERSION()
 
 def install():
-    shutil.rmtree("RubyMine-2016.2.4/jre")
-    pisitools.insinto("/opt/rubymine", "RubyMine-2016.2.4/*")
+    shutil.rmtree("RubyMine-%s/jre" % Version)
+    pisitools.insinto("/opt/rubymine", "RubyMine-%s/*" % Version)
     pisitools.dosym("/opt/rubymine/bin/rubymine.sh", "/usr/bin/rubymine")
