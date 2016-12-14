@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>flash-player-ppapi</Name>
+        <Homepage>http://www.adobe.com/software/flash/about/</Homepage>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <Summary>Adobe Flash Player (PPAPI)</Summary>
+        <Description>Adobe Flash Player (PPAPI).</Description>
+        <License>EULA</License>
+        <Archive sha1sum="9ddc7f64bd74088ffa43c9f4730c006111e1c522" type="binary">https://fpdownload.adobe.com/get/flashplayer/pdc/24.0.0.186/flash_player_ppapi_linux.x86_64.tar.gz</Archive>
+    </Source>
+    <Package>
+        <Name>flash-player-ppapi</Name>
+        <Icon>flash-player</Icon>
+        <Files>
+            <Path fileType="library">/opt</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>12-14-2016</Date>
+            <Version>24.0.0.186</Version>
+            <Comment>Initial inclusion of Adobe Flash (PPAPI) in Third Party</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
