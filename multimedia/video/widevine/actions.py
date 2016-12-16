@@ -4,7 +4,7 @@
 
 from pisi.actionsapi import get, pisitools, shelltools
 
-NoStrip = ["/opt", "/usr"]
+NoStrip = ["/opt"]
 IgnoreAutodep = True
 
 # Should not change.
