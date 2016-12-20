@@ -10,7 +10,7 @@
         <Summary>Plex Media Server</Summary>
         <Description>Plex Media Server</Description>
         <License>Custom - https://plex.tv/legal</License>
-        <Archive sha1sum="cc5e8ee283a4f2ff6b5e9da17dc58f5410c8f1f7" type="binary">https://downloads.plex.tv/plex-media-server/1.3.2.3112-1751929/plexmediaserver_1.3.2.3112-1751929_amd64.deb</Archive>
+        <Archive sha1sum="4cf3cf5c65ece06869eff63eccc6c7a11232495b" type="binary">https://downloads.plex.tv/plex-media-server/1.3.3.3148-b38628e/plexmediaserver_1.3.3.3148-b38628e_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -27,6 +27,14 @@
     </Package>
 
     <History>
+        <Update release="5">
+            <Date>12-19-2016</Date>
+            <Version>1.3.3.3148</Version>
+            <Comment>Update to 1.3.3.3148</Comment>
+            <Name>Selwyn Orren</Name>
+            <Email>selwyn@linuxweb.co.za</Email>
+        </Update>
+        
         <Update release="4">
             <Date>12-15-2016</Date>
             <Version>1.3.2.3112</Version>
