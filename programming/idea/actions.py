@@ -7,6 +7,6 @@ WorkDir = "."
 
 
 def install():
-    shutil.rmtree("idea-IU-162.2228.15/jre")
-    pisitools.insinto("/opt/idea", "idea-IU-162.2228.15/*")
+    shutil.rmtree("idea-IU-163.9166.29/jre")
+    pisitools.insinto("/opt/idea", "idea-IU-163.9166.29/*")
     pisitools.dosym("/opt/idea/bin/idea.sh", "/usr/bin/idea")
