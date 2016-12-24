@@ -7,6 +7,6 @@ WorkDir = "."
 
 
 def install():
-    shutil.rmtree("WebStorm-162.1812.21/jre")
-    pisitools.insinto("/opt/webstorm", "WebStorm-162.1812.21/*")
+    shutil.rmtree("WebStorm-163.9166.30/jre")
+    pisitools.insinto("/opt/webstorm", "WebStorm-163.9166.30/*")
     pisitools.dosym("/opt/webstorm/bin/webstorm.sh", "/usr/bin/webstorm")
