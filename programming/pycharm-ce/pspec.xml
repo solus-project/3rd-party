@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">PyCharm Community Edition - an IDE for the Python</Summary>
         <Description xml:lang="en">PyCharm Community Edition - an IDE for the Python</Description>
-        <Archive type="targz" sha1sum="71c2f0c8ec2ded03db3a69445bc1b1da9042c2dc">http://download.jetbrains.com/python/pycharm-community-2016.2.3.tar.gz</Archive>
+        <Archive type="targz" sha1sum="50cede73df8f91ac87aff1e1f91754264198670c">http://download.jetbrains.com/python/pycharm-community-2016.3.1.tar.gz</Archive>
     </Source>
     <Package>
         <Name>pycharm-ce</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="2">
+            <Date>2016-12-25</Date>
+            <Version>2016.3.1</Version>
+            <Comment>Updated to 2016.3.1</Comment>
+            <Name>Niklas Heer</Name>
+            <Email>me@nheer.io</Email>
+        </Update>
         <Update release="1">
             <Date>2016-10-31</Date>
             <Version>2016.2.3</Version>
