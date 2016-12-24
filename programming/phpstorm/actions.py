@@ -4,9 +4,9 @@ from pisi.actionsapi import get, pisitools, shelltools
 import shutil
 
 WorkDir = "."
-
+Version = get.srcVERSION()
 
 def install():
-    shutil.rmtree("PhpStorm-162.1889.1/jre")
-    pisitools.insinto("/opt/phpstorm", "PhpStorm-162.1889.1/*")
+    shutil.rmtree("PhpStorm-%s/jre" % Version)
+    pisitools.insinto("/opt/phpstorm", "PhpStorm-%s/*" % Version)
     pisitools.dosym("/opt/phpstorm/bin/phpstorm.sh", "/usr/bin/phpstorm")
