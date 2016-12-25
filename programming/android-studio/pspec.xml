@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Android development environment based on IntelliJ IDEA.</Summary>
         <Description xml:lang="en">Android development environment based on IntelliJ IDEA.</Description>
-        <Archive type="binary" sha1sum="fc63ca247762697c33102a78063a95f8b5ab5dea">https://dl.google.com/dl/android/studio/ide-zips/2.2.2.0/android-studio-ide-145.3360264-linux.zip</Archive>
+        <Archive type="binary" sha1sum="172c9b01669f2fe46edcc16e466917fac04c9a7f">https://dl.google.com/dl/android/studio/ide-zips/2.2.3.0/android-studio-ide-145.3537739-linux.zip</Archive>
     </Source>
     <Package>
         <Name>android-studio</Name>
@@ -34,6 +34,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+      <Update release="4">
+          <Date>2016-12-25</Date>
+          <Version>2.2.3.0</Version>
+          <Comment>Update to 2.2.3.0</Comment>
+          <Name>Niklas Heer</Name>
+          <Email>me@nheer.io</Email>
+      </Update>
       <Update release="3">
           <Date>2016-10-27</Date>
           <Version>2.2.2.0</Version>
