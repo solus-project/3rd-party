@@ -4,9 +4,9 @@ from pisi.actionsapi import get, pisitools, shelltools
 import shutil
 
 WorkDir = "."
-
+Version =  get.srcVERSION()
 
 def install():
-    shutil.rmtree("DataGrip-2016.2.5/jre")
-    pisitools.insinto("/opt/datagrip", "DataGrip-2016.2.5/*")
+    shutil.rmtree("DataGrip-%s/jre" % Version)
+    pisitools.insinto("/opt/datagrip", "DataGrip-%s/*" % Version)
     pisitools.dosym("/opt/datagrip/bin/datagrip.sh", "/usr/bin/datagrip")
