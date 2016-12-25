@@ -7,6 +7,6 @@ WorkDir = "."
 
 
 def install():
-    shutil.rmtree("clion-2016.2.2/jre")
-    pisitools.insinto("/opt/clion", "clion-2016.2.2/*")
+    shutil.rmtree("clion-2016.3.1/jre")
+    pisitools.insinto("/opt/clion", "clion-2016.3.1/*")
     pisitools.dosym("/opt/clion/bin/clion.sh", "/usr/bin/clion")
