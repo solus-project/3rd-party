@@ -1,0 +1,52 @@
+<PISI>
+    <Source>
+        <Name>unity-editor</Name>
+        <Homepage>https://unity3d.com</Homepage>
+        <Packager>
+            <Name>Sönke Behrendt</Name>
+            <Email>thesoenke@outlook.com</Email>
+        </Packager>
+        <License>EULA</License>
+        <PartOf>programming</PartOf>
+        <Summary xml:lang="en">The world's most popular development platform for creating 2D and 3D multiplatform games and interactive experiences.</Summary>
+        <Description xml:lang="en">The world's most popular development platform for creating 2D and 3D multiplatform games and interactive experiences.</Description>
+        <Archive type="binary" sha1sum="9511acb2d61fb499ce2d2f8df2888b744d217d20">http://download.unity3d.com/download_unity/linux/unity-editor-5.5.0f3+20161125_amd64.deb</Archive>
+    </Source>
+    <Package>
+        <Name>unity-editor</Name>
+        <Summary xml:lang="en">The world's most popular development platform for creating 2D and 3D multiplatform games and interactive experiences.</Summary>
+        <Description xml:lang="en">The world's most popular development platform for creating 2D and 3D multiplatform games and interactive experiences.</Description>
+        <PartOf>programming</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/opt/unity-editor</Path>
+            <Path fileType="data">/usr/share</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/unity-editor.desktop">unity-editor.desktop</AdditionalFile>
+        </AdditionalFiles>
+        <RuntimeDependencies>
+            <Dependency>gnome-sharp</Dependency>
+            <Dependency>gtk-sharp</Dependency>
+            <Dependency>libgcc-32bit</Dependency>
+            <Dependency>libglu</Dependency>
+            <Dependency>libgnomeui</Dependency>
+            <Dependency>libice</Dependency>
+            <Dependency>libpqxx</Dependency>
+            <Dependency>libsm</Dependency>
+            <Dependency>libstdc++-32bit</Dependency>
+            <Dependency>libstdc++</Dependency>
+            <Dependency>libxcb</Dependency>
+            <Dependency>nodejs</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-12-30</Date>
+            <Version>5.5.0</Version>
+            <Comment>Add Unity 3D</Comment>
+            <Name>Sönke Behrendt</Name>
+            <Email>thesoenke@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>
