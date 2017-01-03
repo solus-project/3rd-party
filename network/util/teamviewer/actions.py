@@ -24,4 +24,5 @@ def install():
     pisitools.dosym("/etc/systemd/system/teamviewerd.service", "/etc/systemd/system/multi-user.target.wants/teamviewerd.service")    
     pisitools.dosym("/opt/teamviewer/tv_bin/desktop/teamviewer.png", "/usr/share/pixmaps/teamviewer.png")
 
-    shelltools.chmod("%s/opt/teamviewer/*" % get.installDIR(),0755)  
+    shelltools.chmod("%s/opt/teamviewer/doc/*" % get.installDIR(),0755)
+    shelltools.chmod("%s/opt/teamviewer/tv_bin/*" % get.installDIR(),0755)
