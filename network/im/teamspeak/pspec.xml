@@ -10,7 +10,7 @@
         <Summary>Crystal Clear Cross-Platform Voice Communication</Summary>
         <Description>VoIP software designed with security in mind, featuring crystal clear voice quality, endless customization options, and scalabilty up to thousands of simultaneous users.</Description>
         <License>Copyright (c) TeamSpeak Systems GmbH.</License>
-        <Archive sha1sum="87ab161865e9ba694e4862a81a9d06f6c5a7ed3b" type="binary">http://dl.4players.de/ts/releases/3.0.19.4/TeamSpeak3-Client-linux_amd64-3.0.19.4.run</Archive>
+        <Archive sha1sum="87ab161865e9ba694e4862a81a9d06f6c5a7ed3b" type="binary">http://teamspeak.gameserver.gamed.de/ts3/releases/3.0.19.4/TeamSpeak3-Client-linux_amd64-3.0.19.4.run</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
             <Dependency>sed</Dependency>
@@ -34,6 +34,13 @@
     </Package>
 
     <History>
+        <Update release="3">
+            <Date>01-03-2017</Date>
+            <Version>3.0.19.4</Version>
+            <Comment>Change download URL</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
         <Update release="2">
             <Date>26-07-2016</Date>
             <Version>3.0.19.4</Version>
