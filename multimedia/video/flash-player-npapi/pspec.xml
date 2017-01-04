@@ -23,6 +23,9 @@
             <Path fileType="data">/usr/share/icons</Path>
             <Path fileType="data">/usr/share/pixmaps</Path>
         </Files>
+        <Replaces>
+            <Package>flash-player-nonfree</Package>
+        </Replaces>
     </Package>
 
     <History>
