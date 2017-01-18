@@ -11,7 +11,7 @@
         <Summary>3D interface for satellite imagery from Google</Summary>
         <Description>Google Earth provides a 3D interface for viewing satellite imagery and maps.</Description>
         <License>EULA</License>
-        <Archive sha1sum="da42cdc66f278ef5ec68e0ee0262d619139b409b" type="binary">https://dl.google.com/dl/earth/client/current/google-earth-stable_current_amd64.deb</Archive>
+        <Archive sha1sum="f02bad883d13db6e87bae7a38c59e386acd1d4ab" type="binary">https://dl.google.com/dl/earth/client/current/google-earth-stable_current_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -31,6 +31,16 @@
             <Path fileType="data">/usr</Path>
         </Files>
     </Package>
+
+    <History>
+        <Update release="3">
+            <Date>19-01-2017</Date>
+            <Version>7.1.8.3036</Version>
+            <Comment>Update to 7.1.8.3036</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+    </History>
 
     <History>
         <Update release="2">
