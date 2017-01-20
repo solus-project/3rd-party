@@ -11,7 +11,7 @@
         <Summary>Opera Web Browser</Summary>
         <Description>Opera Web Browser</Description>
         <License>EULA</License>
-        <Archive sha1sum="077f4bb24ca5f6b97940133bde62f6da82e37486" type="binary">http://download4.operacdn.com/pub/opera/desktop/42.0.2393.85/linux/opera-stable_42.0.2393.85_amd64.deb</Archive>
+        <Archive sha1sum="deef1ea258b20c0564bdb774a996d8bf20b70ff0" type="binary">http://operasoftware.pc.cdn.bitgravity.com/pub/opera/desktop/42.0.2393.137/linux/opera-stable_42.0.2393.137_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -37,6 +37,14 @@
     </Package>
 
     <History>
+        <Update release="31">
+            <Date>01-21-2017</Date>
+            <Version>42.0.2393.137</Version>
+            <Comment>Update to 42.0.2393.137</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
         <Update release="30">
             <Date>12-17-2016</Date>
             <Version>42.0.2393.85</Version>
