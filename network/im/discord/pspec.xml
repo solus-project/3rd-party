@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>discord</Name>
+        <Packager>
+            <Name>Nils Andreas Svee</Name>
+            <Email>me@lochnair.net</Email>
+        </Packager>
+        <Summary>All-in-one voice and text chat for gamers</Summary>
+        <Description>All-in-one voice and text chat for gamers that's free, secure, and works on both your desktop and phone.</Description>
+        <License>Proprietary</License>
+        <Archive sha1sum="bdead92b979a175a985ad89dcc74fd7c65832fe0" type="binary">https://dl.discordapp.net/apps/linux/0.0.1/discord-0.0.1.deb</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <RuntimeDependencies>
+            <Dependency>gconf</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
+        </RuntimeDependencies>
+        <Name>discord</Name>
+        <Icon>discord</Icon>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="data">/usr/share/discord</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="data">/usr/share/pixmaps</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>01-26-2017</Date>
+            <Version>0.0.1</Version>
+            <Comment>Add Discord</Comment>
+            <Name>Nils Andreas Svee</Name>
+            <Email>me@lochnair.net</Email>
+        </Update>
+    </History>
+</PISI>
