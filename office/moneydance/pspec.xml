@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<!DOCTYPE PISI SYSTEM "https://evolve-os.com/standard/pisi-spec.dtd">
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
 <PISI>
     <Source>
         <Name>moneydance</Name>
@@ -10,7 +10,7 @@
         <Summary>A personal finance manager for Mac, Windows and Linux</Summary>
         <Description>A personal finance manager for Mac, Windows and Linux</Description>
         <License>Custom</License>
-        <Archive sha1sum="cda91529780de322b10609bc0476ca843fc7805f" type="binary">http://infinitekind.com/stabledl/2015/moneydance_linux_amd64.deb</Archive>
+        <Archive sha1sum="2bfe6339817ce03993e72e8a89fd7368d60ff993" type="binary">http://infinitekind.com/stabledl/2017.2_1597/moneydance_linux_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -29,6 +29,14 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>01-28-2017</Date>
+            <Version>2017.2.1597</Version>
+            <Comment>Update to 2017.2.1597</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
         <Update release="1">
             <Date>10-22-2016</Date>
             <Version>2015.1358</Version>
