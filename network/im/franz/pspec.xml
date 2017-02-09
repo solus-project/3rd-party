@@ -25,6 +25,8 @@
         </Files>
         <RuntimeDependencies>
             <Dependency>libgtk-2</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
         </RuntimeDependencies>
     </Package>
     <History>
