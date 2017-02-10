@@ -10,7 +10,7 @@
         <Summary>AnyDesk is a remote desktop application</Summary>
         <Description>AnyDesk is a remote desktop application</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="d6381c84ad733a1b11179dfba4a957577104727a" type="binary">http://download.anydesk.com/linux/anydesk_2.5.0-1_amd64.deb</Archive>
+        <Archive sha1sum="30be0d4c143a3271e559068d9c571e0157ade634" type="binary">http://download.anydesk.com/linux/anydesk_2.6.1-1_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -30,6 +30,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>02-09-2017</Date>
+            <Version>2.6.1</Version>
+            <Comment>Update to 2.6.1</Comment>
+            <Name>Silesh K Nair</Name>
+            <Email>sileshn@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>12-11-2016</Date>
             <Version>2.5.0</Version>
