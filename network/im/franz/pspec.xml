@@ -24,10 +24,19 @@
             <Path fileType="*">/</Path>
         </Files>
         <RuntimeDependencies>
+            <Dependency>gconf</Dependency>
             <Dependency>libgtk-2</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="7">
+            <Date>14-02-2017</Date>
+            <Version>4.0.4</Version>
+            <Comment>Added gconf and libxscrnsaver as rundeps.</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
         <Update release="6">
             <Date>13-09-2016</Date>
             <Version>4.0.4</Version>
