@@ -11,7 +11,7 @@
         <Summary>Adobe Flash Player (NPAPI)</Summary>
         <Description>Adobe Flash Player (NPAPI).</Description>
         <License>EULA</License>
-        <Archive sha1sum="3bb39905346d71d2212626ca21d4531627f7d76e" type="binary">https://fpdownload.adobe.com/get/flashplayer/pdc/24.0.0.186/flash_player_npapi_linux.x86_64.tar.gz</Archive>
+        <Archive sha1sum="70a56b541f0e980ed64f054799e23f92a91feceb" type="binary">https://fpdownload.adobe.com/get/flashplayer/pdc/24.0.0.221/flash_player_npapi_linux.x86_64.tar.gz</Archive>
     </Source>
     <Package>
         <Name>flash-player-npapi</Name>
@@ -29,6 +29,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>02-14-2017</Date>
+            <Version>24.0.0.221</Version>
+            <Comment>Update of Adobe Flash (NPAPI) in Third Party</Comment>
+            <Name>Jorge Euceda</Name>
+            <Email>jeuce004@fiu.edu</Email>
+        </Update>
         <Update release="1">
             <Date>12-14-2016</Date>
             <Version>24.0.0.186</Version>
