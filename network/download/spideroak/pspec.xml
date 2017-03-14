@@ -11,14 +11,14 @@
         <Description>Spideroak one is a reliable, private backup for everything in your life.</Description>
         <License>Custom - https://spideroak.com/policy/terms-of-use</License>
         <Archive sha1sum="81e7e03038169062f7eb223b6b1e5761b5e5db69" type="binary">https://spideroak.com/getbuild?platform=ubuntu&amp;arch=x86_64</Archive>
-    
+
     <BuildDependencies>
 		<Dependency>glib2</Dependency>
 		<Dependency>fontconfig</Dependency>
 		<Dependency>libnih</Dependency>
-	    	<Dependency>binutils</Dependency>
+		<Dependency>binutils</Dependency>
     </BuildDependencies>
-    
+
     </Source>
 
     <Package>
