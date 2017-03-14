@@ -11,14 +11,11 @@
         <Description>Spideroak one is a reliable, private backup for everything in your life.</Description>
         <License>Custom - https://spideroak.com/policy/terms-of-use</License>
         <Archive sha1sum="81e7e03038169062f7eb223b6b1e5761b5e5db69" type="binary">https://spideroak.com/getbuild?platform=ubuntu&amp;arch=x86_64</Archive>
-    
-    <BuildDependencies>
-        <Dependency>binutils</Dependency>
-        <Dependency>glib2</Dependency>
-        <Dependency>fontconfig</Dependency>
-        <Dependency>libnih</Dependency>
-    </BuildDependencies>
-    
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+            <Dependency>glib2</Dependency>
+            <Dependency>fontconfig</Dependency>
+        </BuildDependencies>
     </Source>
 
     <Package>
@@ -26,9 +23,19 @@
         <Files>
             <Path fileType="*">/</Path>
         </Files>
+        <RuntimeDependencies>
+            <Dependency>libnih</Dependency>
+        </RuntimeDependencies>
     </Package>
 
     <History>
+        <Update release="3">
+            <Date>03-14-2017</Date>
+            <Version>6.1.5</Version>
+            <Comment>Moved libnih to being a rundep.</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
         <Update release="2">
             <Date>03-14-2017</Date>
             <Version>6.1.5</Version>
