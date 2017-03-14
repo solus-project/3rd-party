@@ -16,6 +16,7 @@
 		<Dependency>glib2</Dependency>
 		<Dependency>fontconfig</Dependency>
 		<Dependency>libnih</Dependency>
+	    	<Dependency>binutils</Dependency>
     </BuildDependencies>
     
     </Source>
