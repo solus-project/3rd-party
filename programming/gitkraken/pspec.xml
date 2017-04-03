@@ -11,7 +11,7 @@
         <Summary>The downright luxurious Git client, for Windows, Mac and Linux</Summary>
         <Description>The downright luxurious Git client, for Windows, Mac and Linux</Description>
         <License>EULA</License>
-        <Archive sha1sum="e0856de66651fb26bb6a0a367191739bc11cc7f1" type="binary">https://release.gitkraken.com/linux/gitkraken-amd64.deb</Archive>
+        <Archive sha1sum="223a6ea3917c10daa8df4a6ae83a511559b4f54d" type="binary">https://release.gitkraken.com/linux/gitkraken-amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -34,6 +34,14 @@
     </Package>
 
     <History>
+        <Update release="20">
+            <Date>04-04-2017</Date>
+            <Version>2.3.1</Version>
+            <Comment>Update to 2.3.1</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+
         <Update release="19">
             <Date>03-23-2017</Date>
             <Version>2.2.1</Version>
