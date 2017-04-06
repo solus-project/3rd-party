@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>spotify</Name>
+        <Homepage />
+        <Packager>
+            <Name>Michael Karbowiak</Name>
+            <Email>karbowiak@gmail.com</Email>
+        </Packager>
+        <Summary>A music player from Spotify</Summary>
+        <Description>Spotify desktop client</Description>
+        <License>EULA</License>
+        <Archive sha1sum="bddfe705cfa095a4d726c7904173cdd9c10559bb" type="binary">http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.0.19.106.gb8a7150f_amd64.deb</Archive>
+
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>spotify</Name>
+        <Icon>spotify</Icon>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/spotify</Path>
+            <Path fileType="executable">/usr/share/spotify/spotify</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>gconf</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>12-19-2015</Date>
+            <Version>1.0.19.106</Version>
+            <Comment>Add Spotify to repositories</Comment>
+            <Name>Michael Karbowiak</Name>
+            <Email>karbowiak@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
