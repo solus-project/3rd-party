@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>widevine</Name>
+        <Homepage>http://www.widevine.com/wv_drm.html</Homepage>
+        <Packager>
+            <Name>Federico Damián Schonborn</Name>
+            <Email>federico.d.schonborn@protonmail.com</Email>
+        </Packager>
+        <Summary>Widevine DRM Plugin (PPAPI)</Summary>
+        <Description>Widevine DRM Plugin (PPAPI)</Description>
+        <License>EULA</License>
+        <Archive sha1sum="72ccee07bda86dd2f4a02ab5e255a2dcdb5a9fca" type="binary">http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_55.0.2883.87-1_amd64.deb</Archive>
+    </Source>
+    <Package>
+        <Name>widevine</Name>
+        <Icon>widevine</Icon>
+        <Files>
+            <Path fileType="library">/opt</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>12-15-2016</Date>
+            <Version>55.0.2883.87</Version>
+            <Comment>Initial inclusion of the Widevine DRM Plugin in Third Party</Comment>
+            <Name>Federico Damián Schonborn</Name>
+            <Email>federico.d.schonborn@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>
