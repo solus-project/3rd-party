@@ -1,2 +1,2 @@
 #!/bin/bash
-bitwig-studio &> /dev/null
+LD_PRELOAD="/usr/lib64/libxcb.so.1" bitwig-studio &> /dev/null
