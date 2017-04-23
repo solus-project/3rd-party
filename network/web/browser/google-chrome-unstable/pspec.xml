@@ -30,6 +30,7 @@
         <Icon>google-chrome</Icon>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/appdata</Path>
             <Path fileType="data">/usr/share/applications</Path>
             <Path fileType="data">/usr/share/icons</Path>
             <Path fileType="doc">/usr/share/doc</Path>
