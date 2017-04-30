@@ -1,11 +1,10 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=PyCharm
+Name=PyCharm Community
 Icon=/opt/pycharm-ce/bin/pycharm.png
 Exec=pycharm-ce %f
 Comment=The Drive to Develop
 Categories=Development;IDE;
 Terminal=false
 StartupWMClass=jetbrains-pycharm
-Name[en_US]=pycharm-ce
