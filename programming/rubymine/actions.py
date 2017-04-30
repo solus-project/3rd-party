@@ -7,6 +7,6 @@ WorkDir = "."
 Version =  get.srcVERSION()
 
 def install():
-    shutil.rmtree("RubyMine-%s/jre" % Version)
+    shutil.rmtree("RubyMine-%s/jre64" % Version)
     pisitools.insinto("/opt/rubymine", "RubyMine-%s/*" % Version)
     pisitools.dosym("/opt/rubymine/bin/rubymine.sh", "/usr/bin/rubymine")
