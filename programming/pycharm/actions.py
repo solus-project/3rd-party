@@ -7,6 +7,6 @@ WorkDir = "."
 Version =  get.srcVERSION()
 
 def install():
-    shutil.rmtree("pycharm-%s/jre" % Version)
+    shutil.rmtree("pycharm-%s/jre64" % Version)
     pisitools.insinto("/opt/pycharm", "pycharm-%s/*" % Version)
     pisitools.dosym("/opt/pycharm/bin/pycharm.sh", "/usr/bin/pycharm")
