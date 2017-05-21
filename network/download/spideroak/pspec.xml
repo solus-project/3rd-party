@@ -10,7 +10,7 @@
         <Summary>Spideroak One, zero knowledge private backup.</Summary>
         <Description>Spideroak one is a reliable, private backup for everything in your life.</Description>
         <License>Custom - https://spideroak.com/policy/terms-of-use</License>
-        <Archive sha1sum="d98d1b1c0a63ffa625d3e35e53a40be7b9cf009b" type="binary">https://spideroak.com/getbuild?platform=ubuntu&amp;arch=x86_64</Archive>
+        <Archive sha1sum="6b5a270659b6735e6f627caa207b2f57db54c954" type="binary">https://spideroak.com/getbuild?platform=ubuntu&amp;arch=x86_64</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
             <Dependency>glib2</Dependency>
@@ -29,6 +29,14 @@
     </Package>
 
     <History>
+        <Update release="6">
+            <Date>05-21-2017</Date>
+            <Version>6.1.9</Version>
+            <Comment>Downgrade to 6.1.9</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+
         <Update release="5">
             <Date>05-09-2017</Date>
             <Version>6.2.0</Version>
