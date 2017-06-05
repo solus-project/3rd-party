@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>lightworks</Name>
+        <Packager>
+            <Name>Sucipto</Name>
+            <Email>chip@pringstudio.com</Email>
+        </Packager>
+        <Summary>Hollywood-strength editing for everyone</Summary>
+        <Description>Lightworks is the fastest, most accessible and focused NLE in the industry,
+ because it is based on the  simple idea that the editor, not the computer
+ industry, knows what’s best. The latest release of Lightworks is based on
+ the cumulative knowledge from twenty years of top-flight editing.
+</Description>
+        <License>Proprietary</License>
+        <Archive sha1sum="7c4525f1a2c1102eb7beeb80c1833e1e4709b6f9" type="binary">http://downloads.lwks.com/v14/lwks-14.0.0-amd64.deb</Archive>
+	<Archive sha1sum="0964d771ee80c4fc3c501c1d4e4956f50551a48d" type="binary">http://ftp.us.debian.org/debian/pool/non-free/n/nvidia-cg-toolkit/libcg_3.1.0013-2_amd64.deb</Archive>
+	<Archive sha1sum="cb40c84c9134e69906d3a5f42ca53b0c43d49ec5" type="binary">http://ftp.us.debian.org/debian/pool/non-free/n/nvidia-cg-toolkit/libcggl_3.1.0013-2_amd64.deb</Archive>
+
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>lightworks</Name>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="data">/usr/share/lightworks</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="data">/usr/share/fonts</Path>
+            <Path fileType="library">/usr/lib</Path>
+            <Path fileType="library">/usr/lib64</Path>
+            <Path fileType="library">/lib/udev</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>libcairo</Dependency>
+            <Dependency>libgcc</Dependency>
+            <Dependency>gdk-pixbuf</Dependency>
+            <Dependency>libglu</Dependency>
+            <Dependency>libgtk-3</Dependency>
+            <Dependency>libjpeg-turbo</Dependency>
+            <Dependency>pango</Dependency>
+            <Dependency>libstdc++</Dependency>
+            <Dependency>portaudio</Dependency>
+            <Dependency>libtiff</Dependency>
+        </RuntimeDependencies>
+
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>20-04-2017</Date>
+            <Version>14.0.0</Version>
+            <Comment>Add lightworks to repositories</Comment>
+            <Name>Sucipto</Name>
+            <Email>chip@pringstudio.com</Email>
+        </Update>
+    </History>
+</PISI>
