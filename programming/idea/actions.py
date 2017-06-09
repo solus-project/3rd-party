@@ -7,5 +7,5 @@ WorkDir = "."
 
 
 def install():
-    pisitools.insinto("/opt/idea", "idea-IU-171.4249.39/*")
+    pisitools.insinto("/opt/idea", "idea-IU-*/*")
     pisitools.dosym("/opt/idea/bin/idea.sh", "/usr/bin/idea")

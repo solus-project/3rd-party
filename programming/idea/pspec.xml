@@ -1,3 +1,5 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
 <PISI>
     <Source>
         <Name>idea</Name>
@@ -10,7 +12,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Idea - an IDE for the JVM Languages</Summary>
         <Description xml:lang="en">Idea - an IDE for the JVM Languages</Description>
-        <Archive type="targz" sha1sum="112aaf90f2722f306796321b8a51e4df084ef4ee">https://download.jetbrains.com/idea/ideaIU-2017.1.2-no-jdk.tar.gz</Archive>
+        <Archive sha1sum="c37a15c9a4eddf63762cf8b8e6a05f86f2ccc504" type="targz">https://download.jetbrains.com/idea/ideaIU-2017.1.4-no-jdk.tar.gz</Archive>
     </Source>
     <Package>
         <Name>idea</Name>
@@ -30,6 +32,14 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="10">
+            <Date>06-09-2017</Date>
+            <Version>2017.1.4</Version>
+            <Comment>Update to 2017.1.4</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+
         <Update release="9">
             <Date>2017-04-30</Date>
             <Version>2017.1.2</Version>
