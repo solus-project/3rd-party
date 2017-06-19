@@ -11,7 +11,7 @@
         <Summary>WPS Office Suite</Summary>
         <Description>WPS Office Suite</Description>
         <License>http://wps-community.org/license.md</License>
-        <Archive sha1sum="80d884c47eaeee3305958ed87e61eafbee30b0cf" type="binary">http://kdl.cc.ksosoft.com/wps-community/download/a21/wps-office_10.1.0.5672~a21_amd64.deb</Archive>
+        <Archive sha1sum="c6c13413d1c974468d0589498c41870146fd9a91" type="binary">http://kdl.cc.ksosoft.com/wps-community/download/a21/wps-office_10.1.0.5707~a21_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -29,6 +29,13 @@
     </Package>
 
     <History>
+        <Update release="4">
+            <Date>06-19-2017</Date>
+            <Version></Version>
+            <Comment>Update to wps-office 2016</Comment>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Update>
         <Update release="3">
             <Date>06-27-2016</Date>
             <Version>10.1.0.5672</Version>
