@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=0.3.10
+Type=Application
+Name=Popcorn Time
+Icon=/opt/popcorn-time/src/app/images/icon.png
+Exec=Popcorn-Time %f
+Comment=Watch Movies and TV Shows instantly
+Categories=AudioVideo;Video;Network;Player;P2P;
+StartupNotify=false
