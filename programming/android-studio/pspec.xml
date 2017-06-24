@@ -1,3 +1,5 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
 <PISI>
     <Source>
         <Name>android-studio</Name>
@@ -10,7 +12,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Android development environment based on IntelliJ IDEA.</Summary>
         <Description xml:lang="en">Android development environment based on IntelliJ IDEA.</Description>
-        <Archive type="binary" sha1sum="9724ab2501be8ef9435788845f2d8e41b7e5c6d0">https://dl.google.com/dl/android/studio/ide-zips/2.3.2.0/android-studio-ide-162.3934792-linux.zip</Archive>
+        <Archive sha1sum="0d636009aa98f278311dd5d68bca1c948803dde2" type="binary">https://dl.google.com/dl/android/studio/ide-zips/2.3.3.0/android-studio-ide-162.4069837-linux.zip</Archive>
     </Source>
     <Package>
         <Name>android-studio</Name>
@@ -34,7 +36,15 @@
         </RuntimeDependencies>
     </Package>
     <History>
-      <Update release="7">
+      <Update release="8">
+            <Date>06-24-2017</Date>
+            <Version>2.3.3.0</Version>
+            <Comment>Update to 2.3.3.0</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="7">
           <Date>2017-05-29</Date>
           <Version>2.3.2.0</Version>
           <Comment>Update to 2.3.2.0</Comment>
