@@ -10,7 +10,7 @@
         <Summary>Music production system for production, remixing and performance.</Summary>
         <Description>Music production system for production, remixing and performance.</Description>
         <License>Custom - https://www.bitwig.com/en/impressum.html</License>
-        <Archive sha1sum="bda23e995c012c8e6a9108575963cc922a002992" type="binary">https://downloads.bitwig.com/stable/2.0/bitwig-studio-2.0.deb</Archive>
+        <Archive sha1sum="83cc1b7776a206d18fde97db374fcb8ae89d42d5" type="binary">https://downloads.bitwig.com/stable/2.1.1/bitwig-studio-2.1.1.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -40,6 +40,14 @@
     </Package>
 
     <History>
+        <Update release="4">
+            <Date>07-05-2017</Date>
+            <Version>2.1.1</Version>
+            <Comment>Update to 2.1.1</Comment>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Update>
+
         <Update release="3">
             <Date>03-30-2017</Date>
             <Version>2.0</Version>
