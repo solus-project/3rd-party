@@ -2,13 +2,13 @@
 
 # Created For Solus Operating System
 
-from pisi.actionsapi import pisitools, shelltools
+from pisi.actionsapi import pisitools, shelltools, get
 
 NoStrip = ["/opt", "/usr"]
 IgnoreAutodep = True
 
 def setup():
-    shelltools.system("ar xf google-earth-stable_current_amd64.deb")
+    shelltools.system("ar xf google-earth-stable_%s-r0_amd64.deb" % get.srcVERSION())
     shelltools.system("tar xvf data.tar.xz")
     shelltools.system("mv opt/google/earth/free/google-earth.desktop .")
 
