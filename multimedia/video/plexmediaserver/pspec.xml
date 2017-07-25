@@ -10,7 +10,7 @@
         <Summary>Plex Media Server</Summary>
         <Description>Plex Media Server</Description>
         <License>Custom - https://plex.tv/legal</License>
-        <Archive sha1sum="3642df3340c3249d345b2c81347699f2ba36438f" type="binary">https://downloads.plex.tv/plex-media-server/1.5.5.3634-995f1dead/plexmediaserver_1.5.5.3634-995f1dead_amd64.deb</Archive>
+        <Archive sha1sum="f43884732dfb1eda70329ee596666655e9c10217" type="binary">https://downloads.plex.tv/plex-media-server/1.7.5.4035-313f93718/plexmediaserver_1.7.5.4035-313f93718_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -27,6 +27,14 @@
     </Package>
 
     <History>
+        <Update release="10">
+            <Date>23-07-2017</Date>
+            <Version>1.7.5.4035</Version>
+            <Comment>Update to 1.7.5.4035</Comment>
+            <Name>Dakota Keeler</Name>
+            <Email>bearzrobotics@gmail.com</Email>
+        </Update>
+        
         <Update release="9">
             <Date>23-04-2017</Date>
             <Version>1.5.5.3634</Version>
