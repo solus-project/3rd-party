@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">PHPStorm - an IDE for the PHP Language</Summary>
         <Description xml:lang="en">PHPStorm - an IDE for the PHP Language</Description>
-        <Archive type="targz" sha1sum="268bcbdf8e65706180e2ab00d36923d55941fe97">https://download.jetbrains.com/webide/PhpStorm-2017.1.4.tar.gz</Archive>
+        <Archive type="targz" sha1sum="3aa66e8c3595e66855844fd9de3ab8fb41e1c31b">https://download.jetbrains.com/webide/PhpStorm-2017.2.tar.gz</Archive>
     </Source>
     <Package>
         <Name>phpstorm</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="6">
+            <Date>2017-07-27</Date>
+            <Version>2017.2</Version>
+            <Comment>Updated to 2017.2</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@solus-project.com</Email>
+        </Update>
         <Update release="5">
             <Date>2017-06-20</Date>
             <Version>2017.1.4</Version>
