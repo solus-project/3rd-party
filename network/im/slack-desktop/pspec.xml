@@ -10,7 +10,7 @@
         <Summary>Team communication for the 21st century.</Summary>
         <Description>Team communication for the 21st century.</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="31e8ffd179232f9aff8366a8b506ac2051dc2cda" type="binary">https://downloads.slack-edge.com/linux_releases/slack-desktop-2.7.0-amd64.deb</Archive>
+        <Archive sha1sum="f97172bead24761f1c119b9e6cb305ea607ba20e" type="binary">https://downloads.slack-edge.com/linux_releases/slack-desktop-2.7.1-amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -37,6 +37,13 @@
     </Package>
 
     <History>
+        <Update release="10">
+            <Date>08-17-2017</Date>
+            <Version>2.7.1</Version>
+            <Comment>Update to 2.7.1</Comment>
+            <Name>Matthew Critchlow</Name>
+            <Email>matt.critchlow@gmail.com</Email>
+        </Update>
         <Update release="9">
             <Date>08-03-2017</Date>
             <Version>2.7.0</Version>
