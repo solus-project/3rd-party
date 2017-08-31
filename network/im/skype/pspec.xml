@@ -9,8 +9,8 @@
         </Packager>
         <Summary>Skype keeps the world talking, for free.</Summary>
         <Description>Skype keeps you together. Call, message and share with others.</Description>
-        <License>Copyright (c) 2016 Skype and/or Microsoft</License>
-        <Archive sha1sum="b14605240ce2744888ffd5239ebd4e6fbd1a6fcf" type="binary">https://repo.skype.com/deb/pool/main/s/skypeforlinux/skypeforlinux_5.4.0.1_amd64.deb</Archive>
+        <License>Copyright (c) 2017 Skype and/or Microsoft</License>
+        <Archive sha1sum="2b936d39a129ce42caf4b0dd8ae24143e02da3b2" type="binary">https://repo.skype.com/deb/pool/main/s/skypeforlinux/skypeforlinux_8.5.76.55323_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -35,6 +35,14 @@
     </Package>
     
     <History>
+        <Update release="23">
+            <Date>08-31-2017</Date>
+            <Version>8.5.76.55323</Version>
+            <Comment>Update Skype to 8.5.76.55323</Comment>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Update>
+
         <Update release="22">
             <Date>07-18-2017</Date>
             <Version>5.4.0.1</Version>
