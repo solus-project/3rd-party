@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://evolve-os.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>scrivener</Name>
+        <Homepage>https://www.literatureandlatte.com/</Homepage>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <Summary>A powerful content-generation tool for writers</Summary>
+        <Description>A powerful content-generation tool for writersf</Description>
+        <License>https://www.literatureandlatte.com/licence.php</License>
+        <Archive sha1sum="e3d214b8510a54d5363679a9ea31fee303435f63" type="binary">http://www.literatureandlatte.com/scrivenerforlinux/scrivener-1.9.0.1-amd64.deb</Archive>
+
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>scrivener</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>gst-plugins-base</Dependency>
+            <Dependency>libpng12</Dependency>
+            <Dependency>libxrender</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="2">
+            <Date>11-03-2016</Date>
+            <Version>1.9.0.1</Version>
+            <Comment>Fix icon installation</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="1">
+            <Date>10-22-2016</Date>
+            <Version>1.9.0.1</Version>
+            <Comment>Added scrivener to repo</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>

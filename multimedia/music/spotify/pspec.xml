@@ -1,0 +1,300 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>spotify</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Packager>
+        <Summary>Spotify Music, Video and Podcast Streaming Client.</Summary>
+        <Description>Spotify is a Swedish commercial music streaming, podcast and video service that provides digital rights management-protected[3] content from record labels and media companies.</Description>
+        <License>Copyright (c) 2006-2010 Spotify Ltd.</License>
+        <Archive sha1sum="bf117a86bbbec536c2d3576836fb53f3e7fcd2fe" type="binary">http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.0.59.395.ge6ca9946-18_amd64.deb</Archive>
+
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>spotify</Name>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="data">/usr/share/spotify</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>gconf</Dependency>
+        </RuntimeDependencies>
+
+    </Package>
+
+    <History>
+        <Update release="33">
+            <Date>07-20-2017</Date>
+            <Version>1.0.59.395</Version>
+            <Comment>Update to 1.0.59.395</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@solus-project.com</Email>
+        </Update>
+
+        <Update release="32">
+            <Date>06-23-2017</Date>
+            <Version>1.0.57.474</Version>
+            <Comment>Update to 1.0.57.474</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+
+        <Update release="31">
+            <Date>05-24-2017</Date>
+            <Version>1.0.55.487</Version>
+            <Comment>1.0.55.487.g256699aa-16</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="30">
+            <Date>04-14-2017</Date>
+            <Version>1.0.53.758</Version>
+            <Comment>Update to 1.0.53.758.gde3fc4b2-33</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+
+        <Update release="29">
+            <Date>03-26-2017</Date>
+            <Version>1.0.52.717</Version>
+            <Comment>Update to 1.0.52.717.g2f08534a-47</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="28">
+            <Date>02-25-2017</Date>
+            <Version>1.0.49.125</Version>
+            <Comment>Update to 1.0.49.125.g72ee7853-111</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="27">
+            <Date>02-11-2017</Date>
+            <Version>1.0.48.103</Version>
+            <Comment>Update to 1.0.48.103.g15edf1ec-121</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="26">
+            <Date>01-31-2017</Date>
+            <Version>1.0.48.103</Version>
+            <Comment>Update to 1.0.48.103</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+
+        <Update release="25">
+            <Date>12-26-2016</Date>
+            <Version>1.0.44.100</Version>
+            <Comment>Update to 1.0.44.100</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="24">
+            <Date>12-21-2016</Date>
+            <Version>1.0.45.186</Version>
+            <Comment>Update to 1.0.45.186</Comment>
+            <Name>Stefan Ric</Name>
+            <Email>stfric369@gmail.com</Email>
+        </Update>
+
+        <Update release="23">
+            <Date>12-16-2016</Date>
+            <Version>1.0.45.182</Version>
+            <Comment>Update to 1.0.45.182</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="22">
+            <Date>12-02-2016</Date>
+            <Version>1.0.43.125</Version>
+            <Comment>Update to 1.0.43.125</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="21">
+            <Date>11-29-2016</Date>
+            <Version>1.0.43.123</Version>
+            <Comment>Fixed download link</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Update>
+
+        <Update release="20">
+            <Date>11-25-2016</Date>
+            <Version>1.0.43.123</Version>
+            <Comment>Update to 1.0.43.123</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="19">
+            <Date>11-10-2016</Date>
+            <Version>1.0.42.151</Version>
+            <Comment>Update to 1.0.42.151</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="18">
+            <Date>09-24-2016</Date>
+            <Version>1.0.38.171</Version>
+            <Comment>Update to 1.0.38.171</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="17">
+            <Date>09-03-2016</Date>
+            <Version>1.0.37.152</Version>
+            <Comment>Update to 1.0.37.152</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="16">
+            <Date>08-12-2016</Date>
+            <Version>1.0.36.120</Version>
+            <Comment>Update to 1.0.36.120</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="15">
+            <Date>08-06-2016</Date>
+            <Version>1.0.34.146</Version>
+            <Comment>Update to 1.0.34.146</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+
+        <Update release="14">
+            <Date>08-04-2016</Date>
+            <Version>1.0.33.106</Version>
+            <Comment>Update to 1.0.33.106</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="13">
+            <Date>06-27-2016</Date>
+            <Version>1.0.32.96</Version>
+            <Comment>Update to 1.0.32.96</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="12">
+            <Date>04-29-2016</Date>
+            <Version>1.0.28.89</Version>
+            <Comment>Update to 1.0.28.89</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="11">
+            <Date>04-10-2016</Date>
+            <Version>1.0.27.71</Version>
+            <Comment>Update to 1.0.27.71</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="10">
+            <Date>03-31-2016</Date>
+            <Version>1.0.26.125</Version>
+            <Comment>Update to 1.0.26.125_15</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="9">
+            <Date>03-31-2016</Date>
+            <Version>1.0.26.125</Version>
+            <Comment>Update to 1.0.26.125</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="8">
+            <Date>03-13-2016</Date>
+            <Version>1.0.25.127</Version>
+            <Comment>Update to 1.0.25.127</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="7">
+            <Date>02-20-2016</Date>
+            <Version>1.0.23.93</Version>
+            <Comment>Package bump</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="6">
+            <Date>02-20-2016</Date>
+            <Version>1.0.23.93</Version>
+            <Comment>Package bump</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="5">
+            <Date>02-19-2016</Date>
+            <Version>1.0.23.93</Version>
+            <Comment>Update to 1.0.23.93</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="4">
+            <Date>02-19-2016</Date>
+            <Version>1.0.23.93</Version>
+            <Comment>Update to 1.0.23.93</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="3">
+            <Date>02-19-2016</Date>
+            <Version>1.0.23.93</Version>
+            <Comment>Update to 1.0.23.93</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="2">
+            <Date>01-21-2016</Date>
+            <Version>1.0.19.106</Version>
+            <Comment>Package bump</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="1">
+            <Date>01-12-2016</Date>
+            <Version>1.0.19.106</Version>
+            <Comment>Add spotify to repositories</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>

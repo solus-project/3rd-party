@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>viber</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <Summary>An instant messaging and VoIP app for various mobile operating systems.</Summary>
+        <Description>An instant messaging and VoIP app for various mobile operating systems.</Description>
+        <License>Custom</License>
+    <Archive sha1sum="78469bd7506a6f7b60e42c43e626b415bb012e93" type="binary">http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb</Archive>
+    <BuildDependencies>
+        <Dependency>binutils</Dependency>
+    </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>viber</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+    <RuntimeDependencies>
+        <Dependency>libxscrnsaver</Dependency>
+        <Dependency>gconf</Dependency>
+    </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="2">
+            <Date>18-01-2017</Date>
+            <Version>6.5.4</Version>
+            <Comment>Update to 6.5.4</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="1">
+            <Date>05-12-2016</Date>
+            <Version>6.0.1.5</Version>
+            <Comment>Initial adding of Viber</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>

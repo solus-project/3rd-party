@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Unity 3D
+Exec=/usr/bin/unity-editor
+Icon=unity-editor-icon
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Development;
+MimeType=x-scheme-handler/com.unity3d.kharma;

@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>ocenaudio</Name>
+        <Packager>
+            <Name>QORTEC</Name>
+            <Email>qortec.ca@gmail.com</Email>
+        </Packager>
+        <Summary>Ocenaudio is a fast, cross-platform audio editor.</Summary>
+        <Description>Ocenaudio is a fast, cross-platform audio editor.</Description>
+        <License>Proprietary</License>
+        <Archive sha1sum="b7a9a2bae6a672dbc993bde863e5ed4f03933afe" type="binary">https://www.ocenaudio.com/downloads/index.php/ocenaudio_debian64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <RuntimeDependencies>
+            <Dependency>gconf</Dependency>
+            <Dependency>jack-audio-connection-kit</Dependency>
+        </RuntimeDependencies>
+        <Name>ocenaudio</Name>
+        <Icon>ocenaudio</Icon>
+        <Files>
+            <Path fileType="executable">/opt/ocenaudio</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="data">/usr/share/icons</Path>
+            <Path fileType="data">/usr/share/mime</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="11">
+            <Date>06-29-2017</Date>
+            <Version>3.2.11</Version>
+            <Comment>Update to 3.2.11</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+
+        <Update release="10">
+            <Date>06-09-2017</Date>
+            <Version>3.2.9</Version>
+            <Comment>Update to 3.2.9</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+
+        <Update release="9">
+            <Date>05-19-2017</Date>
+            <Version>3.2.8</Version>
+            <Comment>Update to 3.2.8</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+
+        <Update release="8">
+            <Date>05-03-2017</Date>
+            <Version>3.2.7</Version>
+            <Comment>Update to 3.2.7</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+
+        <Update release="7">
+            <Date>02-05-2017</Date>
+            <Version>3.2.2</Version>
+            <Comment>Update to 3.2.2</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
+        </Update>
+
+        <Update release="6">
+            <Date>23-09-2016</Date>
+            <Version>3.1.10</Version>
+            <Comment>Update ocenaudio to 3.1.10</Comment>
+            <Name>QORTEC</Name>
+            <Email>qortec.ca@gmail.com</Email>
+        </Update>
+        <Update release="5">
+            <Date>12-09-2016</Date>
+            <Version>3.1.9</Version>
+            <Comment>Update ocenaudio to 3.1.9</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
+        </Update>
+        <Update release="4">
+            <Date>17-08-2016</Date>
+            <Version>3.1.8</Version>
+            <Comment>Update ocenaudio to 3.1.8</Comment>
+            <Name>QORTEC</Name>
+            <Email>qortec.ca@gmail.com</Email>
+        </Update>
+        <Update release="3">
+            <Date>12-08-2016</Date>
+            <Version>3.1.7</Version>
+            <Comment>Update ocenaudio to 3.1.7</Comment>
+            <Name>QORTEC</Name>
+            <Email>qortec.ca@gmail.com</Email>
+        </Update>
+        <Update release="2">
+            <Date>03-08-2016</Date>
+            <Version>3.1.6</Version>
+            <Comment>Update ocenaudio to 3.1.6</Comment>
+            <Name>QORTEC</Name>
+            <Email>qortec.ca@gmail.com</Email>
+        </Update>
+        <Update release="1">
+            <Date>18-07-2016</Date>
+            <Version>3.1.5</Version>
+            <Comment>Add ocenaudio to repositories</Comment>
+            <Name>QORTEC</Name>
+            <Email>qortec.ca@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

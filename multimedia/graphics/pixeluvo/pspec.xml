@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>pixeluvo</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <Summary>A Beautifully Designed Image and Photo Editor for Windows and Linux</Summary>
+        <Description>A Beautifully Designed Image and Photo Editor for Windows and Linux</Description>
+        <License>Custom</License>
+        <Archive sha1sum="60a7dbde0043ab61b53c6ae04c0c1f1f92d3ec7f" type="binary">http://www.pixeluvo.com/downloads/pixeluvo_1.6.0-2_amd64.deb</Archive>
+
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>pixeluvo</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0755" target="/usr/share/applications/pixeluvo.desktop">pixeluvo.desktop</AdditionalFile>
+        </AdditionalFiles>
+        <RuntimeDependencies>
+            <Dependency>qt4</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>10-24-2016</Date>
+            <Version>1.6.0</Version>
+            <Comment>Add pixeluvo to repositories</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>

@@ -1,0 +1,222 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>skype</Name>
+        <Packager>
+            <Name>QORTEC</Name>
+            <Email>qortec.ca@gmail.com</Email>
+        </Packager>
+        <Summary>Skype keeps the world talking, for free.</Summary>
+        <Description>Skype keeps you together. Call, message and share with others.</Description>
+        <License>Copyright (c) 2017 Skype and/or Microsoft</License>
+        <Archive sha1sum="794e6b7e69834a558e01271a6f9f6febd782a255" type="binary">https://repo.skype.com/deb/pool/main/s/skypeforlinux/skypeforlinux_8.6.76.56247_amd64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <RuntimeDependencies>
+            <Dependency>gconf</Dependency>
+            <Dependency>libgnome-keyring</Dependency>
+            <Dependency>libxscrnsaver-32bit</Dependency>
+        </RuntimeDependencies>
+        <Name>skype</Name>
+        <Icon>skypeforlinux</Icon>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="data">/usr/share/icons</Path>
+            <Path fileType="data">/usr/share/pixmaps</Path>
+            <Path fileType="data">/usr/share/skypeforlinux</Path>
+        </Files>
+    </Package>
+    
+    <History>
+        <Update release="24">
+            <Date>09-06-2017</Date>
+            <Version>8.6.76.56247</Version>
+            <Comment>Update Skype to 8.6.76.56247</Comment>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Update>
+
+        <Update release="23">
+            <Date>08-31-2017</Date>
+            <Version>8.5.76.55323</Version>
+            <Comment>Update Skype to 8.5.76.55323</Comment>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Update>
+
+        <Update release="22">
+            <Date>07-18-2017</Date>
+            <Version>5.4.0.1</Version>
+            <Comment>Update Skype to 5.4.0.1</Comment>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Update>
+
+        <Update release="21">
+            <Date>06-04-2017</Date>
+            <Version>5.3.0.1</Version>
+            <Comment>Update Skype to 5.3.0.1</Comment>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Update>
+
+        <Update release="20">
+            <Date>05-25-2017</Date>
+            <Version>5.2.0.1</Version>
+            <Comment>Update to 5.2.0.1</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="19">
+            <Date>04-07-2017</Date>
+            <Version>5.1.0.1</Version>
+            <Comment>Update to 5.1.0.1</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="18">
+            <Date>03-01-2017</Date>
+            <Version>5.0.0.5</Version>
+            <Comment>Update to 5.0.0.5</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="17">
+            <Date>02-04-2017</Date>
+            <Version>1.17.0.1</Version>
+            <Comment>Update to 1.17.0.1</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="16">
+            <Date>01-20-2017</Date>
+            <Version>1.16.0.1</Version>
+            <Comment>Update to 1.16.0.1</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+
+        <Update release="15">
+            <Date>01-16-2017</Date>
+            <Version>1.15.0.1</Version>
+            <Comment>Update to 1.15.0.1</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="14">
+            <Date>12-17-2016</Date>
+            <Version>1.14.0.5</Version>
+            <Comment>Update to 1.14.0.5</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="13">
+            <Date>11-25-2016</Date>
+            <Version>1.13.0.3</Version>
+            <Comment>Update to 1.13.0.3</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="12">
+            <Date>11-17-2016</Date>
+            <Version>1.12.0.4</Version>
+            <Comment>Update to 1.12.0.4</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
+        </Update>
+
+        <Update release="11">
+            <Date>10-28-2016</Date>
+            <Version>1.11.0.1</Version>
+            <Comment>Update to 1.11.0.1 and add libxscrnsaver</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="10">
+            <Date>10-11-2016</Date>
+            <Version>1.10.0.1</Version>
+            <Comment>Update to 1.10.0.1</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+
+        <Update release="9">
+            <Date>29-09-2016</Date>
+            <Version>1.9.0.2</Version>
+            <Comment>Updated Skype to 1.9.0.2</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="8">
+            <Date>15-09-2016</Date>
+            <Version>1.8.0.2</Version>
+            <Comment>Updated Skype to 1.8.0.2</Comment>
+            <Name>QORTEC</Name>
+            <Email>qortec.ca@gmail.com</Email>
+        </Update>
+        <Update release="7">
+            <Date>12-09-2016</Date>
+            <Version>1.7.0.1</Version>
+            <Comment>Updated Skype to 1.7.0.1</Comment>
+            <Name>QORTEC</Name>
+            <Email>qortec.ca@gmail.com</Email>
+        </Update>
+        <Update release="6">
+            <Date>02-09-2016</Date>
+            <Version>1.6.0.3</Version>
+            <Comment>Updated Skype to 1.6.0.3</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="5">
+            <Date>12-08-2016</Date>
+            <Version>1.5.0.3</Version>
+            <Comment>Updated Skype to 1.5.0.3</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="4">
+            <Date>30-07-2016</Date>
+            <Version>1.3.0.0</Version>
+            <Comment>Updated Skype to 1.3.0.0</Comment>
+            <Name>QORTEC</Name>
+            <Email>qortec.ca@gmail.com</Email>
+        </Update>
+        <Update release="3">
+            <Date>29-07-2016</Date>
+            <Version>1.2.0.1</Version>
+            <Comment>Added libgnome-keyring as rundep</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="2">
+            <Date>26-07-2016</Date>
+            <Version>1.2.0.1</Version>
+            <Comment>Updated Skype to 1.2.0.1</Comment>
+            <Name>QORTEC</Name>
+            <Email>qortec.ca@gmail.com</Email>
+        </Update>
+        <Update release="1">
+            <Date>17-07-2016</Date>
+            <Version>1.1.0.21</Version>
+            <Comment>Add skype to repositories</Comment>
+            <Name>QORTEC</Name>
+            <Email>qortec.ca@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>sunvox</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <Summary>Small, fast and powerful modular synthesizer with pattern-based sequencer (tracker).</Summary>
+        <Description>Small, fast and powerful modular synthesizer with pattern-based sequencer (tracker).</Description>
+        <License>Custom</License>
+        <Archive sha1sum="0518eb57c5efebe20faa1eaeb4c6111736a2ab94" type="binary">http://warmplace.ru/soft/sunvox/sunvox-1.9.2.zip</Archive>
+
+        <BuildDependencies>
+            <Dependency>unzip</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>sunvox</Name>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/opt/sunvox/sunvox</Path>
+            <Path fileType="data">/opt/sunvox/examples</Path>
+            <Path fileType="data">/opt/sunvox/instruments</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>alsa-lib</Dependency>
+            <Dependency>libxau</Dependency>
+            <Dependency>libxcb</Dependency>
+            <Dependency>libxdmcp</Dependency>
+            <Dependency>sdl1</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="2">
+            <Date>11-20-2016</Date>
+            <Version>1.9.2</Version>
+            <Comment>Update to 1.9.2</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="1">
+            <Date>10-23-2016</Date>
+            <Version>1.9.1</Version>
+            <Comment>Initial inclusion of 1.9.1</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>

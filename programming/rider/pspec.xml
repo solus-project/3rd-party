@@ -1,0 +1,41 @@
+<PISI>
+    <Source>
+        <Name>rider</Name>
+        <Packager>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bryan@solus-project.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <License>Proprietary</License>
+        <PartOf>programming</PartOf>
+        <Summary xml:lang="en">Rider - A cross-platform .NET IDE based on the IntelliJ platform and ReSharper</Summary>
+        <Description xml:lang="en">Rider - A cross-platform .NET IDE based on the IntelliJ platform and ReSharper</Description>
+        <Archive type="targz" sha1sum="21ae1e2980bdc05c9187b95066be5e51e95d8bee">https://download.jetbrains.com/resharper/JetBrains.Rider-2017.1.tar.gz</Archive>
+    </Source>
+    <Package>
+        <Name>rider</Name>
+        <Summary xml:lang="en">Rider - A cross-platform .NET IDE based on the IntelliJ platform and ReSharper</Summary>
+        <Description xml:lang="en">Rider - A cross-platform .NET IDE based on the IntelliJ platform and ReSharper</Description>
+        <PartOf>programming</PartOf>
+        <Files>
+            <Path fileType="data">/opt/rider</Path>
+            <Path fileType="data">/usr/bin/rider</Path>
+            <Path fileType="data">/usr/share/applications/rider.desktop</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/rider.desktop">rider.desktop</AdditionalFile>
+        </AdditionalFiles>
+        <RuntimeDependencies>
+            <Dependency>openjdk-8</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-08-19</Date>
+            <Version>2017.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bryan@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>

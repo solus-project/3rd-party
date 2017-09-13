@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>flash-player-ppapi</Name>
+        <Homepage>http://www.adobe.com/software/flash/about/</Homepage>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <Summary>Adobe Flash Player (PPAPI)</Summary>
+        <Description>Adobe Flash Player (PPAPI).</Description>
+        <License>EULA</License>
+        <Archive sha1sum="ed6e6c28c2ca2d83dfd9da4db10ee536a2b0141b" type="binary">https://fpdownload.adobe.com/get/flashplayer/pdc/26.0.0.151/flash_player_ppapi_linux.x86_64.tar.gz</Archive>
+    </Source>
+    <Package>
+        <Name>flash-player-ppapi</Name>
+        <Icon>flash-player</Icon>
+        <Files>
+            <Path fileType="library">/opt</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="10">
+            <Date>08-11-2017</Date>
+            <Version>26.0.0.151</Version>
+            <Comment>Update to 26.0.0.151</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="9">
+            <Date>07-13-2017</Date>
+            <Version>26.0.0.137</Version>
+            <Comment>Update to 26.0.0.137</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="8">
+            <Date>07-13-2017</Date>
+            <Version>26.0.0.137</Version>
+            <Comment>Update to 26.0.0.137</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="7">
+            <Date>06-17-2017</Date>
+            <Version>26.0.0.131</Version>
+            <Comment>Update to 26.0.0.131</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="6">
+            <Date>06-13-2017</Date>
+            <Version>26.0.0.126</Version>
+            <Comment>Update to 26.0.0.126</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="5">
+            <Date>05-09-2017</Date>
+            <Version>25.0.0.171</Version>
+            <Comment>Update to 25.0.0.171</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="4">
+            <Date>04-12-2017</Date>
+            <Version>25.0.0.148</Version>
+            <Comment>Update to 25.0.0.148</Comment>
+            <Name>Jorge Euceda</Name>
+            <Email>jeuce004@fiu.edu</Email>
+        </Update>
+        <Update release="3">
+            <Date>03-15-2017</Date>
+            <Version>25.0.0.127</Version>
+            <Comment>Update to 25.0.0.127</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="2">
+            <Date>02-14-2017</Date>
+            <Version>24.0.0.221</Version>
+            <Comment>Update of Adobe Flash (PPAPI) in Third Party</Comment>
+            <Name>Jorge Euceda</Name>
+            <Email>jeuce004@fiu.edu</Email>
+        </Update>
+        <Update release="1">
+            <Date>12-14-2016</Date>
+            <Version>24.0.0.186</Version>
+            <Comment>Initial inclusion of Adobe Flash (PPAPI) in Third Party</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>

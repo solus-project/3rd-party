@@ -1,0 +1,852 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>google-chrome-stable</Name>
+        <Homepage>http://www.google.com/chrome</Homepage>
+        <Packager>
+            <Name>Automated Packaging</Name>
+            <Email>noreply@solus-project.com</Email>
+        </Packager>
+        <Summary>The web browser from Google</Summary>
+        <Description> Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</Description>
+        <License>EULA</License>
+        <Archive sha1sum="6e1528625d403150fa2cfb15564a73bd8b39d821" type="binary">http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_61.0.3163.79-1_amd64.deb</Archive>
+
+        <BuildDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+
+    </Source>
+
+    <Package>
+        <RuntimeDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+        </RuntimeDependencies>
+        <Name>google-chrome-stable</Name>
+        <Icon>google-chrome</Icon>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="data">/usr/share/appdata</Path>
+            <Path fileType="data">/usr/share/icons</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="data">/usr/share/gnome-control-center</Path>
+            <Path fileType="data">/usr/share/menu</Path>
+            <Path fileType="executable">/opt/google/chrome</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="100">
+            <Date>09-06-2017</Date>
+            <Version>61.0.3163.79</Version>
+            <Comment>Update to 61.0.3163.79</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="99">
+            <Date>08-25-2017</Date>
+            <Version>60.0.3112.113</Version>
+            <Comment>Update to 60.0.3112.113</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="98">
+            <Date>08-16-2017</Date>
+            <Version>60.0.3112.101</Version>
+            <Comment>Update to 60.0.3112.101</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="97">
+            <Date>08-03-2017</Date>
+            <Version>60.0.3112.90</Version>
+            <Comment>Update to 60.0.3112.90</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="96">
+            <Date>07-26-2017</Date>
+            <Version>60.0.3112.78</Version>
+            <Comment>Update to 60.0.3112.78</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="95">
+            <Date>06-28-2017</Date>
+            <Version>59.0.3071.115</Version>
+            <Comment>Update to 59.0.3071.115</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="94">
+            <Date>06-21-2017</Date>
+            <Version>59.0.3071.109</Version>
+            <Comment>Update to 59.0.3071.109</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="93">
+            <Date>06-17-2017</Date>
+            <Version>59.0.3071.104</Version>
+            <Comment>Update to 59.0.3071.104</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="92">
+            <Date>06-07-2017</Date>
+            <Version>59.0.3071.86</Version>
+            <Comment>Update to 59.0.3071.86</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="91">
+            <Date>05-11-2017</Date>
+            <Version>58.0.3029.110</Version>
+            <Comment>Update to 58.0.3029.110</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="90">
+            <Date>05-03-2017</Date>
+            <Version>58.0.3029.96</Version>
+            <Comment>Update to 58.0.3029.96</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="89">
+            <Date>04-19-2017</Date>
+            <Version>58.0.3029.81</Version>
+            <Comment>Update to 58.0.3029.81</Comment>
+            <Name>Ewan Paterson</Name>
+            <Email>ewan.paterson@hotmail.co.uk</Email>
+        </Update>
+        
+        <Update release="88">
+            <Date>03-30-2017</Date>
+            <Version>57.0.2987.133</Version>
+            <Comment>Update to 57.0.2987.133</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+
+        <Update release="87">
+            <Date>03-19-2017</Date>
+            <Version>57.0.2987.110</Version>
+            <Comment>Update to 57.0.2987.110</Comment>
+            <Name>Ewan Paterson</Name>
+            <Email>ewan.paterson@hotmail.co.uk</Email>
+        </Update>
+        
+        <Update release="86">
+            <Date>03-10-2017</Date>
+            <Version>57.0.2987.98</Version>
+            <Comment>Update to 57.0.2987.98</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="85">
+            <Date>02-02-2017</Date>
+            <Version>56.0.2924.87</Version>
+            <Comment>Update to 56.0.2924.87</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="84">
+            <Date>01-27-2017</Date>
+            <Version>56.0.2924.76</Version>
+            <Comment>Update to 56.0.2924.76</Comment>
+            <Name>Ewan Paterson</Name>
+            <Email>ewan.paterson@hotmail.co.uk</Email>
+        </Update>
+        
+        <Update release="83">
+            <Date>12-14-2016</Date>
+            <Version>55.0.2883.87</Version>
+            <Comment>Update to 55.0.2883.87</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="82">
+            <Date>12-04-2016</Date>
+            <Version>55.0.2883.75</Version>
+            <Comment>Update to 55.0.2883.75</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
+        </Update>
+
+        <Update release="81">
+            <Date>11-22-2016</Date>
+            <Version>54.0.2840.100</Version>
+            <Comment>Update to 54.0.2840.100</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
+        </Update>
+
+        <Update release="80">
+            <Date>11-03-2016</Date>
+            <Version>54.0.2840.90</Version>
+            <Comment>Update to 54.0.2840.90</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="79">
+            <Date>10-21-2016</Date>
+            <Version>54.0.2840.71</Version>
+            <Comment>Update to 54.0.2840.71</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="78">
+            <Date>10-19-2016</Date>
+            <Version>54.0.2840.59</Version>
+            <Comment>Install fallback icons</Comment>
+            <Name>Federico Damián Schonborn</Name>
+            <Email>federico.d.schonborn@gmail.com</Email>
+        </Update>
+
+        <Update release="77">
+            <Date>10-13-2016</Date>
+            <Version>54.0.2840.59</Version>
+            <Comment>Update to 54.0.2840.59</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="76">
+            <Date>10-01-2016</Date>
+            <Version>53.0.2785.143</Version>
+            <Comment>Update to 53.0.2785.143</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="75">
+            <Date>09-16-2016</Date>
+            <Version>53.0.2785.116</Version>
+            <Comment>Update to 53.0.2785.116</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="74">
+            <Date>09-14-2016</Date>
+            <Version>53.0.2785.113</Version>
+            <Comment>Update to 53.0.2785.113</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="73">
+            <Date>09-08-2016</Date>
+            <Version>53.0.2785.101</Version>
+            <Comment>Update to 53.0.2785.101</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="72">
+            <Date>09-04-2016</Date>
+            <Version>53.0.2785.92</Version>
+            <Comment>Update to 53.0.2785.92</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="71">
+            <Date>09-01-2016</Date>
+            <Version>53.0.2785.89</Version>
+            <Comment>Update to 53.0.2785.89</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="70">
+            <Date>08-04-2016</Date>
+            <Version>52.0.2743.116</Version>
+            <Comment>Update to 52.0.2743.116</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="69">
+            <Date>07-24-2016</Date>
+            <Version>52.0.2743.82</Version>
+            <Comment>Update to 52.0.2743.82</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="68">
+            <Date>06-24-2016</Date>
+            <Version>51.0.2704.106</Version>
+            <Comment>Update to 51.0.2704.106</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="67">
+            <Date>06-17-2016</Date>
+            <Version>51.0.2704.103</Version>
+            <Comment>Update to 51.0.2704.103</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="66">
+            <Date>06-07-2016</Date>
+            <Version>51.0.2704.84</Version>
+            <Comment>Update to 51.0.2704.84</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="65">
+            <Date>06-03-2016</Date>
+            <Version>51.0.2704.79</Version>
+            <Comment>Update to 51.0.2704.79</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="64">
+            <Date>06-02-2016</Date>
+            <Version>51.0.2704.79</Version>
+            <Comment>Update to 51.0.2704.79</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="63">
+            <Date>05-26-2016</Date>
+            <Version>51.0.2704.63</Version>
+            <Comment>Update to 51.0.2704.63</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="62">
+            <Date>05-12-2016</Date>
+            <Version>50.0.2661.102</Version>
+            <Comment>Update to 50.0.2661.102</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="61">
+            <Date>04-29-2016</Date>
+            <Version>50.0.2661.94</Version>
+            <Comment>Update to 50.0.2661.94</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="60">
+            <Date>04-21-2016</Date>
+            <Version>50.0.2661.86</Version>
+            <Comment>Update to 50.0.2661.86</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="59">
+            <Date>04-14-2016</Date>
+            <Version>50.0.2661.75</Version>
+            <Comment>Update to 50.0.2661.75</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="58">
+            <Date>04-08-2016</Date>
+            <Version>49.0.2623.112</Version>
+            <Comment>Update to 49.0.2623.112</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="57">
+            <Date>03-29-2016</Date>
+            <Version>49.0.2623.110</Version>
+            <Comment>Update to 49.0.2623.110</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="56">
+            <Date>03-26-2016</Date>
+            <Version>49.0.2623.108</Version>
+            <Comment>Update to 49.0.2623.108</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+
+        <Update release="55">
+            <Date>03-09-2016</Date>
+            <Version>49.0.2623.87</Version>
+            <Comment>Update to 49.0.2623.87</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="54">
+            <Date>03-03-2016</Date>
+            <Version>49.0.2623.75</Version>
+            <Comment>Update to 49.0.2623.75</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="53">
+            <Date>02-19-2016</Date>
+            <Version>48.0.2564.116</Version>
+            <Comment>Update to 48.0.2564.116</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="52">
+            <Date>02-10-2016</Date>
+            <Version>48.0.2564.109</Version>
+            <Comment>Update to 48.0.2564.109</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="51">
+            <Date>02-05-2016</Date>
+            <Version>48.0.2564.103</Version>
+            <Comment>Update to 48.0.2564.103</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="50">
+            <Date>02-04-2016</Date>
+            <Version>48.0.2564.103</Version>
+            <Comment>Update to 48.0.2564.103</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="49">
+            <Date>01-29-2016</Date>
+            <Version>48.0.2564.97</Version>
+            <Comment>Update to 48.0.2564.97</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="48">
+            <Date>01-29-2016</Date>
+            <Version>48.0.2564.97</Version>
+            <Comment>Update to 48.0.2564.97</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="47">
+            <Date>01-21-2016</Date>
+            <Version>48.0.2564.82</Version>
+            <Comment>Update to 48.0.2564.82</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="46">
+            <Date>01-14-2016</Date>
+            <Version>47.0.2526.111</Version>
+            <Comment>Update to 47.0.2526.111</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="45">
+            <Date>12-16-2015</Date>
+            <Version>47.0.2526.106</Version>
+            <Comment>Update to 47.0.2526.106</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="44">
+            <Date>12-09-2015</Date>
+            <Version>47.0.2526.80</Version>
+            <Comment>Update to 47.0.2526.80</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="43">
+            <Date>12-02-2015</Date>
+            <Version>47.0.2526.73</Version>
+            <Comment>Update to 47.0.2526.73</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="42">
+            <Date>11-12-2015</Date>
+            <Version>46.0.2490.86</Version>
+            <Comment>Update to 46.0.2490.86</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="41">
+            <Date>10-23-2015</Date>
+            <Version>46.0.2490.80</Version>
+            <Comment>Update to 46.0.2490.80</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="40">
+            <Date>10-20-2015</Date>
+            <Version>46.0.2490.71</Version>
+            <Comment>Update to 46.0.2490.71</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="39">
+            <Date>09-25-2015</Date>
+            <Version>45.0.2454.101</Version>
+            <Comment>Update to 45.0.2454.101</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="38">
+            <Date>09-22-2015</Date>
+            <Version>45.0.2454.99</Version>
+            <Comment>Update to 45.0.2454.99</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="37">
+            <Date>09-16-2015</Date>
+            <Version>45.0.2454.93</Version>
+            <Comment>Update to 45.0.2454.93</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="36">
+            <Date>09-02-2015</Date>
+            <Version>45.0.2454.85</Version>
+            <Comment>Update to 45.0.2454.85</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="35">
+            <Date>08-21-2015</Date>
+            <Version>44.0.2403.157</Version>
+            <Comment>Update to 44.0.2403.157</Comment>
+            <Name>Justin</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="34">
+            <Date>08-17-2015</Date>
+            <Version>44.0.2403.155</Version>
+            <Comment>Update to 44.0.2403.155</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+
+        <Update release="33">
+            <Date>08-12-2015</Date>
+            <Version>44.0.2403.155</Version>
+            <Comment>Update to 44.0.2403.155</Comment>
+            <Name>Justin</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="32">
+            <Date>08-05-2015</Date>
+            <Version>44.0.2403.130</Version>
+            <Comment>Update to 44.0.2403.130</Comment>
+            <Name>Justin</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="31">
+            <Date>07-30-2015</Date>
+            <Version>44.0.2403.125</Version>
+            <Comment>Update to 44.0.2403.125</Comment>
+            <Name>Justin</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="30">
+            <Date>07-25-2015</Date>
+            <Version>44.0.2403.107</Version>
+            <Comment>Update to 44.0.2403.107</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+
+        <Update release="29">
+            <Date>07-25-2015</Date>
+            <Version>44.0.2403.89</Version>
+            <Comment>Update to 44.0.2403.89</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+
+        <Update release="28">
+            <Date>07-15-2015</Date>
+            <Version>43.0.2357.134</Version>
+            <Comment>Update to 43.0.2357.134</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+
+        <Update release="27">
+            <Date>07-10-2015</Date>
+            <Version>43.0.2357.132</Version>
+            <Comment>Update to 43.0.2357.132</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="26">
+            <Date>06-23-2015</Date>
+            <Version>43.0.2357.130</Version>
+            <Comment>Update to 43.0.2357.130</Comment>
+            <Name>Justin</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="25">
+            <Date>06-12-2015</Date>
+            <Version>43.0.2357.125</Version>
+            <Comment>Update to 43.0.2357.125</Comment>
+            <Name>Solus Packaging Team</Name>
+            <Email>packaging@solus-project.com</Email>
+        </Update>
+
+        <Update release="24">
+            <Date>06-10-2015</Date>
+            <Version>43.0.2357.124</Version>
+            <Comment>Update to 43.0.2357.124</Comment>
+            <Name>Solus Packaging Team</Name>
+            <Email>packaging@solus-project.com</Email>
+        </Update>
+
+        <Update release="23">
+            <Date>05-26-2015</Date>
+            <Version>43.0.2357.81</Version>
+            <Comment>Update to 43.0.2357.81</Comment>
+            <Name>Solus Packaging Team</Name>
+            <Email>packaging@solus-project.com</Email>
+        </Update>
+
+        <Update release="22">
+            <Date>05-20-2015</Date>
+            <Version>43.0.2357.65</Version>
+            <Comment>Update to 43.0.2357.65</Comment>
+            <Name>Solus Packaging Team</Name>
+            <Email>packaging@solus-project.com</Email>
+        </Update>
+
+        <Update release="21">
+            <Date>05-18-2015</Date>
+            <Version>42.0.2311.152</Version>
+            <Comment>Add Runtime Dependency</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="20">
+            <Date>05-12-2015</Date>
+            <Version>42.0.2311.152</Version>
+            <Comment>Update to 42.0.2311.152</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+
+        <Update release="19">
+            <Date>04-29-2015</Date>
+            <Version>42.0.2311.135</Version>
+            <Comment>Update to 42.0.2311.135</Comment>
+            <Name>Solus Packaging Team</Name>
+            <Email>packaging@solus-project.com</Email>
+        </Update>
+
+        <Update release="18">
+            <Date>04-17-2015</Date>
+            <Version>42.0.2311.87</Version>
+            <Comment>Update to 42.0.2311.87</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Update>
+
+        <Update release="17">
+            <Date>04-15-2015</Date>
+            <Version>42.0.2311.90</Version>
+            <Comment>Update to 42.0.2311.90</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Update>
+
+        <Update release="16">
+            <Date>04-02-2015</Date>
+            <Version>41.0.2272.118</Version>
+            <Comment>Update to 41.0.2272.118</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@evolve-os.com</Email>
+        </Update>
+
+        <Update release="15">
+            <Date>03-20-2015</Date>
+            <Version>41.0.2272.101</Version>
+            <Comment>Update to 41.0.2272.101</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Update>
+
+        <Update release="14">
+            <Date>03-10-2015</Date>
+            <Version>41.0.2272.89</Version>
+            <Comment>Update to 41.0.2272.89</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@evolve-os.com</Email>
+        </Update>
+
+        <Update release="13">
+            <Date>03-06-2015</Date>
+            <Version>40.0.2214.94</Version>
+            <Comment>Update to 40.0.2214.94</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@evolve-os.com</Email>
+        </Update>
+
+        <Update release="12">
+            <Date>02-20-2015</Date>
+            <Version>40.0.2214.115</Version>
+            <Comment>Update to 40.0.2214.115</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Update>
+
+        <Update release="11">
+            <Date>02-04-2015</Date>
+            <Version>40.0.2214.111</Version>
+            <Comment>Update to 40.0.2214.111</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Update>
+
+        <Update release="10">
+            <Date>01-25-2015</Date>
+            <Version>40.0.2214.93</Version>
+            <Comment>Update to 40.0.2214.93</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Update>
+
+        <Update release="9">
+            <Date>01-23-2015</Date>
+            <Version>40.0.2214.91</Version>
+            <Comment>Update to 40.0.2214.91</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Update>
+
+        <Update release="8">
+            <Date>01-14-2015</Date>
+            <Version>39.0.2171.99</Version>
+            <Comment>Update for latest upstream version</Comment>
+            <Name>Automated Packaging</Name>
+            <Email>noreply@evolve-os.com</Email>
+        </Update>
+
+        <Update release="8">
+            <Date>12-13-2014</Date>
+            <Version>39.0.2171.95</Version>
+            <Comment>Update for latest upstream version</Comment>
+            <Name>Automated Packaging</Name>
+            <Email>noreply@evolve-os.com</Email>
+        </Update>
+
+        <Update release="7">
+            <Date>12-05-2014</Date>
+            <Version>39.0.2171.71</Version>
+            <Comment>Update for latest upstream version</Comment>
+            <Name>Automated Packaging</Name>
+            <Email>noreply@evolve-os.com</Email>
+        </Update>
+
+        <Update release="6">
+            <Date>11-16-2014</Date>
+            <Version>38.0.2125.122</Version>
+            <Comment>Update for latest upstream version</Comment>
+            <Name>Automated Packaging</Name>
+            <Email>noreply@evolve-os.com</Email>
+        </Update>
+
+        <Update release="5">
+            <Date>10-19-2014</Date>
+            <Version>38.0.2125.104</Version>
+            <Comment>Update for latest upstream version</Comment>
+            <Name>Automated Packaging</Name>
+            <Email>noreply@evolve-os.com</Email>
+        </Update>
+
+        <Update release="4">
+            <Date>10-09-2014</Date>
+            <Version>38.0.2125.101</Version>
+            <Comment>Update for latest upstream version</Comment>
+            <Name>Automated Packaging</Name>
+            <Email>noreply@evolve-os.com</Email>
+        </Update>
+
+        <Update release="3">
+            <Date>09-11-2014</Date>
+            <Version>37.0.2062.120</Version>
+            <Comment>Update for latest upstream version</Comment>
+            <Name>Automated Packaging</Name>
+            <Email>noreply@evolve-os.com</Email>
+        </Update>
+
+        <Update release="2">
+            <Date>26-08-2014</Date>
+            <Version>37.0.2062.94</Version>
+            <Comment>Update for latest upstream version</Comment>
+            <Name>Automated Packaging</Name>
+            <Email>noreply@evolve-os.com</Email>
+        </Update>
+
+        <Update release="1">
+            <Date>22-08-2014</Date>
+            <Version>36.0.1985.143</Version>
+            <Comment>Add google-chrome-stable to repositories</Comment>
+            <Name>Automated Packaging</Name>
+            <Email>noreply@evolve-os.com</Email>
+        </Update>
+    </History>
+</PISI>

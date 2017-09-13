@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>google-earth</Name>
+        <Homepage>http://www.google.com/earth</Homepage>
+        <Packager>
+            <Name>Peter O'Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
+        </Packager>
+        <Summary>3D interface for satellite imagery from Google</Summary>
+        <Description>Google Earth provides a 3D interface for viewing satellite imagery and maps.</Description>
+        <License>EULA</License>
+        <Archive sha1sum="d27bb70f969d429d6e1746bbcd3bb32cb908af0f" type="binary">https://dl.google.com/linux/earth/deb/pool/main/g/google-earth-pro-stable/google-earth-pro-stable_7.3.0.3832-r0_amd64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <RuntimeDependencies>
+            <Dependency>fontconfig</Dependency>
+            <Dependency>libglu</Dependency>
+            <Dependency>mesalib</Dependency>
+        </RuntimeDependencies>
+        <Name>google-earth</Name>
+        <Icon>google-earth</Icon>
+        <Files>
+            <Path fileType="data">/lib</Path>
+            <Path fileType="data">/opt/google/earth</Path>
+            <Path fileType="data">/usr</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="6">
+            <Date>08-24-2017</Date>
+            <Version>7.3.0.3832</Version>
+            <Comment>Update to 7.3.0.3832</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+
+        <Update release="5">
+            <Date>08-12-2017</Date>
+            <Version>7.3.0.3830</Version>
+            <Comment>Update to 7.3.0.3830</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+
+        <Update release="4">
+            <Date>07-21-2017</Date>
+            <Version>7.1.8.3036</Version>
+            <Comment>Update to 7.1.8.3036</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+
+        <Update release="3">
+            <Date>19-01-2017</Date>
+            <Version>7.1.8.3036</Version>
+            <Comment>Update to 7.1.8.3036</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+    </History>
+
+    <History>
+        <Update release="2">
+            <Date>25-10-2016</Date>
+            <Version>7.1.7.2606</Version>
+            <Comment>Update to 7.1.7.2606</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
+        </Update>
+    </History>
+
+    <History>
+        <Update release="1">
+            <Date>09-06-2016</Date>
+            <Version>7.1.7.2600</Version>
+            <Comment>Add google-earth to repositories</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

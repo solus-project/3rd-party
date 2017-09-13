@@ -1,0 +1,250 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>gitkraken</Name>
+        <Homepage>https://www.gitkraken.com</Homepage>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <Summary>The downright luxurious Git client, for Windows, Mac and Linux</Summary>
+        <Description>The downright luxurious Git client, for Windows, Mac and Linux</Description>
+        <License>EULA</License>
+        <Archive sha1sum="af5cdf5098166be4147ce9c647061242c56388d6" type="binary">https://release.gitkraken.com/linux/gitkraken-amd64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+            <Dependency>sed</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>gitkraken</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>gconf</Dependency>
+            <Dependency>libgnome-keyring</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>nodejs</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="27">
+            <Date>09-06-2017</Date>
+            <Version>3.0</Version>
+            <Comment>Update to 3.0</Comment>
+            <Name>Michael Wilcox</Name>
+            <Email>miwilc@gmx.com</Email>
+        </Update>
+        <Update release="26">
+            <Date>08-16-2017</Date>
+            <Version>2.7.1</Version>
+            <Comment>Update to 2.7.1</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="25">
+            <Date>07-18-2017</Date>
+            <Version>2.7.0</Version>
+            <Comment>Update to 2.7.0</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="24">
+            <Date>05-24-2017</Date>
+            <Version>2.6.0</Version>
+            <Comment>Update to 2.6.0</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+
+        <Update release="23">
+            <Date>05-03-2017</Date>
+            <Version>2.5.0</Version>
+            <Comment>Update to 2.5.0</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="23">
+            <Date>04-06-2017</Date>
+            <Version>2.4.0</Version>
+            <Comment>Update to 2.4.0</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="22">
+            <Date>04-06-2017</Date>
+            <Version>2.3.3</Version>
+            <Comment>Update to 2.3.3</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
+        <Update release="21">
+            <Date>04-06-2017</Date>
+            <Version>2.3.2</Version>
+            <Comment>Update to 2.3.2</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+
+        <Update release="20">
+            <Date>04-04-2017</Date>
+            <Version>2.3.1</Version>
+            <Comment>Update to 2.3.1</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+
+        <Update release="19">
+            <Date>03-23-2017</Date>
+            <Version>2.2.1</Version>
+            <Comment>Update to 2.2.1</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+
+        <Update release="18">
+            <Date>03-11-2017</Date>
+            <Version>2.2.0</Version>
+            <Comment>Update to 2.2.0</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="17">
+            <Date>13-02-2017</Date>
+            <Version>2.1.0</Version>
+            <Comment>Update to 2.1.0</Comment>
+            <Name>Jorge Euceda</Name>
+            <Email>jeuce004@fiu.edu</Email>
+        </Update>
+        <Update release="16">
+            <Date>25-01-2017</Date>
+            <Version>2.0.1</Version>
+            <Comment>Update to 2.0.1</Comment>
+            <Name>Nils Andreas Svee</Name>
+            <Email>me@lochnair.net</Email>
+        </Update>
+        <Update release="15">
+            <Date>06-12-2016</Date>
+            <Version>1.9.3</Version>
+            <Comment>Update to 1.9.3</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="14">
+            <Date>05-12-2016</Date>
+            <Version>1.9.2</Version>
+            <Comment>Update to 1.9.2</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="13">
+            <Date>16-11-2016</Date>
+            <Version>1.9.1</Version>
+            <Comment>Update to 1.9.1</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="13">
+            <Date>03-11-2016</Date>
+            <Version>1.9</Version>
+            <Comment>Update to 1.9</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="12">
+            <Date>25-10-2016</Date>
+            <Version>1.8.1</Version>
+            <Comment>Update to 1.8.1</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="11">
+            <Date>19-10-2016</Date>
+            <Version>1.8.0</Version>
+            <Comment>Update to 1.8.0</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="10">
+            <Date>06-10-2016</Date>
+            <Version>1.7.1</Version>
+            <Comment>Update to 1.7.1</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="9">
+            <Date>05-10-2016</Date>
+            <Version>1.7.0</Version>
+            <Comment>Update to 1.7.0</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="8">
+            <Date>22-09-2016</Date>
+            <Version>1.6.1</Version>
+            <Comment>Update to 1.6.1</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="7">
+            <Date>12-09-2016</Date>
+            <Version>1.6.0</Version>
+            <Comment>Update to 1.6.0</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="6">
+            <Date>31-08-2016</Date>
+            <Version>1.5.4</Version>
+            <Comment>Update to 1.5.4</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="5">
+            <Date>17-08-2016</Date>
+            <Version>1.5.3</Version>
+            <Comment>Update to 1.5.3</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="4">
+            <Date>04-08-2016</Date>
+            <Version>1.5.2</Version>
+            <Comment>Update to 1.5.2</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="3">
+            <Date>04-08-2016</Date>
+            <Version>1.5.1</Version>
+            <Comment>Update to 1.5.1</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="2">
+            <Date>17-06-2016</Date>
+            <Version>1.4.0</Version>
+            <Comment>Update to 1.4.0</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+        <Update release="1">
+            <Date>29-05-2016</Date>
+            <Version>1.3.0</Version>
+            <Comment>Add Git Kraken 1.3.0</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>

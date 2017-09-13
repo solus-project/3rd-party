@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Pixeluvo
+GenericName=Image Editor
+Comment=Edit and Enhance Photos and Images
+Exec=/opt/pixeluvo/bin/Pixeluvo64
+Icon=/opt/pixeluvo/pixeluvo.png
+Terminal=false
+Categories=Graphics;2DGraphics;RasterGraphics;
+MimeType=image/bmp;image/gif;image/x-tga;image/tiff;image/jpeg;image/png;image/x-pxu;
