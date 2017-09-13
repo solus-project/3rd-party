@@ -1,20 +1,18 @@
 #!/usr/bin/python
 
-# Created For Solus Operating System
-
-from pisi.actionsapi import get, pisitools, shelltools
-
-NoStrip = ["/opt", "/usr"]
-IgnoreAutodep = True
-
-# Should not change.
-Suffix = "-1"
-
-def setup():
-    shelltools.system("pwd")
-    shelltools.system("ar xf sublime-text_build-%s_amd64.deb" % (get.srcVERSION()))
-    shelltools.system("tar xvf data.tar.lzma")
+from pisi.actionsapi import pisitools
 
 def install():
-    pisitools.insinto("/", "opt")
-    pisitools.insinto("/", "usr")
+    pisitools.insinto("/opt/sublime_text", "sublime_text")
+    pisitools.insinto("/opt/sublime_text", "crash_reporter")
+    pisitools.insinto("/opt/sublime_text", "plugin_host")
+    pisitools.insinto("/opt/sublime_text", "python3.3.zip")
+    pisitools.insinto("/opt/sublime_text", "*.py")
+    pisitools.insinto("/opt/sublime_text", "Packages")
+
+    pisitools.insinto("/usr/share/applications", "sublime_text.desktop")
+
+    for i in ["16", "32", "48", "128", "256"]:
+        pisitools.insinto("/usr/share/icons/hicolor/%sx%s/apps" % (i,i), "Icon/%sx%s/" % (i,i), "sublime-text.png")
+
+    pisitools.dosym("/opt/sublime_text/sublime_text", "/usr/bin/sublime_text")
