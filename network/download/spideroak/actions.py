@@ -8,11 +8,11 @@ from pisi.actionsapi import get, pisitools, shelltools
 NoStrip = ["/"]
 IgnoreAutodep = True
 
+
 def setup():
-	shelltools.system("mv getbuild* spideroakone.deb")
-	shelltools.system("pwd")
-	shelltools.system("ar xf spideroakone.deb")
-	shelltools.system("tar xf data.tar.gz")
+    shelltools.system("ar xf SpiderOakONE_*.deb")
+    shelltools.system("tar xf data.tar.gz")
+    shelltools.system("rm -r etc/apt")
 
 
 def install():
