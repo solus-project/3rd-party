@@ -10,17 +10,17 @@
         <Summary>Microsoft Core Fonts</Summary>
         <Description>Microsoft Core Fonts</Description>
         <License>Custom - Microsoft</License>
-        <Archive sha1sum="c4db8cbe42c566d12468f5fdad38c43721844c69" type="binary">http://downloads.sourceforge.net/corefonts/andale32.exe</Archive>
-        <Archive sha1sum="6d75f8436f39ab2da5c31ce651b7443b4ad2916e" type="binary">http://downloads.sourceforge.net/corefonts/arial32.exe</Archive>
-        <Archive sha1sum="d45cdab84b7f4c1efd6d1b369f50ed0390e3d344" type="binary">http://downloads.sourceforge.net/corefonts/arialb32.exe</Archive>
-        <Archive sha1sum="2371d0327683dcc5ec1684fe7c275a8de1ef9a51" type="binary">http://downloads.sourceforge.net/corefonts/comic32.exe</Archive>
-        <Archive sha1sum="06a745023c034f88b4135f5e294fece1a3c1b057" type="binary">http://downloads.sourceforge.net/corefonts/courie32.exe</Archive>
-        <Archive sha1sum="90e4070cb356f1d811acb943080bf97e419a8f1e" type="binary">http://downloads.sourceforge.net/corefonts/georgi32.exe</Archive>
-        <Archive sha1sum="86b34d650cfbbe5d3512d49d2545f7509a55aad2" type="binary">http://downloads.sourceforge.net/corefonts/impact32.exe</Archive>
-        <Archive sha1sum="20b79e65cdef4e2d7195f84da202499e3aa83060" type="binary">http://downloads.sourceforge.net/corefonts/times32.exe</Archive>
-        <Archive sha1sum="50aab0988423efcc9cf21fac7d64d534d6d0a34a" type="binary">http://downloads.sourceforge.net/corefonts/trebuc32.exe</Archive>
-        <Archive sha1sum="f5b93cedf500edc67502f116578123618c64a42a" type="binary">http://downloads.sourceforge.net/corefonts/verdan32.exe</Archive>
-        <Archive sha1sum="2fb4a42c53e50bc70707a7b3c57baf62ba58398f" type="binary">http://downloads.sourceforge.net/corefonts/webdin32.exe</Archive>
+        <Archive sha1sum="c4db8cbe42c566d12468f5fdad38c43721844c69" type="binary">https://razaoinfo.dl.sourceforge.net/project/corefonts/the%20fonts/final/andale32.exe</Archive>
+        <Archive sha1sum="6d75f8436f39ab2da5c31ce651b7443b4ad2916e" type="binary">https://razaoinfo.dl.sourceforge.net/project/corefonts/the%20fonts/final/arial32.exe</Archive>
+        <Archive sha1sum="d45cdab84b7f4c1efd6d1b369f50ed0390e3d344" type="binary">https://razaoinfo.dl.sourceforge.net/project/corefonts/the%20fonts/final/arialb32.exe</Archive>
+        <Archive sha1sum="2371d0327683dcc5ec1684fe7c275a8de1ef9a51" type="binary">https://razaoinfo.dl.sourceforge.net/project/corefonts/the%20fonts/final/comic32.exe</Archive>
+        <Archive sha1sum="06a745023c034f88b4135f5e294fece1a3c1b057" type="binary">https://razaoinfo.dl.sourceforge.net/project/corefonts/the%20fonts/final/courie32.exe</Archive>
+        <Archive sha1sum="90e4070cb356f1d811acb943080bf97e419a8f1e" type="binary">https://razaoinfo.dl.sourceforge.net/project/corefonts/the%20fonts/final/georgi32.exe</Archive>
+        <Archive sha1sum="86b34d650cfbbe5d3512d49d2545f7509a55aad2" type="binary">https://razaoinfo.dl.sourceforge.net/project/corefonts/the%20fonts/final/impact32.exe</Archive>
+        <Archive sha1sum="20b79e65cdef4e2d7195f84da202499e3aa83060" type="binary">https://razaoinfo.dl.sourceforge.net/project/corefonts/the%20fonts/final/times32.exe</Archive>
+        <Archive sha1sum="50aab0988423efcc9cf21fac7d64d534d6d0a34a" type="binary">https://razaoinfo.dl.sourceforge.net/project/corefonts/the%20fonts/final/trebuc32.exe</Archive>
+        <Archive sha1sum="f5b93cedf500edc67502f116578123618c64a42a" type="binary">https://razaoinfo.dl.sourceforge.net/project/corefonts/the%20fonts/final/verdan32.exe</Archive>
+        <Archive sha1sum="2fb4a42c53e50bc70707a7b3c57baf62ba58398f" type="binary">https://razaoinfo.dl.sourceforge.net/project/corefonts/the%20fonts/final/webdin32.exe</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -36,6 +36,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>27-09-2017</Date>
+            <Version>1.3</Version>
+            <Comment>Update URLs to direct mirror as redirect was causing hash checks to fail</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
         <Update release="1">
             <Date>27-09-2016</Date>
             <Version>1.3</Version>
