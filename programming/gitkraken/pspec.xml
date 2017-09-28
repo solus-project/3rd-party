@@ -11,7 +11,7 @@
         <Summary>The downright luxurious Git client, for Windows, Mac and Linux</Summary>
         <Description>The downright luxurious Git client, for Windows, Mac and Linux</Description>
         <License>EULA</License>
-        <Archive sha1sum="e05db8e13bfbd08cb12fb0d32ead46293df2ba33" type="binary">https://release.gitkraken.com/linux/gitkraken-amd64.deb</Archive>
+        <Archive sha1sum="dd3f4ee01603e3751f0f38daadf7509d595867f4" type="binary">https://release.gitkraken.com/linux/gitkraken-amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -34,6 +34,14 @@
     </Package>
 
     <History>
+        <Update release="30">
+            <Date>09-28-2017</Date>
+            <Version>3.0.2</Version>
+            <Comment>Update to 3.0.2</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
         <Update release="29">
             <Date>09-20-2017</Date>
             <Version>3.0.1</Version>
