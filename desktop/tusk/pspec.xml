@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://evolve-os.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>tusk</Name>
+        <Homepage>https://github.com/champloohq/tusk</Homepage>
+        <Packager>
+            <Name>liberodark</Name>
+            <Email>liberodark@gmail.com</Email>
+        </Packager>
+        <Summary>Tusk</Summary>
+        <Description>Refined Evernote desktop app</Description>
+        <License>https://github.com/champloohq/tusk/license.md</License>
+        <Archive sha1sum="b0946163ace241b2f0d36f5929825821d0d13174" type="binary">https://github.com/champloohq/tusk/releases/download/v0.6.0/tusk-0.6.0-linux-amd64.deb</Archive>
+
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>tusk</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>nodejs</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>06-19-2017</Date>
+            <Version>10.1.0.5707</Version>
+            <Comment>Update to wps-office 2016</Comment>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Update>
+    </History>
+</PISI>
