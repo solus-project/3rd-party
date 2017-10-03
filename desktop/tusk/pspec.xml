@@ -24,17 +24,17 @@
             <Path fileType="*">/</Path>
         </Files>
         <RuntimeDependencies>
-            <Dependency>nodejs</Dependency>
+            <Dependency>gconf</Dependency>
         </RuntimeDependencies>
     </Package>
 
     <History>
         <Update release="1">
-            <Date>06-19-2017</Date>
+            <Date>10-02-2017</Date>
             <Version>0.6.0</Version>
-            <Comment>test</Comment>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Comment>lot of background improvements</Comment>
+            <Name>klauscfhq</Name>
+            <Email>klauscfhq@protonmail.com</Email>
         </Update>
     </History>
 </PISI>
