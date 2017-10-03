@@ -2,16 +2,16 @@
 <!DOCTYPE PISI SYSTEM "https://evolve-os.com/standard/pisi-spec.dtd">
 <PISI>
     <Source>
-        <Name>tusk</Name>
-        <Homepage>https://github.com/champloohq/tusk</Homepage>
+        <Name>r-studio-for-linux</Name>
+        <Homepage>http://www.r-studio.com/fr/data_recovery_linux/</Homepage>
         <Packager>
             <Name>liberodark</Name>
             <Email>liberodark@gmail.com</Email>
         </Packager>
-        <Summary>Tusk</Summary>
-        <Description>Refined Evernote desktop app</Description>
-        <License>https://github.com/champloohq/tusk/license.md</License>
-        <Archive sha1sum="b0946163ace241b2f0d36f5929825821d0d13174" type="binary">https://github.com/champloohq/tusk/releases/download/v0.6.0/tusk-0.6.0-linux-amd64.deb</Archive>
+        <Summary>R-Studio</Summary>
+        <Description>Undelete and data recovery software</Description>
+        <License>http://www.r-studio.com/fr/Terms_Of_Use.shtml</License>
+        <Archive sha1sum="6862e8a2a31de3f011c5f4839862b4b63a4baa2e" type="binary">http://www.r-studio.com/downloads/RStudio4_x64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -19,7 +19,7 @@
     </Source>
 
     <Package>
-        <Name>tusk</Name>
+        <Name>r-studio-for-linux</Name>
         <Files>
             <Path fileType="*">/</Path>
         </Files>
@@ -30,11 +30,11 @@
 
     <History>
         <Update release="1">
-            <Date>10-02-2017</Date>
-            <Version>0.6.0</Version>
-            <Comment>lot of background improvements</Comment>
-            <Name>klauscfhq</Name>
-            <Email>klauscfhq@protonmail.com</Email>
+            <Date>10-03-2017</Date>
+            <Version>4.2.2901</Version>
+            <Comment>several internal fixes</Comment>
+            <Name>liberodark</Name>
+            <Email>liberodark@gmail.com</Email>
         </Update>
     </History>
 </PISI>
