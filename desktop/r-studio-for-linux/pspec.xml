@@ -11,7 +11,7 @@
         <Summary>Tusk</Summary>
         <Description>Refined Evernote desktop app</Description>
         <License>https://github.com/champloohq/tusk/license.md</License>
-        <Archive sha1sum="6862e8a2a31de3f011c5f4839862b4b63a4baa2e" type="binary">http://www.r-studio.com/downloads/RStudio4_x64.deb</Archive>
+        <Archive sha1sum="b0946163ace241b2f0d36f5929825821d0d13174" type="binary">https://github.com/champloohq/tusk/releases/download/v0.6.0/tusk-0.6.0-linux-amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
