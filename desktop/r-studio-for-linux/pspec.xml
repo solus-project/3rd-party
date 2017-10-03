@@ -19,7 +19,7 @@
     </Source>
 
     <Package>
-        <Name>r-studio-for-linux</Name>
+        <Name>tusk</Name>
         <Files>
             <Path fileType="*">/</Path>
         </Files>
@@ -30,11 +30,11 @@
 
     <History>
         <Update release="1">
-            <Date>10-03-2017</Date>
-            <Version>4.2.2901</Version>
-            <Comment>several internal fixes</Comment>
-            <Name>liberodark</Name>
-            <Email>liberodark@gmail.com</Email>
+            <Date>10-02-2017</Date>
+            <Version>0.6.0</Version>
+            <Comment>lot of background improvements</Comment>
+            <Name>klauscfhq</Name>
+            <Email>klauscfhq@protonmail.com</Email>
         </Update>
     </History>
 </PISI>
