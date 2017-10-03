@@ -2,15 +2,15 @@
 <!DOCTYPE PISI SYSTEM "https://evolve-os.com/standard/pisi-spec.dtd">
 <PISI>
     <Source>
-        <Name>r-studio-for-linux</Name>
-        <Homepage>http://www.r-studio.com/fr/data_recovery_linux/</Homepage>
+        <Name>tusk</Name>
+        <Homepage>https://github.com/champloohq/tusk</Homepage>
         <Packager>
             <Name>liberodark</Name>
             <Email>liberodark@gmail.com</Email>
         </Packager>
-        <Summary>R-Studio</Summary>
-        <Description>Undelete and data recovery software</Description>
-        <License>http://www.r-studio.com/fr/Terms_Of_Use.shtml</License>
+        <Summary>Tusk</Summary>
+        <Description>Refined Evernote desktop app</Description>
+        <License>https://github.com/champloohq/tusk/license.md</License>
         <Archive sha1sum="6862e8a2a31de3f011c5f4839862b4b63a4baa2e" type="binary">http://www.r-studio.com/downloads/RStudio4_x64.deb</Archive>
 
         <BuildDependencies>
