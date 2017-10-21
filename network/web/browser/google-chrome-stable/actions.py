@@ -12,8 +12,7 @@ Suffix = "-1"
 
 def setup():
     shelltools.system("pwd")
-    shelltools.system("ar xf google-chrome-stable_%s%s_amd64.deb" % (get.srcVERSION(), Suffix))
-    shelltools.system("tar xvf data.tar.xz")
+    shelltools.system("./rpm2cpio.sh google-chrome-stable-%s%s.x86_64.rpm | cpio -imdv" % (get.srcVERSION(), Suffix))
 
 def install():
     # root owns sandbox as it is setuid
