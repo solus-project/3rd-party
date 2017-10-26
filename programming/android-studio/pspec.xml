@@ -12,7 +12,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Android development environment based on IntelliJ IDEA.</Summary>
         <Description xml:lang="en">Android development environment based on IntelliJ IDEA.</Description>
-        <Archive sha1sum="0d636009aa98f278311dd5d68bca1c948803dde2" type="binary">https://dl.google.com/dl/android/studio/ide-zips/2.3.3.0/android-studio-ide-162.4069837-linux.zip</Archive>
+        <Archive sha1sum="e7fffdd7d8023ffff85e27782cc8bee32d357705" type="binary">https://dl.google.com/dl/android/studio/ide-zips/3.0.0.18/android-studio-ide-171.4408382-linux.zip</Archive>
     </Source>
     <Package>
         <Name>android-studio</Name>
@@ -36,14 +36,20 @@
         </RuntimeDependencies>
     </Package>
     <History>
-      <Update release="8">
+        <Update release="9">
+            <Date>25-10-2017</Date>
+            <Version>3.0.0.18</Version>
+            <Comment>Update to 3.0.0.18</Comment>
+            <Name>Sönke Behrendt</Name>
+            <Email>thesoenke@outlook.com</Email>
+        </Update>
+        <Update release="8">
             <Date>06-24-2017</Date>
             <Version>2.3.3.0</Version>
             <Comment>Update to 2.3.3.0</Comment>
             <Name>Justin Zobel</Name>
             <Email>justin@solus-project.com</Email>
         </Update>
-
         <Update release="7">
           <Date>2017-05-29</Date>
           <Version>2.3.2.0</Version>
