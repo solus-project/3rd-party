@@ -11,7 +11,7 @@
         <Summary>TeamViewer</Summary>
         <Description>Elegantly simple and extremely fast remote support, remote access, online collaboration and meetings; these are the tools for an interconnected world limited only by your imagination.</Description>
         <License>https://www.teamviewer.com/en/eula/</License>
-        <Archive sha1sum="5c227644ec3597e8533e1c5f0cb909167bb8c00b" type="binary">https://download.teamviewer.com/download/version_12x/teamviewer_12.0.76279_i386.deb</Archive>
+        <Archive sha1sum="2c6231eb86582e22c33bff6c62bc60a3b205f990" type="binary">https://download.teamviewer.com/download/version_12x/teamviewer_12.0.85001_i386.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -55,6 +55,14 @@
     </Package>
 
     <History>
+        <Update release="8">
+            <Date>10-30-2017</Date>
+            <Version>12.0.85001</Version>
+            <Comment>Update to 12.0.85001</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+
         <Update release="7">
             <Date>10-30-2017</Date>
             <Version>12.0.76279</Version>
