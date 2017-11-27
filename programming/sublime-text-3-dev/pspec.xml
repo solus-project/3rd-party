@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+	<Source>
+		<Name>sublime-text-3-dev</Name>
+		<Homepage>https://www.sublimetext.com/3dev</Homepage>
+		<Packager>
+			<Name>Aszrul Aszrie</Name>
+			<Email>aszrul_aszrie@hotmail.com</Email>
+		</Packager>
+		<Summary>Sublime Text is a sophisticated text editor for code, markup and prose.</Summary>
+		<Description> Sublime Text is a sophisticated text editor for code, markup and prose.</Description>
+		<License>EULA</License>
+		<Archive sha1sum="f4500acf647005a49f0e655b2f7fb7d67f84bbc7" type="binary">https://download.sublimetext.com/sublime-text_build-3154_amd64.deb</Archive>
+		<BuildDependencies>
+			<Dependency>libxscrnsaver</Dependency>
+			<Dependency>gconf</Dependency>
+			<Dependency>binutils</Dependency>
+		</BuildDependencies>
+	</Source>
+
+	<Package>
+		<Name>sublime-text-3-dev</Name>
+		<Files>
+			<Path fileType="*">/</Path>
+		</Files>
+		<RuntimeDependencies>
+			<Dependency>libxscrnsaver</Dependency>
+			<Dependency>gconf</Dependency>
+		</RuntimeDependencies>
+	</Package>
+
+	<History>
+		<Update release="1">
+			<Date>27-11-2017</Date>
+			<Version>3154</Version>
+			<Comment>Initial Sublime Text 3 Dev</Comment>
+			<Name>Aszrul Aszrie</Name>
+			<Email>aszrul_aszrie@hotmail.com</Email>
+		</Update>
+	</History>
+</PISI>
