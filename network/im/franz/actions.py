@@ -16,3 +16,4 @@ def install():
     pisitools.insinto("/", "usr")
     pisitools.insinto("/", "opt")
     pisitools.dosym("/opt/Franz/franz", "/usr/bin/franz")
+    pisitools.dosym("/usr/share/icons/hicolor/1024x1024/apps/franz.png", "/usr/share/icons/hicolor/scalable/apps/franz.png")
