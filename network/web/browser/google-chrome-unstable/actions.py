@@ -25,4 +25,4 @@ def install():
     pisitools.insinto("/", "usr")
 
     for i in ["16", "22", "24", "32", "48", "64", "128", "256"]:
-        pisitools.insinto("/usr/share/icons/hicolor/%sx%s/apps" % (i,i), "opt/google/chrome-unstable/product_logo_%s.png" % i, "google-chrome-unstable.png")
+        pisitools.insinto("/usr/share/icons/hicolor/%sx%s/apps" % (i,i), "opt/google/chrome-unstable/product_logo_%s_dev.png" % i, "google-chrome-unstable.png")
