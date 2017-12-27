@@ -7,6 +7,6 @@ WorkDir = "."
 Version =  get.srcVERSION()
 
 def install():
-    shutil.rmtree("Rider-%s/jre64" % Version)
-    pisitools.insinto("/opt/rider", "Rider-%s/*" % Version)
+    shutil.rmtree("JetBrains Rider-%s/jre64" % Version)
+    pisitools.insinto("/opt/rider", "JetBrains Rider-%s/*" % Version)
     pisitools.dosym("/opt/rider/bin/rider.sh", "/usr/bin/rider")
