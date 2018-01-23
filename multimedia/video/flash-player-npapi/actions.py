@@ -10,8 +10,7 @@ IgnoreAutodep = True
 # Should not change.
 Suffix = "-1"
 
-def setup():
-    shelltools.system("tar xvf flash_player_npapi_linux.x86_64.tar.gz")
+WorkDir = "."
 
 def install():
     pisitools.insinto("/usr/bin", "usr/bin/flash-player-properties")
