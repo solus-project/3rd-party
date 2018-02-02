@@ -28,6 +28,14 @@
 
     <History>
         <Update release="13">
+            <Date>02-02-2018</Date>
+            <Version>1.10.1.4602</Version>
+            <Comment>Fix wget file downloads</Comment>
+            <Name>Peter O'Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+
+        <Update release="13">
             <Date>12-31-2017</Date>
             <Version>1.10.1.4602</Version>
             <Comment>Update to 1.10.1.4602</Comment>
