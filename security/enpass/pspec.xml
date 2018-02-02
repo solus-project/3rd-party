@@ -11,7 +11,7 @@
         <Summary>A multiplatform password manager</Summary>
         <Description>A multiplatform password manager</Description>
         <License>Custom</License>
-        <Archive sha1sum="54b353a877316dde2a1aacda8c77644799f9c180" type="binary">http://repo.sinew.in/pool/main/e/enpass/enpass_5.6.0_amd64.deb</Archive>
+        <Archive sha1sum="ae8583429a96ba58ca6eea1d5eb9968f3d9a0362" type="binary">http://repo.sinew.in/pool/main/e/enpass/enpass_5.6.5_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -29,6 +29,13 @@
     </Package>
 
     <History>
+        <Update release="7">
+            <Date>02-02-2018</Date>
+            <Version>5.6.5</Version>
+            <Comment>Update to 5.6.5</Comment>
+            <Name>Tony James</Name>
+            <Email>tony@anthonyjames.org</Email>
+        </Update>
         <Update release="6">
             <Date>10-25-2017</Date>
             <Version>5.6.0</Version>
