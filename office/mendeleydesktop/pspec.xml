@@ -11,7 +11,7 @@
         <Summary>Mendeley is a free reference manager and an academic social network.</Summary>
         <Description>Mendeley is a free reference manager and an academic social network.</Description>
         <License>https://www.mendeley.com/terms/</License>
-        <Archive sha1sum="d351813299b126009f4ab21ae3b7dcda3c261cae" type="binary">http://desktop-download.mendeley.com/download/linux/mendeleydesktop-1.17.9-linux-x86_64.tar.bz2</Archive>
+        <Archive sha1sum="eaea6b4ab94a52af3789273150a326f128881aac" type="binary">http://desktop-download.mendeley.com/download/linux/mendeleydesktop-1.17.13-linux-x86_64.tar.bz2</Archive>
     </Source>
 
     <Package>
@@ -22,6 +22,14 @@
     </Package>
 
     <History>
+        <Update release="5">
+            <Date>01-30-2018</Date>
+            <Version>1.17.13</Version>
+            <Comment>Fix link paths, update to 1.17.13</Comment>
+            <Name>Thanos Apostolou</Name>
+            <Email>thanosapostolou@outlook.com</Email>
+        </Update>
+
         <Update release="4">
             <Date>05-28-2017</Date>
             <Version>1.17.9</Version>
@@ -29,7 +37,6 @@
             <Name>Ikey Doherty</Name>
             <Email>ikey@solus-project.com</Email>
         </Update>
-
         <Update release="3">
             <Date>04-06-2017</Date>
             <Version>1.17.9</Version>
