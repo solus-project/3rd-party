@@ -32,6 +32,14 @@
     </Package>
 
     <History>
+        <Update release="12">
+            <Date>02-07-2018</Date>
+            <Version>3.3.10</Version>
+            <Comment>Update to 3.3.10</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+        
         <Update release="11">
             <Date>06-29-2017</Date>
             <Version>3.2.11</Version>
