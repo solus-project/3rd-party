@@ -11,7 +11,7 @@
         <Summary>Adobe Flash Player (PPAPI)</Summary>
         <Description>Adobe Flash Player (PPAPI).</Description>
         <License>EULA</License>
-        <Archive sha1sum="0802eea9da81e0809cc18158eb25d75c5152eb72" type="targz">https://fpdownload.adobe.com/get/flashplayer/pdc/28.0.0.137/flash_player_ppapi_linux.x86_64.tar.gz</Archive>
+        <Archive sha1sum="6ecdf3832797ceefb2919d45898d19a4a0138a2d" type="targz">https://fpdownload.adobe.com/get/flashplayer/pdc/28.0.0.161/flash_player_ppapi_linux.x86_64.tar.gz</Archive>
     </Source>
     <Package>
         <Name>flash-player-ppapi</Name>
@@ -22,6 +22,14 @@
     </Package>
 
     <History>
+        <Update release="18">
+            <Date>02-09-2018</Date>
+            <Version>28.0.0.161</Version>
+            <Comment>Update to 28.0.0.161</Comment>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Update>
+
         <Update release="17">
             <Date>12-15-2017</Date>
             <Version>28.0.0.137</Version>
