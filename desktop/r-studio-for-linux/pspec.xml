@@ -14,7 +14,8 @@
         <Archive sha1sum="8636e69e764c049c62091e31130b8c6bb35efb1b" type="binary">http://www.r-studio.com/downloads/RStudio4_x64.deb</Archive>
 
         <BuildDependencies>
-            <Dependency>binutils</Dependency>
+            <Dependency>sudo</Dependency>
+            <Dependency>xgd-utils</Dependency>
         </BuildDependencies>
     </Source>
 
@@ -24,7 +25,8 @@
             <Path fileType="*">/</Path>
         </Files>
         <RuntimeDependencies>
-            <Dependency>gconf</Dependency>
+            <Dependency>sudo</Dependency>
+            <Dependency>xgd-utils</Dependency>
         </RuntimeDependencies>
     </Package>
 
