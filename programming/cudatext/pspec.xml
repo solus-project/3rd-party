@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>cudatext</Name>
+        <Homepage>http://www.uvviewsoft.com/cudatext/</Homepage>
+        <Packager>
+            <Name>liberodark</Name>
+            <Email>liberodark@gmail.com</Email>
+        </Packager>
+        <Summary>CudaText is a cross-platform text editor, written in Lazarus. It is fully open source.</Summary>
+        <Description>CudaText is a cross-platform text editor.</Description>
+        <License>EULA</License>
+        <Archive sha1sum="65de8583e2076a9b946820cc2be51e07908644e8" type="binary">https://netcologne.dl.sourceforge.net/project/cudatext/release/Linux/cudatext_1.40.0.0-1_gtk2_amd64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>cudatext</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>gconf</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>09-13-2017</Date>
+            <Version>1.40.0</Version>
+            <Comment>Update to 1.40.0</Comment>
+            <Name>Stefan Ric</Name>
+            <Email>stfric369@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
