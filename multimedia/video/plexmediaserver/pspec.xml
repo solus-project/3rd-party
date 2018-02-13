@@ -24,6 +24,11 @@
             <Path fileType="library">/usr/lib64</Path>
             <Path fileType="data">/usr/share/</Path>
         </Files>
+        <AdditionalFiles>
+            <AdditionalFile permission="0644" owner="root" target="/usr/lib64/sysusers.d/plexmediaserver.conf">plexmediaserver.conf</AdditionalFile>
+            <AdditionalFile permission="0644" owner="root" target="/usr/lib64/tmpfiles.d/plexmediaserver.conf">plexmediaserver.tmpfile</AdditionalFile>
+            <AdditionalFile permission="0644" owner="root" target="/usr/lib64/systemd/system/plexmediaserver.service">plexmediaserver.service</AdditionalFile>
+        </AdditionalFiles>
     </Package>
 
     <History>
