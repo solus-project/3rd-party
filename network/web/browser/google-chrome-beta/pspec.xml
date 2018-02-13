@@ -41,7 +41,7 @@
     </Package>
 
     <History>
-		<Update release="128">
+	<Update release="128">
             <Date>02-12-2018</Date>
             <Version>65.0.3325.51</Version>
             <Comment>Update to 65.0.3325.51</Comment>
