@@ -1,4 +1,4 @@
-li<?xml version="1.0" ?>
+<?xml version="1.0" ?>
 <!DOCTYPE PISI SYSTEM "https://evolve-os.com/standard/pisi-spec.dtd">
 <PISI>
     <Source>
@@ -30,7 +30,7 @@ li<?xml version="1.0" ?>
 
     <History>
         <Update release="1">
-            <Date>10-03-2017</Date>
+            <Date>10-02-2018/Date>
             <Version>4.2.2937</Version>
             <Comment>several internal fixes</Comment>
             <Name>liberodark</Name>
