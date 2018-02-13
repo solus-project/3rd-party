@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://evolve-os.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>r-studio-for-linux</Name>
+        <Homepage>http://www.r-studio.com/fr/data_recovery_linux/</Homepage>
+        <Packager>
+            <Name>liberodark</Name>
+            <Email>liberodark@gmail.com</Email>
+        </Packager>
+        <Summary>R-Studio</Summary>
+        <Description>Undelete and data recovery software</Description>
+        <License>http://www.r-studio.com/fr/Terms_Of_Use.shtml</License>
+        <Archive sha1sum="8636e69e764c049c62091e31130b8c6bb35efb1b" type="binary">http://www.r-studio.com/downloads/RStudio4_x64.deb</Archive>
+
+        <BuildDependencies>
+            <Dependency>sudo</Dependency>
+            <Dependency>xgd-utils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>r-studio-for-linux</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>sudo</Dependency>
+            <Dependency>xgd-utils</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>10-02-2018/Date>
+            <Version>4.2.2937</Version>
+            <Comment>several internal fixes</Comment>
+            <Name>liberodark</Name>
+            <Email>liberodark@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

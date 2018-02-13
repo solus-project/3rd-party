@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>frostwire</Name>
+        <Homepage>http://www.uvviewsoft.com/cudatext/</Homepage>
+        <Packager>
+            <Name>liberodark</Name>
+            <Email>liberodark@gmail.com</Email>
+        </Packager>
+        <Summary>CudaText is a cross-platform text editor, written in Lazarus. It is fully open source.</Summary>
+        <Description>CudaText is a cross-platform text editor.</Description>
+        <License>EULA</License>
+        <Archive sha1sum="65de8583e2076a9b946820cc2be51e07908644e8" type="binary">https://github.com/frostwire/frostwire/releases/download/frostwire-desktop-6.6.2-build-251/frostwire-6.6.2.noarch.tar.gz</Archive>
+        <BuildDependencies>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>frostwire</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>openjdk-8</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>09-13-2017</Date>
+            <Version>6.6.2</Version>
+            <Comment>Update to 6.6.2</Comment>
+            <Name>Stefan Ric</Name>
+            <Email>stfric369@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
