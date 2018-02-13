@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+li<?xml version="1.0" ?>
 <!DOCTYPE PISI SYSTEM "https://evolve-os.com/standard/pisi-spec.dtd">
 <PISI>
     <Source>
@@ -11,7 +11,7 @@
         <Summary>R-Studio</Summary>
         <Description>Undelete and data recovery software</Description>
         <License>http://www.r-studio.com/fr/Terms_Of_Use.shtml</License>
-        <Archive sha1sum="6862e8a2a31de3f011c5f4839862b4b63a4baa2e" type="binary">http://www.r-studio.com/downloads/RStudio4_x64.deb</Archive>
+        <Archive sha1sum="8636e69e764c049c62091e31130b8c6bb35efb1b" type="binary">http://www.r-studio.com/downloads/RStudio4_x64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -31,7 +31,7 @@
     <History>
         <Update release="1">
             <Date>10-03-2017</Date>
-            <Version>4.2.2901</Version>
+            <Version>4.2.2937</Version>
             <Comment>several internal fixes</Comment>
             <Name>liberodark</Name>
             <Email>liberodark@gmail.com</Email>
