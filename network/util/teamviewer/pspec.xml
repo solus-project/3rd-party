@@ -11,7 +11,7 @@
         <Summary>TeamViewer</Summary>
         <Description>Elegantly simple and extremely fast remote support, remote access, online collaboration and meetings; these are the tools for an interconnected world limited only by your imagination.</Description>
         <License>https://www.teamviewer.com/en/eula/</License>
-        <Archive sha1sum="62b12bf59fde4649422c97c4714f72f3c339b9b4" type="binary">http://download.teamviewer.com/download/version_12x/teamviewer_i386.deb</Archive>
+        <Archive sha1sum="62b12bf59fde4649422c97c4714f72f3c339b9b4" type="binary">https://download.teamviewer.com/download/version_12x/teamviewer_12.0.90041_i386.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
