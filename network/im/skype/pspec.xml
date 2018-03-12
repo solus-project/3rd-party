@@ -10,7 +10,7 @@
         <Summary>Skype keeps the world talking, for free.</Summary>
         <Description>Skype keeps you together. Call, message and share with others.</Description>
         <License>Copyright (c) 2017 Skype and/or Microsoft</License>
-        <Archive sha1sum="e23139f48a4fe8c8877bde6b5d2b0df639a2dca2" type="binary">https://repo.skype.com/deb/pool/main/s/skypeforlinux/skypeforlinux_8.17.76.3_amd64.deb</Archive>
+        <Archive sha1sum="de6d061bd9eb3bbf930a66bec983897628e7ff86" type="binary">https://repo.skype.com/deb/pool/main/s/skypeforlinux/skypeforlinux_8.18.76.1_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -35,6 +35,14 @@
     </Package>
     
     <History>
+        <Update release="42">
+            <Date>03-09-2018</Date>
+            <Version>8.18.76.1</Version>
+            <Comment>Update to 8.18.76.1</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+        
         <Update release="41">
             <Date>03-06-2018</Date>
             <Version>8.17.76.3</Version>
