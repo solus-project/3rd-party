@@ -26,8 +26,8 @@ def install():
 
     pisitools.dodir("/etc/teamviewer")
 
-    pisitools.dosym("/opt/teamviewer/config", "/etc/teamviewer")
-    pisitools.dosym("/opt/teamviewer/logfiles", "/var/log")
+    pisitools.dosym("/etc/teamviewer", "/opt/teamviewer/config")
+    pisitools.dosym("/var/log", "/opt/teamviewer/logfiles")
 
     shelltools.chmod("%s/opt/teamviewer/doc/*" % get.installDIR(),0755)
     shelltools.chmod("%s/opt/teamviewer/tv_bin/*" % get.installDIR(),0755)
