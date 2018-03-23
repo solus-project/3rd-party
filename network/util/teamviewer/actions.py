@@ -11,7 +11,7 @@ IgnoreAutodep = True
 
 def build():
     shelltools.system("pwd")
-    shelltools.system("ar xf teamviewer_%s_i386.deb" % Version)
+    shelltools.system("ar xf teamviewer_%s_amd64.deb" % Version)
     shelltools.system("tar xf data.tar.bz2")
 
 def install():
@@ -20,7 +20,7 @@ def install():
     
     #necessary symlinks
     pisitools.dosym("/opt/teamviewer/tv_bin/script/teamviewer", "usr/bin/teamviewer")
-    pisitools.dosym("/opt/teamviewer/tv_bin/desktop/com.teamviewer.TeamViewer.desktop", "/usr/share/applications/teamviewer-teamviewer12.desktop")
+    pisitools.dosym("/opt/teamviewer/tv_bin/desktop/com.teamviewer.TeamViewer.desktop", "/usr/share/applications/teamviewer-teamviewer.desktop")
     pisitools.dosym("/etc/systemd/system/teamviewerd.service", "/etc/systemd/system/multi-user.target.wants/teamviewerd.service")    
     pisitools.dosym("/opt/teamviewer/tv_bin/desktop/teamviewer.png", "/usr/share/pixmaps/teamviewer.png")
 
