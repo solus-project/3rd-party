@@ -49,7 +49,6 @@
             <Dependency>qt5-multimedia</Dependency>
             <Dependency>qt5-webchannel</Dependency>
             <Dependency>qt5-quickcontrols</Dependency>
-            <Dependency>qt5-connectivity</Dependency>
         </RuntimeDependencies>
         <Name>teamviewer</Name>
         <Icon>teamviewer</Icon>
