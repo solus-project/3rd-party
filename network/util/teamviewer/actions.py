@@ -19,10 +19,15 @@ def install():
     pisitools.insinto("/etc/systemd/system", "./opt/teamviewer/tv_bin/script/teamviewerd.service")
     
     #necessary symlinks
-    pisitools.dosym("/opt/teamviewer/tv_bin/script/teamviewer", "usr/bin/teamviewer")
+    pisitools.dosym("/opt/teamviewer/tv_bin/script/teamviewer", "/usr/bin/teamviewer")
     pisitools.dosym("/opt/teamviewer/tv_bin/desktop/com.teamviewer.TeamViewer.desktop", "/usr/share/applications/teamviewer-teamviewer.desktop")
     pisitools.dosym("/etc/systemd/system/teamviewerd.service", "/etc/systemd/system/multi-user.target.wants/teamviewerd.service")    
     pisitools.dosym("/opt/teamviewer/tv_bin/desktop/teamviewer.png", "/usr/share/pixmaps/teamviewer.png")
+
+    pisitools.dodir("/etc/teamviewer")
+
+    pisitools.dosym("/opt/teamviewer/config", "/etc/teamviewer")
+    pisitools.dosym("/opt/teamviewer/logfiles", "/var/log")
 
     shelltools.chmod("%s/opt/teamviewer/doc/*" % get.installDIR(),0755)
     shelltools.chmod("%s/opt/teamviewer/tv_bin/*" % get.installDIR(),0755)
