@@ -41,6 +41,7 @@
             <Dependency>libxtst</Dependency>
             <Dependency>xz</Dependency>
             <Dependency>zlib</Dependency>
+            <Dependency>gtk2-engine-murrine</Dependency>
             <Dependency>qt5-webkit</Dependency>
             <Dependency>qt5-x11extras</Dependency>
             <Dependency>qt5-base</Dependency>
