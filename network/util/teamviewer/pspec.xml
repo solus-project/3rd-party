@@ -70,6 +70,7 @@
             <Path fileType="config">/etc/systemd/system</Path>
             <Path fileType="config">/etc/teamviewer</Path>
             <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="log">/var/log/teamviewer13</Path>
         </Files>
     </Package>
 
