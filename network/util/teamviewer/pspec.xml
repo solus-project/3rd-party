@@ -41,25 +41,16 @@
             <Dependency>libxtst</Dependency>
             <Dependency>xz</Dependency>
             <Dependency>zlib</Dependency>
-            <Dependency>gtk2-engine-murrine</Dependency>
             <Dependency>qt5-webkit</Dependency>
             <Dependency>qt5-x11extras</Dependency>
             <Dependency>qt5-base</Dependency>
             <Dependency>qt5-declarative</Dependency>
             <Dependency>qt5-sensors</Dependency>
-            <Dependency>qt5-multimedia</Dependency>
-            <Dependency>qt5-webchannel</Dependency>
             <Dependency>qt5-quickcontrols</Dependency>
             <Dependency>qt5-quickcontrols2</Dependency>
             <Dependency>qt5-connectivity</Dependency>
-            <Dependency>qt5-graphicaleffects</Dependency>
-            <Dependency>qt5-multimedia</Dependency>
             <Dependency>qt5-translations</Dependency>
-            <Dependency>qt5-websockets</Dependency>
             <Dependency>qt5-xmlpatterns</Dependency>
-            <Dependency>qt5-webchannel</Dependency>
-            <Dependency>qt5-webengine</Dependency>
-            <Dependency>qt5-websockets</Dependency>
         </RuntimeDependencies>
         <Name>teamviewer</Name>
         <Icon>teamviewer</Icon>
