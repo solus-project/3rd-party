@@ -7,6 +7,6 @@ WorkDir = "."
 
 
 def install():
-    shutil.rmtree("PhpStorm-173.4674.46/jre64")
-    pisitools.insinto("/opt/phpstorm", "PhpStorm-173.4674.46/*")
+    shutil.rmtree("PhpStorm-181.4203.565/jre64")
+    pisitools.insinto("/opt/phpstorm", "PhpStorm-181.4203.565/*")
     pisitools.dosym("/opt/phpstorm/bin/phpstorm.sh", "/usr/bin/phpstorm")
