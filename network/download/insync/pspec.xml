@@ -10,7 +10,7 @@
         <Summary>The most powerful Google Drive client ever built</Summary>
         <Description>Insync extends Drive's web functionality to your desktop by integrating tightly with Windows, Mac and Linux so you can get work done.</Description>
         <License>Custom - https://www.insynchq.com/terms</License>
-        <Archive sha1sum="3ef78e0faae6e7e0d83a1eb45d2531b7832603de" type="binary">http://s.insynchq.com/builds/insync_1.4.4.37065-artful_amd64.deb</Archive>
+        <Archive sha1sum="42200833276db160fd433d06d32de522beb1027b" type="binary">http://s.insynchq.com/builds/insync_1.4.5.37069-artful_amd64.deb</Archive>
         <Archive sha1sum="6b0b7e253e702367379fa75ea52bd79cdfbaebbb" type="binary">http://s.insynchq.com/builds/insync-nautilus_1.3.12.36116-precise_all.deb</Archive>
     </Source>
     <Package>
@@ -26,6 +26,14 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="7">
+            <Date>04-03-2018</Date>
+            <Version>1.4.5.37069</Version>
+            <Comment>Update to 1.4.5.37069</Comment>
+            <Name>Tony James</Name>
+            <Email>tony@anthonyjames.org</Email>
+        </Update>
+
         <Update release="6">
             <Date>03-22-2018</Date>
             <Version>1.4.4.37065</Version>
