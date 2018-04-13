@@ -4,9 +4,9 @@ from pisi.actionsapi import get, pisitools, shelltools
 import shutil
 
 WorkDir = "."
-
+Build = "181.4445.72"
 
 def install():
-    shutil.rmtree("PhpStorm-181.4203.565/jre64")
-    pisitools.insinto("/opt/phpstorm", "PhpStorm-181.4203.565/*")
+    shutil.rmtree("PhpStorm-%s/jre64" % Build)
+    pisitools.insinto("/opt/phpstorm", "PhpStorm-%s/*" % Build)
     pisitools.dosym("/opt/phpstorm/bin/phpstorm.sh", "/usr/bin/phpstorm")
