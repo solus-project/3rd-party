@@ -10,7 +10,7 @@
         <Summary>Spotify Music, Video and Podcast Streaming Client.</Summary>
         <Description>Spotify is a Swedish commercial music streaming, podcast and video service that provides digital rights management-protected[3] content from record labels and media companies.</Description>
         <License>Copyright (c) 2006-2010 Spotify Ltd.</License>
-        <Archive sha1sum="f59467b12c98971a88a6f1965969f7dd9bdb1b8f" type="binary">http://repository-origin.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.0.77.338.g758ebd78-41_amd64.deb</Archive>
+        <Archive sha1sum="f59467b12c98971a88a6f1965969f7dd9bdb1b8f" type="binary">https://repository-origin.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.0.77.338.g758ebd78-41_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -27,12 +27,21 @@
             <Path fileType="data">/usr/share/applications</Path>
         </Files>
         <RuntimeDependencies>
+            <Dependency>curl-gnutls</Dependency>
             <Dependency>gconf</Dependency>
         </RuntimeDependencies>
 
     </Package>
 
     <History>
+        <Update release="42">
+            <Date>04-23-2018</Date>
+            <Version>1.0.77.338</Version>
+            <Comment>Add curl-gnutls as rundep, fixes T6241</Comment>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Update>
+
         <Update release="41">
             <Date>04-15-2018</Date>
             <Version>1.0.77.338</Version>
