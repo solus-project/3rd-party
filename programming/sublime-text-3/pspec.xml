@@ -11,7 +11,7 @@
         <Summary>Sublime Text is a sophisticated text editor for code, markup and prose.</Summary>
         <Description> Sublime Text is a sophisticated text editor for code, markup and prose.</Description>
         <License>EULA</License>
-        <Archive sha1sum="aed3e27c1033d7ee9ec7e55d8432f410677ef183" type="binary">https://download.sublimetext.com/sublime-text_build-3170_amd64.deb</Archive>
+        <Archive sha1sum="54159234fc55d82f2cebd9d08e35827842a295f7" type="binary">https://download.sublimetext.com/sublime-text_build-3176_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -31,6 +31,13 @@
     </Package>
 
     <History>
+        <Update release="6">
+            <Date>14-05-18</Date>
+            <Version>3176</Version>
+            <Comment>Update to 3176</Comment>
+            <Name>James Lee</Name>
+            <Email>jamesl33info@gmail.com</Email>
+        </Update>
         <Update release="5">
             <Date>07-05-18</Date>
             <Version>3170</Version>
