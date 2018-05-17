@@ -16,3 +16,4 @@ def setup():
 def install():
     pisitools.insinto("/opt", "usr/lib/plexmediaserver")
     pisitools.insinto("/usr", "usr/share")
+    pisitools.insinto("/usr/lib", "lib/udev")
