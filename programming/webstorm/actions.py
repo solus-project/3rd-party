@@ -4,7 +4,7 @@ from pisi.actionsapi import get, pisitools, shelltools
 import shutil
 
 WorkDir = "."
-Build = "181.4892.44"
+Build = "181.5087.27"
 
 def install():
     shutil.rmtree("WebStorm-%s/jre64" % Build)
