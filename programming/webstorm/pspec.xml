@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">WebStorm - an IDE for the Web</Summary>
         <Description xml:lang="en">WebStorm - an IDE for the Web</Description>
-        <Archive type="targz" sha1sum="22c48fcaecedb0c0f308c24645c8247275b8bf4bb60ac3b3404f092ac92c5d11">https://download.jetbrains.com/webstorm/WebStorm-2018.1.4.tar.gz</Archive>
+        <Archive type="targz" sha1sum="fefec3422ce2b4a3a67bf1cec86deb6e650ced9d">https://download.jetbrains.com/webstorm/WebStorm-2018.1.4.tar.gz</Archive>
     </Source>
     <Package>
         <Name>webstorm</Name>
