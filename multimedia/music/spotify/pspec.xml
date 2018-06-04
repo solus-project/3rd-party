@@ -10,7 +10,7 @@
         <Summary>Spotify Music, Video and Podcast Streaming Client.</Summary>
         <Description>Spotify is a Swedish commercial music streaming, podcast and video service that provides digital rights management-protected[3] content from record labels and media companies.</Description>
         <License>Copyright (c) 2006-2010 Spotify Ltd.</License>
-        <Archive sha1sum="f59467b12c98971a88a6f1965969f7dd9bdb1b8f" type="binary">https://repository-origin.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.0.77.338.g758ebd78-41_amd64.deb</Archive>
+        <Archive sha1sum="2d9cb2fe280eb30800de64af8d28afc0444174b2" type="binary">https://repository-origin.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.0.80.480.g51b03ac3-13_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -34,6 +34,14 @@
     </Package>
 
     <History>
+        <Update release="43">
+            <Date>05-31-2018</Date>
+            <Version>1.0.80.480</Version>
+            <Comment>Update to 1.0.80.480</Comment>
+            <Name>Nícholas Lima de Souza Silva</Name>
+            <Email>nicholaslima.rw@gmail.com</Email>
+        </Update>
+		
         <Update release="42">
             <Date>04-23-2018</Date>
             <Version>1.0.77.338</Version>
