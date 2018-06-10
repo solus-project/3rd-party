@@ -10,7 +10,7 @@
         <Summary>Team communication for the 21st century.</Summary>
         <Description>Team communication for the 21st century.</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="88998726fb3537e6446530e679baff67ae7022c0" type="binary">https://downloads.slack-edge.com/linux_releases/slack-desktop-3.1.1-amd64.deb</Archive>
+        <Archive sha1sum="c817556a9595d2c5e97ac3d005f67a6693941d67" type="binary">https://downloads.slack-edge.com/linux_releases/slack-desktop-3.2.1-amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -37,6 +37,13 @@
     </Package>
 
     <History>
+        <Update release="19">
+            <Date>06-10-2018</Date>
+            <Version>3.2.1</Version>
+            <Comment>Update to 3.2.1</Comment>
+            <Name>Philipp Trulson</Name>
+            <Email>philipp@trulson.de</Email>
+        </Update>
         <Update release="18">
             <Date>05-25-2018</Date>
             <Version>3.1.1</Version>
