@@ -10,7 +10,7 @@
         <Summary>Spideroak One, zero knowledge private backup.</Summary>
         <Description>Spideroak one is a reliable, private backup for everything in your life.</Description>
         <License>Custom - https://spideroak.com/policy/terms-of-use</License>
-        <Archive sha1sum="e1b4a85d0ccfef1a5be6cb9ea6320b86444457d0" type="binary">https://spideroak.com/share/M5XWYZDFNY/retriever/f%3A/Fetch/6.3.1/SpiderOakONE_6.3.1_1_amd64.deb</Archive>
+        <Archive sha1sum="969525b9039e9a36fb4e318fd23c3b4a29071529" type="binary">https://spideroak.com/share/M5XWYZDFNY/retriever/f%3A/Fetch/7.2.0/SpiderOakONE_7.2.0_1_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
             <Dependency>glib2</Dependency>
@@ -29,6 +29,14 @@
     </Package>
 
     <History>
+        <Update release="8">
+            <Date>07-22-2018</Date>
+            <Version>7.2.0.1</Version>
+            <Comment>Upgrade to 7.2.0.1</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bryan@solus-project.com</Email>
+        </Update>
+
         <Update release="7">
             <Date>09-16-2017</Date>
             <Version>6.3.1</Version>
