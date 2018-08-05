@@ -10,7 +10,7 @@
         <Summary>Skype keeps the world talking, for free.</Summary>
         <Description>Skype keeps you together. Call, message and share with others.</Description>
         <License>Copyright (c) 2017 Skype and/or Microsoft</License>
-        <Archive sha1sum="d92af5b22f6b57b1228b6f9eed7055ed8d3057f6" type="binary">https://repo.skype.com/deb/pool/main/s/skypeforlinux/skypeforlinux_8.15.76.1_amd64.deb</Archive>
+        <Archive sha1sum="9a9735fd98d441aa78b03fbed57a387a19434841" type="binary">https://repo.skype.com/deb/pool/main/s/skypeforlinux/skypeforlinux_8.19.76.3_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -35,6 +35,70 @@
     </Package>
     
     <History>
+        <Update release="45">
+            <Date>03-22-2018</Date>
+            <Version>8.19.76.3</Version>
+            <Comment>Update to 8.19.76.3</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+        
+        <Update release="44">
+            <Date>03-17-2018</Date>
+            <Version>8.18.76.7</Version>
+            <Comment>Update to 8.18.76.7</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+        
+        <Update release="43">
+            <Date>03-15-2018</Date>
+            <Version>8.18.76.4</Version>
+            <Comment>Update to 8.18.76.4</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+        
+        <Update release="42">
+            <Date>03-09-2018</Date>
+            <Version>8.18.76.1</Version>
+            <Comment>Update to 8.18.76.1</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+        
+        <Update release="41">
+            <Date>03-06-2018</Date>
+            <Version>8.17.76.3</Version>
+            <Comment>Update to 8.17.76.3</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+        
+        <Update release="40">
+            <Date>02-24-2018</Date>
+            <Version>8.17.76.1</Version>
+            <Comment>Update to 8.17.76.1</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+        
+        <Update release="39">
+            <Date>02-18-2018</Date>
+            <Version>8.16.76.8</Version>
+            <Comment>Update to 8.16.76.8</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+        
+        <Update release="38">
+            <Date>02-09-2018</Date>
+            <Version>8.16.76.1</Version>
+            <Comment>Update to 8.16.76.1</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+        
         <Update release="37">
             <Date>01-30-2018</Date>
             <Version>8.15.76.1</Version>

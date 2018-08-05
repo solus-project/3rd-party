@@ -11,7 +11,7 @@
         <Summary>TeamViewer</Summary>
         <Description>Elegantly simple and extremely fast remote support, remote access, online collaboration and meetings; these are the tools for an interconnected world limited only by your imagination.</Description>
         <License>https://www.teamviewer.com/en/eula/</License>
-        <Archive sha1sum="2c6231eb86582e22c33bff6c62bc60a3b205f990" type="binary">https://download.teamviewer.com/download/version_12x/teamviewer_12.0.85001_i386.deb</Archive>
+        <Archive sha1sum="6976292a0325ea5810181ee7870fd19440093249" type="binary">https://dl.tvcdn.de/download/linux/version_13x/teamviewer_13.1.3026_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -19,28 +19,36 @@
 
     <Package>
         <RuntimeDependencies>
-            <Dependency>alsa-lib-32bit</Dependency>
-            <Dependency>dbus-32bit</Dependency>
-            <Dependency>fontconfig-32bit</Dependency>
-            <Dependency>freetype2-32bit</Dependency>
-            <Dependency>harfbuzz-32bit</Dependency>
-            <Dependency>libcap2-32bit</Dependency>
-            <Dependency>libgcc-32bit</Dependency>
-            <Dependency>libgcrypt-32bit</Dependency>
-            <Dependency>libjpeg-turbo-32bit</Dependency>
-            <Dependency>libpng12-32bit</Dependency>
-            <Dependency>libsm-32bit</Dependency>
-            <Dependency>libx11-32bit</Dependency>
-            <Dependency>libxau-32bit</Dependency>
-            <Dependency>libxdamage-32bit</Dependency>
-            <Dependency>libxext-32bit</Dependency>
-            <Dependency>libxfixes-32bit</Dependency>
-            <Dependency>libxinerama-32bit</Dependency>
-            <Dependency>libxrandr-32bit</Dependency>
-            <Dependency>libxrender-32bit</Dependency>
-            <Dependency>libxtst-32bit</Dependency>
-            <Dependency>xz-32bit</Dependency>
-            <Dependency>zlib-32bit</Dependency>
+            <Dependency>alsa-lib</Dependency>
+            <Dependency>dbus</Dependency>
+            <Dependency>fontconfig</Dependency>
+            <Dependency>freetype2</Dependency>
+            <Dependency>harfbuzz</Dependency>
+            <Dependency>libcap2</Dependency>
+            <Dependency>libgcc</Dependency>
+            <Dependency>libgcrypt</Dependency>
+            <Dependency>libjpeg-turbo</Dependency>
+            <Dependency>libpng12</Dependency>
+            <Dependency>libsm</Dependency>
+            <Dependency>libx11</Dependency>
+            <Dependency>libxau</Dependency>
+            <Dependency>libxdamage</Dependency>
+            <Dependency>libxext</Dependency>
+            <Dependency>libxfixes</Dependency>
+            <Dependency>libxinerama</Dependency>
+            <Dependency>libxrandr</Dependency>
+            <Dependency>libxrender</Dependency>
+            <Dependency>libxtst</Dependency>
+            <Dependency>xz</Dependency>
+            <Dependency>zlib</Dependency>
+            <Dependency>qt5-webkit</Dependency>
+            <Dependency>qt5-x11extras</Dependency>
+            <Dependency>qt5-base</Dependency>
+            <Dependency>qt5-declarative</Dependency>
+            <Dependency>qt5-sensors</Dependency>
+            <Dependency>qt5-multimedia</Dependency>
+            <Dependency>qt5-webchannel</Dependency>
+            <Dependency>qt5-quickcontrols</Dependency>
         </RuntimeDependencies>
         <Name>teamviewer</Name>
         <Icon>teamviewer</Icon>
@@ -51,10 +59,27 @@
             <Path fileType="config">/etc/systemd/system</Path>
             <Path fileType="config">/etc/teamviewer</Path>
             <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="log">/var/log/teamviewer13</Path>
         </Files>
     </Package>
 
     <History>
+        <Update release="10">
+            <Date>03-23-2018</Date>
+            <Version>13.1.3026</Version>
+            <Comment>Update to 13.1.3026</Comment>
+            <Name>Johan Van den Neste</Name>
+            <Email>jvdneste@gmail.com</Email>
+        </Update>
+
+        <Update release="9">
+            <Date>03-05-2018</Date>
+            <Version>12.0.90041</Version>
+            <Comment>Update to 12.0.90041</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+        
         <Update release="8">
             <Date>10-30-2017</Date>
             <Version>12.0.85001</Version>
