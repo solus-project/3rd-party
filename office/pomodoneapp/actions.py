@@ -8,7 +8,7 @@ NoStrip = ["/usr", "/opt"]
 IgnoreAutodep = True
 
 def setup():
-    shelltools.system("ar xf PomoDoneApp-%s.deb" % get.srcVERSION())
+    shelltools.system("ar xf PomoDoneApp_%s_amd64.deb" % get.srcVERSION())
     shelltools.system("tar xf data.tar.gz")
 
 def install():
