@@ -10,7 +10,7 @@
         <Summary>Plex Media Server</Summary>
         <Description>Plex Media Server</Description>
         <License>Custom - https://plex.tv/legal</License>
-        <Archive sha1sum="0cb4cb011583edb0b26898d2e62253c55fc88bc7" type="binary">https://downloads.plex.tv/plex-media-server/1.13.5.5291-6fa5e50a8/plexmediaserver_1.13.5.5291-6fa5e50a8_amd64.deb</Archive>
+        <Archive sha1sum="f7dbd4319cbdc59381774428807f2cd6d86248d0" type="binary">https://downloads.plex.tv/plex-media-server/1.13.5.5332-21ab172de/plexmediaserver_1.13.5.5332-21ab172de_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -33,6 +33,13 @@
     </Package>
 
     <History>
+        <Update release="18">
+            <Date>08-23-2018</Date>
+            <Version>1.13.5.5332</Version>
+            <Comment>Update to 1.13.5.5332</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
         <Update release="17">
             <Date>07-24-2018</Date>
             <Version>1.13.5.5291</Version>
