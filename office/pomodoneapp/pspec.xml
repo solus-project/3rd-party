@@ -11,7 +11,7 @@
         <Summary>Workflow tracker using Pomodoro technique®</Summary>
         <Description>PomoDoneApp is the easiest way to track your workflow using Pomodoro technique®, on top of your current task management service.</Description>
         <License>MIT</License>
-        <Archive sha1sum="d5363cb565e5c5e542352ada453f236bc164f473" type="binary">https://app.pomodoneapp.com/installers/PomoDoneApp_1.5.1367_amd64.deb</Archive>
+        <Archive sha1sum="abb67a08a0323a4f6b7f8b1102a1daafee713cb0" type="binary">https://app.pomodoneapp.com/installers/PomoDoneApp_1.5.1389_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -27,6 +27,14 @@
     </Package>
 
     <History>
+        <Update release="4">
+            <Date>08-23-2018</Date>
+            <Version>1.5.1389</Version>
+            <Comment>Update to 1.5.1389</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>staudi.kaos@gmail.com</Email>
+        </Update>
+        
         <Update release="3">
             <Date>08-13-2018</Date>
             <Version>1.5.1367</Version>
