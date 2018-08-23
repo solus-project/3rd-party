@@ -10,7 +10,7 @@
         <Summary>Google Talk Browser Plugin</Summary>
         <Description>Google Talk Browser Plugin</Description>
         <License>Custom - Google</License>
-        <Archive sha1sum="1c3cc0411444587b56178de4868eb5d0ff742ec0" type="binary">http://dl.google.com/linux/talkplugin/deb/pool/main/g/google-talkplugin/google-talkplugin_5.41.0.0-1_amd64.deb</Archive>
+        <Archive sha1sum="0bbc3d6997ba22ce712d93e5bc336c894b54fc81" type="binary">http://dl.google.com/linux/talkplugin/deb/pool/main/g/google-talkplugin/google-talkplugin_5.41.3.0-1_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -26,6 +26,14 @@
     </Package>
 
     <History>
+        <Update release="3">
+            <Date>22-08-2018</Date>
+            <Version>5.41.3.0</Version>
+            <Comment>Update to 5.41.3.0</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+        
         <Update release="2">
             <Date>09-09-2016</Date>
             <Version>5.41.0.0</Version>
