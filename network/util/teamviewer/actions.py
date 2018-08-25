@@ -6,7 +6,6 @@ from pisi.actionsapi import get, pisitools, shelltools
 
 Version = get.srcVERSION()
 WorkDir = "."
-NoStrip = ["/opt/teamviewer/tv_bin/wine/drive_c/TeamViewer/tvwine.dll.so"]
 IgnoreAutodep = True
 
 def build():
