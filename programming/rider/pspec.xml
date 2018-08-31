@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Rider - A cross-platform .NET IDE based on the IntelliJ platform and ReSharper</Summary>
         <Description xml:lang="en">Rider - A cross-platform .NET IDE based on the IntelliJ platform and ReSharper</Description>
-        <Archive type="targz" sha1sum="b2a3c739bd675fb00e8aca3a1cec1fb5a6180836">https://download.jetbrains.com/rider/JetBrains.Rider-2018.2.tar.gz</Archive>
+        <Archive type="targz" sha1sum="492e939ba69d5b0205cbe1b5cf2a65848c3781be">https://download.jetbrains.com/rider/JetBrains.Rider-2018.2.1.tar.gz</Archive>
     </Source>
     <Package>
         <Name>rider</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+      <Update release="8">
+          <Date>2018-08-31</Date>
+          <Version>2018.2.1</Version>
+          <Comment>Update to 2018.2.1</Comment>
+          <Name>ahahn94</Name>
+          <Email>ahahn94@outlook.com</Email>
+      </Update>
       <Update release="7">
           <Date>2018-08-24</Date>
           <Version>2018.2</Version>
