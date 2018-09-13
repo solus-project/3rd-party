@@ -11,7 +11,7 @@ Version = get.srcVERSION()
 
 def setup():
     shelltools.system("pwd")
-    shelltools.system("ar xf wps-office_%s~*amd64.deb" % Version)
+    shelltools.system("ar xf wps-office_%s_amd64.deb" % Version)
     shelltools.system("tar xf data.tar.xz")
 
 def install():
