@@ -34,15 +34,15 @@
     </Package>
 
     <History>
-	<Update release="45">
+        <Update release="45">
             <Date>09-15-2018</Date>
             <Version>1.0.89.313</Version>
             <Comment>Update to 1.0.89.313</Comment>
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-	    
-	<Update release="44">
+
+        <Update release="44">
             <Date>08-22-2018</Date>
             <Version>1.0.88.353</Version>
             <Comment>Update to 1.0.88.353</Comment>
