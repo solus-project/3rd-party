@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>sublime-merge</Name>
+        <Homepage>https://www.sublimemerge.com</Homepage>
+        <Packager>
+            <Name>James Lee</Name>
+            <Email>jamesl33info@gmail.com</Email>
+        </Packager>
+        <Summary>A Git client, from the makers of Sublime Text</Summary>
+        <Description>A snappy Git client with a three-way merge tool, side-by-side diffs, syntax highlighting, and more.</Description>
+        <License>EULA</License>
+        <Archive sha1sum="ad3cf2a4f558a3ee89c27fb16516c1ba71381b7b" type="binary">https://download.sublimetext.com/sublime-merge_build-1055_amd64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>sublime-merge</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>20-09-2018</Date>
+            <Version>1055</Version>
+            <Comment>Add sublime-merge at stable build 1055</Comment>
+            <Name>James Lee</Name>
+            <Email>jamesl33info@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
