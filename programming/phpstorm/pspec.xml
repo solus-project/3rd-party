@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">PHPStorm - an IDE for the PHP Language</Summary>
         <Description xml:lang="en">PHPStorm - an IDE for the PHP Language</Description>
-        <Archive sha1sum="e3f8404f7064f98b081c6cf6715a4a1a7aacb4be" type="targz">https://download.jetbrains.com/webide/PhpStorm-2018.2.3.tar.gz</Archive>
+        <Archive sha1sum="336d29c2022428c5f4096daad30ba5c81a9381bd" type="targz">https://download.jetbrains.com/webide/PhpStorm-2018.2.4.tar.gz</Archive>
     </Source>
     <Package>
         <Name>phpstorm</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="24">
+            <Date>2018-09-29</Date>
+            <Version>2018.2.4</Version>
+            <Comment>Updated to 2018.2.4</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="23">
             <Date>2018-09-15</Date>
             <Version>2018.2.3</Version>
