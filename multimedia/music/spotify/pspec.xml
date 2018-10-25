@@ -10,7 +10,7 @@
         <Summary>Spotify Music, Video and Podcast Streaming Client.</Summary>
         <Description>Spotify is a Swedish commercial music streaming, podcast and video service that provides digital rights management-protected[3] content from record labels and media companies.</Description>
         <License>Copyright (c) 2006-2010 Spotify Ltd.</License>
-        <Archive sha1sum="39824a893b3b435d3352552535a094d8f79552dc" type="binary">https://repository-origin.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.0.89.313.g34a58dea-5_amd64.deb</Archive>
+        <Archive sha1sum="dec4d2c15f78f2588ecbbd8191dd7e782c653011" type="binary">https://repository-origin.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.0.92.390.g2ce5ec7d-18_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -34,6 +34,14 @@
     </Package>
 
     <History>
+        <Update release="46">
+            <Date>10-25-2018</Date>
+            <Version>1.0.92.390</Version>
+            <Comment>Update to 1.0.92.390</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
         <Update release="45">
             <Date>09-15-2018</Date>
             <Version>1.0.89.313</Version>
@@ -49,7 +57,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-	    
+        
         <Update release="43">
             <Date>05-31-2018</Date>
             <Version>1.0.80.480</Version>
@@ -57,7 +65,7 @@
             <Name>Nícholas Lima de Souza Silva</Name>
             <Email>nicholaslima.rw@gmail.com</Email>
         </Update>
-		
+        
         <Update release="42">
             <Date>04-23-2018</Date>
             <Version>1.0.77.338</Version>
