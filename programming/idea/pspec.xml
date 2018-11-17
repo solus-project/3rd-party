@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Idea - an IDE for the JVM Languages</Summary>
         <Description xml:lang="en">Idea - an IDE for the JVM Languages</Description>
-        <Archive sha1sum="bfb5d0d0e2748567b1b58deb2b05b315297b026a" type="targz">https://download.jetbrains.com/idea/ideaIU-2018.2.5-no-jdk.tar.gz</Archive>
+        <Archive sha1sum="22c3d25510d8d524f745dfded5871f3f44de5692" type="targz">https://download.jetbrains.com/idea/ideaIU-2018.2.6-no-jdk.tar.gz</Archive>
     </Source>
     <Package>
         <Name>idea</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="31">
+            <Date>2018-11-17</Date>
+            <Version>2018.2.6</Version>
+            <Comment>Updated to 2018.2.6</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="30">
             <Date>2018-10-20</Date>
             <Version>2018.2.5</Version>
