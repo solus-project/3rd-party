@@ -1,0 +1,41 @@
+<PISI>
+    <Source>
+        <Name>goland</Name>
+        <Packager>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <License>Proprietary</License>
+        <PartOf>programming</PartOf>
+        <Summary xml:lang="en">Goland - an IDE for the Go Language</Summary>
+        <Description xml:lang="en">Goland - an IDE for the Go Language</Description>
+        <Archive sha1sum="ae74cc23bfa4a309432f40698c611dccd2448ca0" type="targz">https://download.jetbrains.com/go/goland-2018.2.4.tar.gz</Archive>
+    </Source>
+    <Package>
+        <Name>goland</Name>
+        <Summary xml:lang="en">Goland - an IDE for the Go Language</Summary>
+        <Description xml:lang="en">Goland - an IDE for the Go Language</Description>
+        <PartOf>programming</PartOf>
+        <Files>
+            <Path fileType="data">/opt/goland</Path>
+            <Path fileType="data">/usr/bin/goland</Path>
+            <Path fileType="data">/usr/share/applications/goland.desktop</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/goland.desktop">goland.desktop</AdditionalFile>
+        </AdditionalFiles>
+        <RuntimeDependencies>
+            <Dependency>openjdk-8</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+    <Update release="1">
+            <Date>2018-11-17</Date>
+            <Version>2018.2.4</Version>
+            <Comment>Initial inclusion of GoLand</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
+    </History>
+</PISI>
