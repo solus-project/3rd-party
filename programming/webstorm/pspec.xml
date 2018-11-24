@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">WebStorm - an IDE for the Web</Summary>
         <Description xml:lang="en">WebStorm - an IDE for the Web</Description>
-        <Archive sha1sum="b0d48db58bbd77f01fa8ae75fd6129128efaf605" type="targz">https://download.jetbrains.com/webstorm/WebStorm-2018.2.6.tar.gz</Archive>
+        <Archive sha1sum="0fea23465ff1c6e485a78cb81bed615c1fc085fb" type="targz">https://download.jetbrains.com/webstorm/WebStorm-2018.3.tar.gz</Archive>
     </Source>
     <Package>
         <Name>webstorm</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="24">
+            <Date>2018-11-24</Date>
+            <Version>2018.3</Version>
+            <Comment>Updated to 2018.3</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="23">
             <Date>2018-11-17</Date>
             <Version>2018.2.6</Version>
