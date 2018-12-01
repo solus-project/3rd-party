@@ -11,7 +11,7 @@
         <Summary>Mendeley is a free reference manager and an academic social network.</Summary>
         <Description>Mendeley is a free reference manager and an academic social network.</Description>
         <License>https://www.mendeley.com/terms/</License>
-        <Archive sha1sum="485ae65d322665d7923dfbba4910c16276921a2c" type="binary">https://desktop-download.mendeley.com/download/linux/mendeleydesktop-1.19.2-linux-x86_64.tar.bz2</Archive>
+        <Archive sha1sum="51ac491a313a8196f0812b9db8470600c7be0646" type="binary">https://desktop-download.mendeley.com/download/linux/mendeleydesktop-1.19.3-linux-x86_64.tar.bz2</Archive>
     </Source>
 
     <Package>
@@ -22,6 +22,14 @@
     </Package>
 
     <History>
+        <Update release="9">
+            <Date>12-01-2018</Date>
+            <Version>1.19.3</Version>
+            <Comment>Update to 1.19.3</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="8">
             <Date>08-22-2018</Date>
             <Version>1.19.2</Version>
