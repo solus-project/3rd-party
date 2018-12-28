@@ -17,5 +17,4 @@ def setup():
 def install():
     pisitools.insinto("/", "opt")
     pisitools.insinto("/", "usr")
-    pisitools.removeDir("/opt/Enpass/share")
     pisitools.removeDir("/usr/share/doc")
