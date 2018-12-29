@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">RubyMine - an IDE for the Ruby Language</Summary>
         <Description xml:lang="en">RubyMine - an IDE for the Ruby Language</Description>
-        <Archive sha1sum="a717459cfec3e03e4576c90f6505a0e47c90efa5" type="targz">https://download.jetbrains.com/ruby/RubyMine-2018.3.1.tar.gz</Archive>
+        <Archive sha1sum="21cd1adaea376c9c10c23f8020826c1cc584015d" type="targz">https://download.jetbrains.com/ruby/RubyMine-2018.3.2.tar.gz</Archive>
     </Source>
     <Package>
         <Name>rubymine</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="23">
+            <Date>2018-12-29</Date>
+            <Version>2018.3.2</Version>
+            <Comment>Updated to 2018.3.2</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="22">
             <Date>2018-12-15</Date>
             <Version>2018.3.1</Version>
