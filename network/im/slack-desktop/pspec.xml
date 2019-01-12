@@ -10,7 +10,7 @@
         <Summary>Team communication for the 21st century.</Summary>
         <Description>Team communication for the 21st century.</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="d691cf87cc662d58b8f04bc47bd8a7ce80fbbd5c" type="binary">https://downloads.slack-edge.com/linux_releases/slack-desktop-3.3.3-amd64.deb</Archive>
+        <Archive sha1sum="416cd3d980991cdcff7fc06dd8adf1ce7025b633" type="binary">https://downloads.slack-edge.com/linux_releases/slack-desktop-3.3.4-amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -37,6 +37,13 @@
     </Package>
 
     <History>
+        <Update release="22">
+            <Date>01-12-2019</Date>
+            <Version>3.3.4</Version>
+            <Comment>Update to 3.3.4</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>staudi.kaos@gmail.com</Email>
+        </Update>
         <Update release="21">
             <Date>10-04-2018</Date>
             <Version>3.3.3</Version>
