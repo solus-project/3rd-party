@@ -17,5 +17,4 @@ def setup():
 def install():
     pisitools.insinto("/", "opt")
     pisitools.dosym("/opt/Moneydance/Moneydance", "/usr/bin/moneydance")
-    pisitools.dosym("/opt/Moneydance/resources/moneydance.desktop", "/usr/share/applications/moneydance.desktop")
     pisitools.dosym("/opt/Moneydance/resources/moneydance_icon32.png", "/usr/share/pixmaps/moneydance_icon32.png")
