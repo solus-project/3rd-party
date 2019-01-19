@@ -13,7 +13,6 @@ def setup():
     shelltools.system("pwd")
     shelltools.system("ar xf moneydance_linux_amd64.deb")
     shelltools.system("tar xf data.tar.bz2")
-    shelltools.system("sed -i 's 512 32 ' opt/Moneydance/resources/moneydance.desktop")
 
 def install():
     pisitools.insinto("/", "opt")

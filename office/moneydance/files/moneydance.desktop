@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Moneydance
+Comment=Powerful, private, personal finance software
+Exec=moneydance
+Terminal=false
+Type=Application
+Icon=/opt/Moneydance/resources/moneydance_icon128.png
+Categories=Office;Finance
+StartupWMClass=moneydance
+Keywords=money,budget,budgeting,finance,finances,accounting,investing,investment,stocks,exchangerates,prices,quicken

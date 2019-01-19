@@ -10,7 +10,7 @@
         <Summary>A personal finance manager for Mac, Windows and Linux</Summary>
         <Description>A personal finance manager for Mac, Windows and Linux</Description>
         <License>Custom</License>
-        <Archive sha1sum="10ea38801122dc2ee1f2f4243481e127cabccacd" type="binary">http://infinitekind.com/stabledl/2017.10_1706/moneydance_linux_amd64.deb</Archive>
+        <Archive sha1sum="285c1a21d5ff37c142ee6633ef87affd71e4a006" type="binary">http://infinitekind.com/stabledl/2019.0_1847/moneydance_linux_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -23,12 +23,23 @@
         <Files>
             <Path fileType="*">/</Path>
         </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/moneydance.desktop">moneydance.desktop</AdditionalFile>
+        </AdditionalFiles>
         <RuntimeDependencies>
             <Dependency>openjdk-8</Dependency>
         </RuntimeDependencies>
     </Package>
 
     <History>
+        <Update release="7">
+            <Date>01-19-2019</Date>
+            <Version>2019.0</Version>
+            <Comment>Update to 2019.0</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="6">
             <Date>11-08-2018</Date>
             <Version>2017.10</Version>
