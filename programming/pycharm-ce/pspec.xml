@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">PyCharm Community Edition - an IDE for the Python</Summary>
         <Description xml:lang="en">PyCharm Community Edition - an IDE for the Python</Description>
-        <Archive sha1sum="8f0fa7b1d2b8e7bf032a7b726b466f07d59c4f13" type="targz">https://download.jetbrains.com/python/pycharm-community-2018.3.3.tar.gz</Archive>
+        <Archive sha1sum="06a5e4c484969378d7ca4662fb9b594d50b585fd" type="targz">https://download.jetbrains.com/python/pycharm-community-2018.3.4.tar.gz</Archive>
     </Source>
     <Package>
         <Name>pycharm-ce</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="24">
+            <Date>2019-02-02</Date>
+            <Version>2018.3.4</Version>
+            <Comment>Updated to 2018.3.4</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="23">
             <Date>2019-01-12</Date>
             <Version>2018.3.3</Version>
