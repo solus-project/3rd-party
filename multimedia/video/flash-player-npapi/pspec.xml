@@ -11,7 +11,7 @@
         <Summary>Adobe Flash Player (NPAPI)</Summary>
         <Description>Adobe Flash Player (NPAPI).</Description>
         <License>EULA</License>
-        <Archive sha1sum="8b20c0b66e67fcad409c02792324ef617384bfec" type="targz">https://fpdownload.adobe.com/get/flashplayer/pdc/32.0.0.114/flash_player_npapi_linux.x86_64.tar.gz</Archive>
+        <Archive sha1sum="e27ebebb8aaea787a95bee8f1aa6d54b7a4ece3c" type="targz">https://fpdownload.adobe.com/get/flashplayer/pdc/32.0.0.142/flash_player_npapi_linux.x86_64.tar.gz</Archive>
     </Source>
     <Package>
         <Name>flash-player-npapi</Name>
@@ -29,6 +29,14 @@
     </Package>
 
     <History>
+        <Update release="31">
+            <Date>02-15-2019</Date>
+            <Version>32.0.0.142</Version>
+            <Comment>Update to 32.0.0.142</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>staudi.kaos@gmail.com</Email>
+        </Update>
+
         <Update release="30">
             <Date>01-12-2019</Date>
             <Version>32.0.0.114</Version>
