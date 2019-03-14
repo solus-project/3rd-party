@@ -10,7 +10,7 @@
         <Summary>An instant messaging and VoIP app for various mobile operating systems.</Summary>
         <Description>An instant messaging and VoIP app for various mobile operating systems.</Description>
         <License>Custom</License>
-    <Archive sha1sum="27f1df316a8ffc2ab774656ce5e9b3cee621b81b" type="binary">http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb</Archive>
+    <Archive sha1sum="f61b326f72ba70a3e6d6fd9cf3ca32b6d0fb7b04" type="binary">http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb</Archive>
     <BuildDependencies>
         <Dependency>binutils</Dependency>
     </BuildDependencies>
@@ -28,6 +28,13 @@
     </Package>
 
     <History>
+        <Update release="4">
+            <Date>03-14-2019</Date>
+            <Version>10.3.0</Version>
+            <Comment>Update to 10.3.0</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
         <Update release="3">
             <Date>10-27-2017</Date>
             <Version>7.0.0.1035</Version>
@@ -35,7 +42,6 @@
             <Name>Justin Zobel</Name>
             <Email>justin@solus-project.com</Email>
         </Update>
-
         <Update release="2">
             <Date>18-01-2017</Date>
             <Version>6.5.4</Version>
