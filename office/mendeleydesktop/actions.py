@@ -11,6 +11,8 @@ Version = get.srcVERSION()
 
 def setup():
     shelltools.system("tar xf mendeleydesktop-%s-linux-x86_64.tar.bz2" % Version)
+    shelltools.system("cd mendeleydesktop-%s-linux-x86_64/share/applications/ && mv mendeleydesktop.desktop 'Mendeley Desktop.desktop'" % Version)
+    shelltools.system("sed -i 's/mendeleydesktop/Mendeley Destkop/' mendeleydesktop-%s-linux-x86_64/bin/install-mendeley-link-handler.sh" % Version)
 
 def install():
     for component in ["bin", "lib", "share"]:
@@ -18,7 +20,7 @@ def install():
 
     pisitools.dodir("/usr/share/applications")
     pisitools.dosym("/opt/mendeley/bin/mendeleydesktop", "/usr/bin/mendeleydesktop")
-    pisitools.dosym("/opt/mendeley/share/applications/mendeleydesktop.desktop", "/usr/share/applications/mendeleydesktop.desktop")
+    pisitools.dosym("/opt/mendeley/share/applications/Mendeley Desktop.desktop", "/usr/share/applications/Mendeley Desktop.desktop")
 
     for icon_size in ["16", "22", "32", "48", "64", "128"]:
         pisitools.dodir("/usr/share/icons/hicolor/%sx%s" % (icon_size, icon_size))

@@ -22,6 +22,13 @@
     </Package>
 
     <History>
+        <Update release="10">
+            <Date>03-18-2019</Date>
+            <Version>1.19.3</Version>
+            <Comment>Update Desktop File</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
         <Update release="9">
             <Date>12-01-2018</Date>
             <Version>1.19.3</Version>
@@ -29,7 +36,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="8">
             <Date>08-22-2018</Date>
             <Version>1.19.2</Version>
