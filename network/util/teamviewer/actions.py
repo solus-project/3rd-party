@@ -23,7 +23,6 @@ def install():
     pisitools.dosym("/opt/teamviewer/tv_bin/desktop/teamviewer_256.png", "/usr/share/pixmaps/teamviewer.png")
 
     pisitools.dodir("/etc/teamviewer")
-    pisitools.dodir("/var/log/teamviewer13")
 
     shelltools.chmod("%s/opt/teamviewer/doc/*" % get.installDIR(),0755)
     shelltools.chmod("%s/opt/teamviewer/tv_bin/*" % get.installDIR(),0755)
