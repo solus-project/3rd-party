@@ -9,7 +9,7 @@ IgnoreAutodep = True
 
 def setup():
     shelltools.system("pwd")
-    shelltools.system("ar xf franz_5.0.0_amd64.deb")
+    shelltools.system("ar xf franz_%s_amd64.deb" % get.srcVERSION())
     shelltools.system("tar xf data.tar.xz")
 
 def install():
