@@ -12,7 +12,7 @@
         <PartOf>programming.tools</PartOf>
         <Summary xml:lang="en">Android Platform Tools</Summary>
         <Description xml:lang="en">Android Platform Tools</Description>
-        <Archive type="binary" sha1sum="74ff83bc203f01c4f04bd9316ab5a2573f023fd1">https://dl.google.com/android/repository/platform-tools_r28.0.1-linux.zip</Archive>
+        <Archive type="binary" sha1sum="3d39beebda1ee919520077ebc8f7694e1c6d6e41">https://dl.google.com/android/repository/platform-tools_r28.0.3-linux.zip</Archive>
         <BuildDependencies>
             <Dependency>unzip</Dependency>
         </BuildDependencies>
@@ -28,6 +28,14 @@
         </Files>
     </Package>
     <History>
+        <Update release="1">
+            <Date>2019-05-27</Date>
+            <Version>28.0.3</Version>
+            <Comment>Update to 28.0.3</Comment>
+            <Name>Alexander Koskovich</Name>
+            <Email>zvnexus@outlook.com</Email>
+        </Update>
+
         <Update release="5">
             <Date>2018-09-01</Date>
             <Version>28.0.1</Version>
