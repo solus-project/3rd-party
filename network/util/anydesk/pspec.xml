@@ -10,7 +10,7 @@
         <Summary>AnyDesk is a remote desktop application</Summary>
         <Description>AnyDesk is a remote desktop application</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="58e03dac71f395aae076960dde70cd0fe7f44967" type="binary">https://download.anydesk.com/linux/anydesk_4.0.0-1_amd64.deb</Archive>
+        <Archive sha1sum="58e03dac71f395aae076960dde70cd0fe7f44967" type="binary">https://download.anydesk.com/linux/anydesk_5.5.1-1_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
